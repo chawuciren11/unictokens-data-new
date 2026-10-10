@@ -1,0 +1,255 @@
+{
+  "info": "<coco> is a professional tennis player known for her athletic build and signature braided hairstyle.",
+  "extra_info": [
+    "<coco>'s usual lunch spot is a bench beside the tennis courts.",
+    "<coco>'s daily cup is pink.",
+    "<coco> attends a yoga class as part of her usual monthly routine.",
+    "<coco>'s bedroom walls are peach.",
+    "<coco>'s favorite animal is a dolphin.",
+    "<coco> usually meets friends near the tennis clubhouse.",
+    "<coco>'s desk lamp is pink.",
+    "<coco>'s personal notebook is white.",
+    "<coco>'s formal suit is white.",
+    "<coco> waves when meeting a stranger.",
+    "<coco>'s rowboat is white.",
+    "<coco> lowers her head in strong wind.",
+    "<coco>'s best dish is vegetable soup.",
+    "<coco>'s cooking apron is white.",
+    "<coco> stretches on a yoga mat every evening.",
+    "<coco>'s most treasured book has a green cover.",
+    "<coco> wears square sunglasses in bright sunlight.",
+    "<coco>'s weekend bicycle is red.",
+    "<coco>'s favorite music is classical music.",
+    "<coco>'s strongest musical skill is playing the violin."
+  ],
+  "noisy_info": [
+    "<emma>'s usual lunch spot is a table in a garden cafe.",
+    "<emma> visits a bookstore as part of her usual monthly routine.",
+    "<emma>'s favorite animal is a fox.",
+    "<emma>'s desk lamp is yellow.",
+    "<coco>'s travel cup is blue.",
+    "<coco>'s guest room walls are light blue.",
+    "<coco> usually meets coworkers beside the practice entrance.",
+    "<coco>'s work notebook is green."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<coco> is wearing her formal suit at an event.",
+      "t2i_exact_prompt": "<coco> is wearing her white formal suit at an event.",
+      "grounding_info": [
+        "<coco>'s formal suit is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is greeting a stranger.",
+      "t2i_exact_prompt": "<coco> is greeting a stranger by waving.",
+      "grounding_info": [
+        "<coco> waves when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is using her rowboat on a lake.",
+      "t2i_exact_prompt": "<coco> is using her white rowboat on a lake.",
+      "grounding_info": [
+        "<coco>'s rowboat is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is walking outside in strong wind.",
+      "t2i_exact_prompt": "<coco> is walking outside in strong wind while lowering her head.",
+      "grounding_info": [
+        "<coco> lowers her head in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is cooking the dish her makes best.",
+      "t2i_exact_prompt": "<coco> is cooking vegetable soup, the dish her makes best.",
+      "grounding_info": [
+        "<coco>'s best dish is vegetable soup."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is wearing her apron while cooking.",
+      "t2i_exact_prompt": "<coco> is wearing her white apron while cooking.",
+      "grounding_info": [
+        "<coco>'s cooking apron is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is doing her usual evening activity.",
+      "t2i_exact_prompt": "<coco> is doing her usual evening activity by stretching on a yoga mat.",
+      "grounding_info": [
+        "<coco> stretches on a yoga mat every evening."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is holding her most treasured book.",
+      "t2i_exact_prompt": "<coco> is holding her most treasured book with a green cover.",
+      "grounding_info": [
+        "<coco>'s most treasured book has a green cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is walking outside in bright sunlight.",
+      "t2i_exact_prompt": "<coco> is walking outside in bright sunlight while wearing square sunglasses.",
+      "grounding_info": [
+        "<coco> wears square sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is riding her weekend bicycle.",
+      "t2i_exact_prompt": "<coco> is riding her red weekend bicycle.",
+      "grounding_info": [
+        "<coco>'s weekend bicycle is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is relaxing while listening to her favorite music.",
+      "t2i_exact_prompt": "<coco> is relaxing while listening to classical music, her favorite music.",
+      "grounding_info": [
+        "<coco>'s favorite music is classical music."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is demonstrating her strongest musical skill.",
+      "t2i_exact_prompt": "<coco> is demonstrating her strongest musical skill by playing the violin.",
+      "grounding_info": [
+        "<coco>'s strongest musical skill is playing the violin."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<coco> is eating lunch at her usual lunch spot.",
+      "t2i_exact_prompt": "<coco> is eating lunch at a bench beside the tennis courts, her usual lunch spot.",
+      "grounding_info": [
+        "<coco>'s usual lunch spot is a bench beside the tennis courts."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is following her usual monthly routine.",
+      "t2i_exact_prompt": "<coco> is following her usual monthly routine by attending a yoga class.",
+      "grounding_info": [
+        "<coco> attends a yoga class as part of her usual monthly routine."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is looking at her favorite animal at a zoo.",
+      "t2i_exact_prompt": "<coco> is looking at a dolphin, her favorite animal, at a zoo.",
+      "grounding_info": [
+        "<coco>'s favorite animal is a dolphin."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is turning on the lamp on her desk.",
+      "t2i_exact_prompt": "<coco> is turning on the pink lamp on her desk.",
+      "grounding_info": [
+        "<coco>'s desk lamp is pink."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is drinking from her daily cup.",
+      "t2i_exact_prompt": "<coco> is drinking from her pink daily cup.",
+      "grounding_info": [
+        "<coco>'s daily cup is pink."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is standing in front of the wall in her bedroom.",
+      "t2i_exact_prompt": "<coco> is standing in front of the peach wall in her bedroom.",
+      "grounding_info": [
+        "<coco>'s bedroom walls are peach."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is waiting at her usual meeting place.",
+      "t2i_exact_prompt": "<coco> is waiting near the tennis clubhouse, her usual meeting place.",
+      "grounding_info": [
+        "<coco> usually meets friends near the tennis clubhouse."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is writing in her personal notebook.",
+      "t2i_exact_prompt": "<coco> is writing in her white personal notebook.",
+      "grounding_info": [
+        "<coco>'s personal notebook is white."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<coco> is wearing her formal suit while greeting a stranger.",
+      "t2i_exact_prompt": "<coco> is wearing her white formal suit while greeting a stranger by waving.",
+      "grounding_info": [
+        "<coco>'s formal suit is white.",
+        "<coco> waves when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is using her rowboat on a lake while reacting to strong wind.",
+      "t2i_exact_prompt": "<coco> is using her white rowboat on a lake while reacting to strong wind by lowering her head.",
+      "grounding_info": [
+        "<coco>'s rowboat is white.",
+        "<coco> lowers her head in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is cooking the dish her makes best while wearing her apron.",
+      "t2i_exact_prompt": "<coco> is cooking vegetable soup, the dish her makes best, while wearing her white apron.",
+      "grounding_info": [
+        "<coco>'s best dish is vegetable soup.",
+        "<coco>'s cooking apron is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is doing her usual evening activity while holding her most treasured book.",
+      "t2i_exact_prompt": "<coco> is doing her usual evening activity by stretching on a yoga mat while holding her most treasured book with a green cover.",
+      "grounding_info": [
+        "<coco> stretches on a yoga mat every evening.",
+        "<coco>'s most treasured book has a green cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is riding her weekend bicycle in bright sunlight.",
+      "t2i_exact_prompt": "<coco> is riding her red weekend bicycle in bright sunlight while wearing square sunglasses.",
+      "grounding_info": [
+        "<coco>'s weekend bicycle is red.",
+        "<coco> wears square sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is performing her favorite kind of music with the instrument her plays best.",
+      "t2i_exact_prompt": "<coco> is performing classical music, her favorite kind of music, on the violin, the instrument her plays best.",
+      "grounding_info": [
+        "<coco>'s favorite music is classical music.",
+        "<coco>'s strongest musical skill is playing the violin."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<coco> is wearing her favorite pair of socks.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<coco> is playing with her pet.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<coco> is using her rowboat on her favorite lake.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<coco> is wearing her formal suit with her favorite tie.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "woman",
+  "name": "Lily",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

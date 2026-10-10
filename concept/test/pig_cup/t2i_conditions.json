@@ -1,0 +1,161 @@
+{
+  "concept_generation": [
+    "A photo of <pig_cup>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <pig_cup> with its owner.",
+    "A photo taken from above looking into the <pig_cup>, showing its interior.",
+    "A photo of a <pig_cup> taken in 2022."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <pig_cup> with its young girl owner.",
+    "A close-up photo of <pig_cup>'s lid, showcasing the sculpted peach.",
+    "A photo of <pig_cup> exhibited at an art exhibition."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a wooden dining table, <pig_cup> is placed at the center. A vase with sunflowers and two empty chairs complete the scene.",
+    "A photo of a bright kitchen shelf, <pig_cup> is sitting beside glass jars. A small potted plant and ceramic plates are stacked nearby.",
+    "A photo of a windowsill in the afternoon, <pig_cup> rests beside a folded newspaper. Sunlight streams through the glass panes."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo taken in 2022 of <pig_cup>, with a bouquet of flowers in the display case next to it. The time is evening."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <pig_cup> exhibited at an art exhibition, with a bouquet of flowers in the display case next to it. The time is evening."
+  ],
+  "info": "<pig_cup> is a ceramic mug designed like a pig's face, featuring round ears, pink blush cheeks, and a lid topped with a sculpted peach.",
+  "extra_info": [
+    "<pig_cup>'s usual coaster is cork.",
+    "A lavender cookie plate stands beside <pig_cup> during bedtime tea.",
+    "<pig_cup> holds chamomile tea before bed.",
+    "A small honey jar stands to the left of <pig_cup> during bedtime tea.",
+    "<pig_cup>'s lid rests in a wicker basket during shelf displays.",
+    "<pig_cup> stands on a green placemat during afternoon snacks.",
+    "A padded blue lunch bag stands beside <pig_cup> during office trips.",
+    "Two crackers stand beside <pig_cup> during afternoon snacks.",
+    "<pig_cup> is dried with a striped towel after rinsing.",
+    "A small calendar card stands behind <pig_cup> during desk displays."
+  ],
+  "noisy_info": [
+    "<skulls_mug> stands on a square slate placemat during gothic dinners.",
+    "<adrien_brody>'s kitchen curtains are yellow.",
+    "<pig_cup>'s lid rests on a blue cloth during photography.",
+    "A hard black case carries <pig_cup> between museum displays."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<pig_cup> is standing on its usual coaster.",
+      "t2i_exact_prompt": "<pig_cup> is standing on its usual cork coaster.",
+      "grounding_info": [
+        "<pig_cup>'s usual coaster is cork."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is filled with its usual bedtime drink.",
+      "t2i_exact_prompt": "<pig_cup> is filled with chamomile tea, its usual bedtime drink.",
+      "grounding_info": [
+        "<pig_cup> holds chamomile tea before bed."
+      ]
+    },
+    {
+      "t2i_prompt": "A honey jar is standing in its usual place beside <pig_cup> during bedtime tea.",
+      "t2i_exact_prompt": "A small honey jar is standing to the left of <pig_cup> during bedtime tea.",
+      "grounding_info": [
+        "A small honey jar stands to the left of <pig_cup> during bedtime tea."
+      ]
+    },
+    {
+      "t2i_prompt": "A cookie plate is standing in its usual place beside <pig_cup> during bedtime tea.",
+      "t2i_exact_prompt": "A lavender cookie plate is standing beside <pig_cup> during bedtime tea.",
+      "grounding_info": [
+        "A lavender cookie plate stands beside <pig_cup> during bedtime tea."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing on its usual placemat during an afternoon snack.",
+      "t2i_exact_prompt": "<pig_cup> is standing on a green placemat during an afternoon snack.",
+      "grounding_info": [
+        "<pig_cup> stands on a green placemat during afternoon snacks."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing beside its usual crackers during an afternoon snack.",
+      "t2i_exact_prompt": "<pig_cup> is standing beside two crackers during an afternoon snack.",
+      "grounding_info": [
+        "Two crackers stand beside <pig_cup> during afternoon snacks."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<pig_cup> is open during a shelf display with its lid resting nearby.",
+      "t2i_exact_prompt": "<pig_cup> is open during a shelf display with its lid resting in a wicker basket nearby.",
+      "grounding_info": [
+        "<pig_cup>'s lid rests in a wicker basket during shelf displays."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing beside its usual bag during an office trip.",
+      "t2i_exact_prompt": "<pig_cup> is standing beside a padded blue lunch bag during an office trip.",
+      "grounding_info": [
+        "A padded blue lunch bag stands beside <pig_cup> during office trips."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being dried with its usual towel after rinsing.",
+      "t2i_exact_prompt": "<pig_cup> is being dried with a striped towel after rinsing.",
+      "grounding_info": [
+        "<pig_cup> is dried with a striped towel after rinsing."
+      ]
+    },
+    {
+      "t2i_prompt": "A calendar card is standing in its usual place near <pig_cup> during a desk display.",
+      "t2i_exact_prompt": "A small calendar card is standing behind <pig_cup> during a desk display.",
+      "grounding_info": [
+        "A small calendar card stands behind <pig_cup> during desk displays."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<pig_cup> is standing on its usual coaster with its bedtime drink.",
+      "t2i_exact_prompt": "<pig_cup> is standing on a cork coaster filled with chamomile tea, its usual bedtime drink.",
+      "grounding_info": [
+        "<pig_cup>'s usual coaster is cork.",
+        "<pig_cup> holds chamomile tea before bed."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is displayed beside its usual cookie plate and honey jar during bedtime tea.",
+      "t2i_exact_prompt": "<pig_cup> is displayed beside a lavender cookie plate with a small honey jar to its left during bedtime tea.",
+      "grounding_info": [
+        "A lavender cookie plate stands beside <pig_cup> during bedtime tea.",
+        "A small honey jar stands to the left of <pig_cup> during bedtime tea."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing on its usual placemat beside its usual crackers during an afternoon snack.",
+      "t2i_exact_prompt": "<pig_cup> is standing on a green placemat beside two crackers during an afternoon snack.",
+      "grounding_info": [
+        "<pig_cup> stands on a green placemat during afternoon snacks.",
+        "Two crackers stand beside <pig_cup> during afternoon snacks."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<pig_cup> is being carried beside its usual travel thermos.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing on its usual coaster beside its favorite biscuit.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "object",
+  "name": "cup",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

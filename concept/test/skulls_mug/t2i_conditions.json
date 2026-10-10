@@ -1,0 +1,159 @@
+{
+  "concept_generation": [
+    "A photo of <skulls_mug>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <skulls_mug> on kitchen shelves.",
+    "A photo of <skulls_mug> during festive occasions."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <skulls_mug> on kitchen shelves among regular plates and glasses.",
+    "A photo of <skulls_mug> placed on a wooden shelf."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a rustic wooden desk, <skulls_mug> is placed beside an old brass lamp. Several stacked books are scattered on the desk.",
+    "A photo of <skulls_mug> sitting on a stone windowsill. Iron bars cross the window and ivy plants grow around the frame.",
+    "A photo of a dim exhibition hall, <skulls_mug> is displayed inside a glass case. Spotlights from the ceiling illuminate the floor."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <skulls_mug> during festive occasions, with string lights around it. The background is a cozy room with holiday decorations."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <skulls_mug> placed on a wooden shelf during festive occasions, with string lights around it. The background is a cozy room with holiday decorations."
+  ],
+  "info": "<skulls_mug> is a ceramic mug shaped like a stern-faced elder with deep facial wrinkles, perched atop a base decorated with sculpted white skulls.",
+  "extra_info": [
+    "<skulls_mug> stands on a square slate placemat during gothic dinners.",
+    "A green glass bottle stands behind <skulls_mug> during gothic dinners.",
+    "<skulls_mug> holds spiced cider at autumn parties.",
+    "A cinnamon stick rests across <skulls_mug>'s rim at autumn parties.",
+    "A wheeled black cart carries <skulls_mug> during exhibition setup.",
+    "A blue foam pad rests beneath <skulls_mug> during exhibition setup.",
+    "A small orange lantern stands to the left of <skulls_mug> during storytelling nights.",
+    "Two purple books stand to the right of <skulls_mug> during storytelling nights.",
+    "A folded navy blue dust cloth lies beside <skulls_mug> after closing.",
+    "A white inventory tag is tied to <skulls_mug>'s transport box during shipping."
+  ],
+  "noisy_info": [
+    "<adrien_brody>'s bedroom rug is gray.",
+    "<b_jordan>'s kitchen curtains are teal.",
+    "A red hand trolley carries <skulls_mug> during outdoor festivals.",
+    "A yellow cushion rests beneath <skulls_mug> during photography."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<skulls_mug> is standing on its usual placemat during a gothic dinner.",
+      "t2i_exact_prompt": "<skulls_mug> is standing on a square slate placemat during a gothic dinner.",
+      "grounding_info": [
+        "<skulls_mug> stands on a square slate placemat during gothic dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is displayed in front of its usual bottle during a gothic dinner.",
+      "t2i_exact_prompt": "<skulls_mug> is displayed in front of a green glass bottle during a gothic dinner.",
+      "grounding_info": [
+        "A green glass bottle stands behind <skulls_mug> during gothic dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is filled with its usual autumn-party drink.",
+      "t2i_exact_prompt": "<skulls_mug> is filled with spiced cider, its usual autumn-party drink.",
+      "grounding_info": [
+        "<skulls_mug> holds spiced cider at autumn parties."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug>'s rim has its usual autumn-party garnish.",
+      "t2i_exact_prompt": "A cinnamon stick is resting across <skulls_mug>'s rim as its usual autumn-party garnish.",
+      "grounding_info": [
+        "A cinnamon stick rests across <skulls_mug>'s rim at autumn parties."
+      ]
+    },
+    {
+      "t2i_prompt": "A lantern is standing in its usual place beside <skulls_mug> during a storytelling night.",
+      "t2i_exact_prompt": "A small orange lantern is standing to the left of <skulls_mug> during a storytelling night.",
+      "grounding_info": [
+        "A small orange lantern stands to the left of <skulls_mug> during storytelling nights."
+      ]
+    },
+    {
+      "t2i_prompt": "Books are standing in their usual place beside <skulls_mug> during a storytelling night.",
+      "t2i_exact_prompt": "Two purple books are standing to the right of <skulls_mug> during a storytelling night.",
+      "grounding_info": [
+        "Two purple books stand to the right of <skulls_mug> during storytelling nights."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<skulls_mug> is being carried on its usual cart during exhibition setup.",
+      "t2i_exact_prompt": "<skulls_mug> is being carried on a wheeled black cart during exhibition setup.",
+      "grounding_info": [
+        "A wheeled black cart carries <skulls_mug> during exhibition setup."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is resting on its usual pad during exhibition setup.",
+      "t2i_exact_prompt": "<skulls_mug> is resting on a blue foam pad during exhibition setup.",
+      "grounding_info": [
+        "A blue foam pad rests beneath <skulls_mug> during exhibition setup."
+      ]
+    },
+    {
+      "t2i_prompt": "A folded dust cloth is lying in its usual place beside <skulls_mug> after closing.",
+      "t2i_exact_prompt": "A folded navy blue dust cloth is lying beside <skulls_mug> after closing.",
+      "grounding_info": [
+        "A folded navy blue dust cloth lies beside <skulls_mug> after closing."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug>'s transport box has its usual inventory tag during shipping.",
+      "t2i_exact_prompt": "<skulls_mug>'s transport box has a white inventory tag tied to it during shipping.",
+      "grounding_info": [
+        "A white inventory tag is tied to <skulls_mug>'s transport box during shipping."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<skulls_mug> is displayed on its usual placemat in front of its usual bottle during a gothic dinner.",
+      "t2i_exact_prompt": "<skulls_mug> is displayed on a square slate placemat in front of a green glass bottle during a gothic dinner.",
+      "grounding_info": [
+        "<skulls_mug> stands on a square slate placemat during gothic dinners.",
+        "A green glass bottle stands behind <skulls_mug> during gothic dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is filled with its autumn-party drink and has its usual garnish across the rim.",
+      "t2i_exact_prompt": "<skulls_mug> is filled with spiced cider and has a cinnamon stick resting across its rim at an autumn party.",
+      "grounding_info": [
+        "<skulls_mug> holds spiced cider at autumn parties.",
+        "A cinnamon stick rests across <skulls_mug>'s rim at autumn parties."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is displayed between its usual lantern and books during a storytelling night.",
+      "t2i_exact_prompt": "<skulls_mug> is displayed with a small orange lantern to its left and two purple books to its right during a storytelling night.",
+      "grounding_info": [
+        "A small orange lantern stands to the left of <skulls_mug> during storytelling nights.",
+        "Two purple books stand to the right of <skulls_mug> during storytelling nights."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<skulls_mug> is displayed on its usual rotating pedestal.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is standing on its usual gothic-dinner placemat beside its usual bell.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "mug",
+  "name": "cup",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

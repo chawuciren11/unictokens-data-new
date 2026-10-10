@@ -1,0 +1,255 @@
+{
+  "info": "<dunpai> is a circular red, white, and blue shield with a metallic finish and a star at the center.",
+  "extra_info": [
+    "<dunpai>'s usual storage rack is black.",
+    "<dunpai>'s usual practice sword is silver.",
+    "<dunpai> is dried with a blue cloth after rain.",
+    "An orange target board stands behind <dunpai> during impact demonstrations.",
+    "<dunpai>'s travel case is brown.",
+    "<dunpai>'s usual ceremonial spear is gold.",
+    "<dunpai> is polished with a white cloth before an exhibition.",
+    "A brass bell stands beside <dunpai> during opening ceremonies.",
+    "<dunpai>'s usual wall mount is wooden.",
+    "<dunpai>'s exhibition pedestal is white.",
+    "<dunpai>'s carrier strap is brown.",
+    "<dunpai>'s repair toolbox is blue.",
+    "<dunpai> rests on a gray mat during inspections.",
+    "<dunpai> hangs above a stone fireplace during ceremonies.",
+    "<dunpai> is raised overhead at the start of a parade.",
+    "<dunpai> is held above a small lantern during rain.",
+    "A yellow canopy shades <dunpai> during outdoor exhibitions.",
+    "A red umbrella stands beside <dunpai> during rainy ceremonies.",
+    "<dunpai>'s central star is checked with a flashlight during inspections.",
+    "Dust on <dunpai>'s rim is removed with a small brush."
+  ],
+  "noisy_info": [
+    "<gold_pineapple>'s usual display tray is black.",
+    "<gold_pineapple>'s usual serving spoon is silver.",
+    "<gold_pineapple>'s lid rests on a white plate during dessert service.",
+    "A round mirror stands behind <gold_pineapple> during candlelight displays.",
+    "<dunpai>'s long-term storage crate is green.",
+    "<dunpai>'s usual parade flag is blue.",
+    "<dunpai> is cleaned with a green brush after practice.",
+    "<dunpai> casts a long shadow under an evening spotlight."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<dunpai> is hanging from its usual wall mount.",
+      "t2i_exact_prompt": "<dunpai> is hanging from its usual wooden wall mount.",
+      "grounding_info": [
+        "<dunpai>'s usual wall mount is wooden."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is resting on its exhibition pedestal.",
+      "t2i_exact_prompt": "<dunpai> is resting on its white exhibition pedestal.",
+      "grounding_info": [
+        "<dunpai>'s exhibition pedestal is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is being carried by its carrier strap.",
+      "t2i_exact_prompt": "<dunpai> is being carried by its brown carrier strap.",
+      "grounding_info": [
+        "<dunpai>'s carrier strap is brown."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is resting beside its repair toolbox.",
+      "t2i_exact_prompt": "<dunpai> is resting beside its blue repair toolbox.",
+      "grounding_info": [
+        "<dunpai>'s repair toolbox is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is resting on its usual mat during an inspection.",
+      "t2i_exact_prompt": "<dunpai> is resting on its usual gray mat during an inspection.",
+      "grounding_info": [
+        "<dunpai> rests on a gray mat during inspections."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is hanging in its usual place during a ceremony.",
+      "t2i_exact_prompt": "<dunpai> is hanging above a stone fireplace, its usual place during a ceremony.",
+      "grounding_info": [
+        "<dunpai> hangs above a stone fireplace during ceremonies."
+      ]
+    },
+    {
+      "t2i_prompt": "A parade is starting with <dunpai> in view.",
+      "t2i_exact_prompt": "A parade is starting, and <dunpai> is being raised overhead.",
+      "grounding_info": [
+        "<dunpai> is raised overhead at the start of a parade."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is being used near a small lantern during rain.",
+      "t2i_exact_prompt": "<dunpai> is being held above a small lantern during rain.",
+      "grounding_info": [
+        "<dunpai> is held above a small lantern during rain."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed under its usual canopy at an outdoor exhibition.",
+      "t2i_exact_prompt": "<dunpai> is displayed under a yellow canopy, its usual canopy at an outdoor exhibition.",
+      "grounding_info": [
+        "A yellow canopy shades <dunpai> during outdoor exhibitions."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed beside its usual rainy-ceremony accessory.",
+      "t2i_exact_prompt": "<dunpai> is displayed beside a red umbrella, its usual rainy-ceremony accessory.",
+      "grounding_info": [
+        "A red umbrella stands beside <dunpai> during rainy ceremonies."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai>'s central star is being checked during an inspection.",
+      "t2i_exact_prompt": "<dunpai>'s central star is being checked with a flashlight during an inspection.",
+      "grounding_info": [
+        "<dunpai>'s central star is checked with a flashlight during inspections."
+      ]
+    },
+    {
+      "t2i_prompt": "Dust on <dunpai>'s rim is being removed with the usual tool.",
+      "t2i_exact_prompt": "Dust on <dunpai>'s rim is being removed with a small brush, the usual tool.",
+      "grounding_info": [
+        "Dust on <dunpai>'s rim is removed with a small brush."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<dunpai> is resting on its usual storage rack.",
+      "t2i_exact_prompt": "<dunpai> is resting on its usual black storage rack.",
+      "grounding_info": [
+        "<dunpai>'s usual storage rack is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is resting beside its usual practice sword.",
+      "t2i_exact_prompt": "<dunpai> is resting beside its usual silver practice sword.",
+      "grounding_info": [
+        "<dunpai>'s usual practice sword is silver."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> has been exposed to rain and is being dried with its usual cloth.",
+      "t2i_exact_prompt": "<dunpai> has been exposed to rain and is being dried with its usual blue cloth.",
+      "grounding_info": [
+        "<dunpai> is dried with a blue cloth after rain."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed in front of its usual target board during an impact demonstration.",
+      "t2i_exact_prompt": "<dunpai> is displayed in front of an orange target board during an impact demonstration.",
+      "grounding_info": [
+        "An orange target board stands behind <dunpai> during impact demonstrations."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is being placed inside its travel case.",
+      "t2i_exact_prompt": "<dunpai> is being placed inside its brown travel case.",
+      "grounding_info": [
+        "<dunpai>'s travel case is brown."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed beside its usual ceremonial spear.",
+      "t2i_exact_prompt": "<dunpai> is displayed beside its usual gold ceremonial spear.",
+      "grounding_info": [
+        "<dunpai>'s usual ceremonial spear is gold."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is being polished with its usual cloth before an exhibition.",
+      "t2i_exact_prompt": "<dunpai> is being polished with its usual white cloth before an exhibition.",
+      "grounding_info": [
+        "<dunpai> is polished with a white cloth before an exhibition."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed beside its usual bell during an opening ceremony.",
+      "t2i_exact_prompt": "<dunpai> is displayed beside a brass bell during an opening ceremony.",
+      "grounding_info": [
+        "A brass bell stands beside <dunpai> during opening ceremonies."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<dunpai> is hanging from its usual wall mount in its ceremonial place.",
+      "t2i_exact_prompt": "<dunpai> is hanging from its usual wooden wall mount above a stone fireplace, its ceremonial place.",
+      "grounding_info": [
+        "<dunpai>'s usual wall mount is wooden.",
+        "<dunpai> hangs above a stone fireplace during ceremonies."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed on its exhibition pedestal under its usual outdoor canopy.",
+      "t2i_exact_prompt": "<dunpai> is displayed on its white exhibition pedestal under its usual yellow outdoor canopy.",
+      "grounding_info": [
+        "<dunpai>'s exhibition pedestal is white.",
+        "A yellow canopy shades <dunpai> during outdoor exhibitions."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is being carried by its carrier strap at the start of a parade.",
+      "t2i_exact_prompt": "<dunpai> is being carried by its brown carrier strap and raised overhead at the start of a parade.",
+      "grounding_info": [
+        "<dunpai>'s carrier strap is brown.",
+        "<dunpai> is raised overhead at the start of a parade."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is resting beside its repair toolbox while dust on its rim is removed.",
+      "t2i_exact_prompt": "<dunpai> is resting beside its blue repair toolbox while dust on its rim is removed with a small brush.",
+      "grounding_info": [
+        "<dunpai>'s repair toolbox is blue.",
+        "Dust on <dunpai>'s rim is removed with a small brush."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is resting on its usual inspection mat while its central star is checked.",
+      "t2i_exact_prompt": "<dunpai> is resting on its usual gray inspection mat while its central star is checked with a flashlight.",
+      "grounding_info": [
+        "<dunpai> rests on a gray mat during inspections.",
+        "<dunpai>'s central star is checked with a flashlight during inspections."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is being held above a small lantern during rain beside its usual rainy-ceremony accessory.",
+      "t2i_exact_prompt": "<dunpai> is being held above a small lantern during rain beside a red umbrella, its usual rainy-ceremony accessory.",
+      "grounding_info": [
+        "<dunpai> is held above a small lantern during rain.",
+        "A red umbrella stands beside <dunpai> during rainy ceremonies."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<dunpai> is displayed beneath its usual banner.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<dunpai> is stored inside its usual vault.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<dunpai> is hanging from its usual wall mount beside its usual plaque.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<dunpai> is resting on its exhibition pedestal behind its usual velvet rope.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "shield",
+  "name": "shield",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

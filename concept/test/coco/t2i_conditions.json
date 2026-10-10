@@ -1,0 +1,167 @@
+{
+  "concept_generation": [
+    "A photo of <coco>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <coco> on the court.",
+    "A photo of <coco> wearing her necklace.",
+    "A photo of <coco> at ceremonies.",
+    "A photo of <coco> signing autographs with her marker.",
+    "A photo of <coco> training in her athletic top.",
+    "A photo of <coco> with her braided hair tied by a hairband when going out."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <coco> on the court wearing her purple tank top.",
+    "A photo of <coco> wearing her pearl necklace.",
+    "A photo of <coco> at ceremonies wearing her gold medal around her neck.",
+    "A photo of <coco> signing autographs with her blue marker.",
+    "A photo of <coco> training in her red sleeveless athletic top.",
+    "A photo of <coco> with her braided hair tied by her purple hairband when going out."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a clay tennis court in the afternoon, <coco> is walking near the baseline. White court lines and a net stretch across the ground.",
+    "A photo of <coco> sitting on a wooden bench beside a running track. A tall stadium light tower rises in the background.",
+    "A photo of a city plaza at dusk, <coco> is standing near a stone fountain. Surrounding buildings glow with warm lights."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <coco> camping outdoors, she has tied up her hair with her hairband and is wearing a training top. The background is a forest."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <coco> camping outdoors, she has tied up her hair with her purple hairband and is wearing her red sleeveless athletic top. The background is a forest."
+  ],
+  "info": "<coco> is a professional tennis player known for her athletic build and signature braided hairstyle.",
+  "extra_info": [
+    "<coco>'s bedroom rug is green.",
+    "<coco>'s kitchen curtains are cream.",
+    "<coco>'s everyday wristwatch is black.",
+    "<coco>'s camera is silver.",
+    "<coco>'s favorite fruit is an orange.",
+    "<coco>'s favorite flower is a rose.",
+    "<coco> checks the mailbox before work.",
+    "<coco> writes in a diary every Sunday night.",
+    "<coco>'s strongest swimming skill is freestyle.",
+    "<coco>'s family car is pink."
+  ],
+  "noisy_info": [
+    "<emma>'s bedroom rug is beige.",
+    "<fine_woolfhard>'s kitchen curtains are blue.",
+    "<coco>'s usual breakfast fruit is a pear.",
+    "<coco>'s hiking wristwatch is blue."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<coco> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<coco> is standing on the green rug in their bedroom.",
+      "grounding_info": [
+        "<coco>'s bedroom rug is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<coco> is opening the cream curtains in their kitchen.",
+      "grounding_info": [
+        "<coco>'s kitchen curtains are cream."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<coco> is checking the time on their black everyday wristwatch.",
+      "grounding_info": [
+        "<coco>'s everyday wristwatch is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<coco> is taking a photograph with their silver camera.",
+      "grounding_info": [
+        "<coco>'s camera is silver."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<coco> is placing a rose, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<coco>'s favorite flower is a rose."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is following their usual diary routine.",
+      "t2i_exact_prompt": "<coco> is writing in a diary every Sunday night, their usual diary routine.",
+      "grounding_info": [
+        "<coco> writes in a diary every Sunday night."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<coco> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<coco> is choosing an orange, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<coco>'s favorite fruit is an orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<coco> is checking the mailbox before work, their usual mailbox routine.",
+      "grounding_info": [
+        "<coco> checks the mailbox before work."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<coco> is demonstrating freestyle, their strongest swimming skill.",
+      "grounding_info": [
+        "<coco>'s strongest swimming skill is freestyle."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<coco> is loading a bag into their pink family car.",
+      "grounding_info": [
+        "<coco>'s family car is pink."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<coco> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<coco> is wearing their black everyday wristwatch while standing on their green bedroom rug.",
+      "grounding_info": [
+        "<coco>'s bedroom rug is green.",
+        "<coco>'s everyday wristwatch is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<coco> is writing in a diary every Sunday night beside their cream kitchen curtains.",
+      "grounding_info": [
+        "<coco>'s kitchen curtains are cream.",
+        "<coco> writes in a diary every Sunday night."
+      ]
+    },
+    {
+      "t2i_prompt": "<coco> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<coco> is photographing a rose, their favorite flower, with their silver camera.",
+      "grounding_info": [
+        "<coco>'s camera is silver.",
+        "<coco>'s favorite flower is a rose."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<coco> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<coco> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "woman",
+  "name": "Lily",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

@@ -1,0 +1,167 @@
+{
+  "concept_generation": [
+    "A photo of <leonardo>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <leonardo> at formal events.",
+    "A photo of <leonardo> enjoying his vacations.",
+    "A photo of <leonardo> smoking a cigar in his chair.",
+    "A photo of <leonardo> go to a meeting holding his briefcase.",
+    "A photo of <leonardo> wearing his wristwatch.",
+    "A photo of <leonardo> standing by his car."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <leonardo> at formal events wearing a classic black bow tie.",
+    "A photo of <leonardo> enjoying his seaside vacations.",
+    "A photo of <leonardo> smoking a cigar while sitting in a leather chair.",
+    "A photo of <leonardo> go to a meeting holding his brown leather briefcase.",
+    "A photo of <leonardo> wearing his silver wristwatch with a black leather strap.",
+    "A photo of <leonardo> standing by his black vintage car."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a grand library hall, <leonardo> is standing near a tall wooden bookshelf. Chandeliers hang from the ceiling above.",
+    "A photo of <leonardo> walking across a stone bridge in the evening. Lanterns glow along the railings and water flows beneath.",
+    "A photo of a café terrace on a busy street, <leonardo> is sitting at a small round table. Umbrellas shade the tables and people walk by."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <leonardo> wearing his watch, standing next to his car. The background is a quiet street, with trees and buildings in the distance."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <leonardo> wearing his silver wristwatch with a black leather strap, standing next to his black vintage car. The background is a quiet street, with trees and buildings in the distance."
+  ],
+  "info": "<leonardo> is a mature man with slicked-back hair and a square jawline.",
+  "extra_info": [
+    "<leonardo>'s bedroom rug is purple.",
+    "<leonardo>'s kitchen curtains are red.",
+    "<leonardo>'s everyday wristwatch is white.",
+    "<leonardo>'s camera is white.",
+    "<leonardo>'s favorite fruit is a bunch of grapes.",
+    "<leonardo>'s favorite flower is an orchid.",
+    "<leonardo> checks the mailbox every Saturday morning.",
+    "<leonardo> writes in a diary after returning from a trip.",
+    "<leonardo>'s strongest swimming skill is elementary backstroke.",
+    "<leonardo>'s family car is black."
+  ],
+  "noisy_info": [
+    "<ningning>'s bedroom rug is red.",
+    "<wangkai>'s kitchen curtains are purple.",
+    "<leonardo>'s usual breakfast fruit is a mango.",
+    "<leonardo>'s hiking wristwatch is orange."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<leonardo> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<leonardo> is standing on the purple rug in their bedroom.",
+      "grounding_info": [
+        "<leonardo>'s bedroom rug is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<leonardo> is opening the red curtains in their kitchen.",
+      "grounding_info": [
+        "<leonardo>'s kitchen curtains are red."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<leonardo> is checking the time on their white everyday wristwatch.",
+      "grounding_info": [
+        "<leonardo>'s everyday wristwatch is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<leonardo> is taking a photograph with their white camera.",
+      "grounding_info": [
+        "<leonardo>'s camera is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<leonardo> is placing an orchid, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<leonardo>'s favorite flower is an orchid."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is following their usual diary routine.",
+      "t2i_exact_prompt": "<leonardo> is writing in a diary after returning from a trip, their usual diary routine.",
+      "grounding_info": [
+        "<leonardo> writes in a diary after returning from a trip."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<leonardo> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<leonardo> is choosing a bunch of grapes, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<leonardo>'s favorite fruit is a bunch of grapes."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<leonardo> is checking the mailbox every Saturday morning, their usual mailbox routine.",
+      "grounding_info": [
+        "<leonardo> checks the mailbox every Saturday morning."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<leonardo> is demonstrating elementary backstroke, their strongest swimming skill.",
+      "grounding_info": [
+        "<leonardo>'s strongest swimming skill is elementary backstroke."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<leonardo> is loading a bag into their black family car.",
+      "grounding_info": [
+        "<leonardo>'s family car is black."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<leonardo> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<leonardo> is wearing their white everyday wristwatch while standing on their purple bedroom rug.",
+      "grounding_info": [
+        "<leonardo>'s bedroom rug is purple.",
+        "<leonardo>'s everyday wristwatch is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<leonardo> is writing in a diary after returning from a trip beside their red kitchen curtains.",
+      "grounding_info": [
+        "<leonardo>'s kitchen curtains are red.",
+        "<leonardo> writes in a diary after returning from a trip."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<leonardo> is photographing an orchid, their favorite flower, with their white camera.",
+      "grounding_info": [
+        "<leonardo>'s camera is white.",
+        "<leonardo>'s favorite flower is an orchid."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<leonardo> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<leonardo> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

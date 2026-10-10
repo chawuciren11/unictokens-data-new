@@ -1,0 +1,255 @@
+{
+  "info": "<b_jordan> is a man with a close-cropped beard, medium-dark skin, and a clean fade haircut.",
+  "extra_info": [
+    "<b_jordan>'s usual lunch spot is a table in a riverside cafe.",
+    "<b_jordan>'s daily cup is blue.",
+    "<b_jordan> visits a farmers' market as part of his usual monthly routine.",
+    "<b_jordan>'s bedroom walls are green.",
+    "<b_jordan>'s favorite animal is a tiger.",
+    "<b_jordan> usually meets friends beside the gym entrance.",
+    "<b_jordan>'s desk lamp is orange.",
+    "<b_jordan>'s personal notebook is black.",
+    "<b_jordan>'s formal suit is navy blue.",
+    "<b_jordan> shakes hands when meeting a stranger.",
+    "<b_jordan>'s rowboat is purple.",
+    "<b_jordan> turns one shoulder into the wind in strong wind.",
+    "<b_jordan>'s best dish is grilled chicken.",
+    "<b_jordan>'s cooking apron is brown.",
+    "<b_jordan> solves a crossword puzzle at a desk every evening.",
+    "<b_jordan>'s most treasured book has a red cover.",
+    "<b_jordan> wears round sunglasses in bright sunlight.",
+    "<b_jordan>'s weekend bicycle is blue.",
+    "<b_jordan>'s favorite music is jazz.",
+    "<b_jordan>'s strongest musical skill is playing the piano."
+  ],
+  "noisy_info": [
+    "<coco>'s usual lunch spot is a bench beside the tennis courts.",
+    "<coco> attends a yoga class as part of her usual monthly routine.",
+    "<coco>'s favorite animal is a dolphin.",
+    "<coco>'s desk lamp is pink.",
+    "<b_jordan>'s travel cup is white.",
+    "<b_jordan>'s guest room walls are cream.",
+    "<b_jordan> usually meets coworkers near the office lobby.",
+    "<b_jordan>'s work notebook is blue."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<b_jordan> is wearing his formal suit at an event.",
+      "t2i_exact_prompt": "<b_jordan> is wearing his navy blue formal suit at an event.",
+      "grounding_info": [
+        "<b_jordan>'s formal suit is navy blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is greeting a stranger.",
+      "t2i_exact_prompt": "<b_jordan> is greeting a stranger by shaking hands.",
+      "grounding_info": [
+        "<b_jordan> shakes hands when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is using his rowboat on a lake.",
+      "t2i_exact_prompt": "<b_jordan> is using his purple rowboat on a lake.",
+      "grounding_info": [
+        "<b_jordan>'s rowboat is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is walking outside in strong wind.",
+      "t2i_exact_prompt": "<b_jordan> is walking outside in strong wind while turning one shoulder into the wind.",
+      "grounding_info": [
+        "<b_jordan> turns one shoulder into the wind in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is cooking the dish his makes best.",
+      "t2i_exact_prompt": "<b_jordan> is cooking grilled chicken, the dish his makes best.",
+      "grounding_info": [
+        "<b_jordan>'s best dish is grilled chicken."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is wearing his apron while cooking.",
+      "t2i_exact_prompt": "<b_jordan> is wearing his brown apron while cooking.",
+      "grounding_info": [
+        "<b_jordan>'s cooking apron is brown."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is doing his usual evening activity.",
+      "t2i_exact_prompt": "<b_jordan> is doing his usual evening activity by solving a crossword puzzle at a desk.",
+      "grounding_info": [
+        "<b_jordan> solves a crossword puzzle at a desk every evening."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is holding his most treasured book.",
+      "t2i_exact_prompt": "<b_jordan> is holding his most treasured book with a red cover.",
+      "grounding_info": [
+        "<b_jordan>'s most treasured book has a red cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is walking outside in bright sunlight.",
+      "t2i_exact_prompt": "<b_jordan> is walking outside in bright sunlight while wearing round sunglasses.",
+      "grounding_info": [
+        "<b_jordan> wears round sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is riding his weekend bicycle.",
+      "t2i_exact_prompt": "<b_jordan> is riding his blue weekend bicycle.",
+      "grounding_info": [
+        "<b_jordan>'s weekend bicycle is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is relaxing while listening to his favorite music.",
+      "t2i_exact_prompt": "<b_jordan> is relaxing while listening to jazz, his favorite music.",
+      "grounding_info": [
+        "<b_jordan>'s favorite music is jazz."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is demonstrating his strongest musical skill.",
+      "t2i_exact_prompt": "<b_jordan> is demonstrating his strongest musical skill by playing the piano.",
+      "grounding_info": [
+        "<b_jordan>'s strongest musical skill is playing the piano."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<b_jordan> is eating lunch at his usual lunch spot.",
+      "t2i_exact_prompt": "<b_jordan> is eating lunch at a table in a riverside cafe, his usual lunch spot.",
+      "grounding_info": [
+        "<b_jordan>'s usual lunch spot is a table in a riverside cafe."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is following his usual monthly routine.",
+      "t2i_exact_prompt": "<b_jordan> is following his usual monthly routine by visiting a farmers' market.",
+      "grounding_info": [
+        "<b_jordan> visits a farmers' market as part of his usual monthly routine."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is looking at his favorite animal at a zoo.",
+      "t2i_exact_prompt": "<b_jordan> is looking at a tiger, his favorite animal, at a zoo.",
+      "grounding_info": [
+        "<b_jordan>'s favorite animal is a tiger."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is turning on the lamp on his desk.",
+      "t2i_exact_prompt": "<b_jordan> is turning on the orange lamp on his desk.",
+      "grounding_info": [
+        "<b_jordan>'s desk lamp is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is drinking from his daily cup.",
+      "t2i_exact_prompt": "<b_jordan> is drinking from his blue daily cup.",
+      "grounding_info": [
+        "<b_jordan>'s daily cup is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is standing in front of the wall in his bedroom.",
+      "t2i_exact_prompt": "<b_jordan> is standing in front of the green wall in his bedroom.",
+      "grounding_info": [
+        "<b_jordan>'s bedroom walls are green."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is waiting at his usual meeting place.",
+      "t2i_exact_prompt": "<b_jordan> is waiting beside the gym entrance, his usual meeting place.",
+      "grounding_info": [
+        "<b_jordan> usually meets friends beside the gym entrance."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is writing in his personal notebook.",
+      "t2i_exact_prompt": "<b_jordan> is writing in his black personal notebook.",
+      "grounding_info": [
+        "<b_jordan>'s personal notebook is black."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<b_jordan> is wearing his formal suit while greeting a stranger.",
+      "t2i_exact_prompt": "<b_jordan> is wearing his navy blue formal suit while greeting a stranger by shaking hands.",
+      "grounding_info": [
+        "<b_jordan>'s formal suit is navy blue.",
+        "<b_jordan> shakes hands when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is using his rowboat on a lake while reacting to strong wind.",
+      "t2i_exact_prompt": "<b_jordan> is using his purple rowboat on a lake while reacting to strong wind by turning one shoulder into the wind.",
+      "grounding_info": [
+        "<b_jordan>'s rowboat is purple.",
+        "<b_jordan> turns one shoulder into the wind in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is cooking the dish his makes best while wearing his apron.",
+      "t2i_exact_prompt": "<b_jordan> is cooking grilled chicken, the dish his makes best, while wearing his brown apron.",
+      "grounding_info": [
+        "<b_jordan>'s best dish is grilled chicken.",
+        "<b_jordan>'s cooking apron is brown."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is doing his usual evening activity while holding his most treasured book.",
+      "t2i_exact_prompt": "<b_jordan> is doing his usual evening activity by solving a crossword puzzle at a desk while holding his most treasured book with a red cover.",
+      "grounding_info": [
+        "<b_jordan> solves a crossword puzzle at a desk every evening.",
+        "<b_jordan>'s most treasured book has a red cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is riding his weekend bicycle in bright sunlight.",
+      "t2i_exact_prompt": "<b_jordan> is riding his blue weekend bicycle in bright sunlight while wearing round sunglasses.",
+      "grounding_info": [
+        "<b_jordan>'s weekend bicycle is blue.",
+        "<b_jordan> wears round sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is performing his favorite kind of music with the instrument his plays best.",
+      "t2i_exact_prompt": "<b_jordan> is performing jazz, his favorite kind of music, on the piano, the instrument his plays best.",
+      "grounding_info": [
+        "<b_jordan>'s favorite music is jazz.",
+        "<b_jordan>'s strongest musical skill is playing the piano."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<b_jordan> is wearing his favorite pair of socks.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<b_jordan> is playing with his pet.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<b_jordan> is using his rowboat on his favorite lake.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<b_jordan> is wearing his formal suit with his favorite tie.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

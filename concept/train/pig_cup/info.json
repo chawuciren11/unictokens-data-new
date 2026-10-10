@@ -1,0 +1,255 @@
+{
+  "info": "<pig_cup> is a ceramic mug designed like a pig's face, featuring round ears, pink blush cheeks, and a lid topped with a sculpted peach.",
+  "extra_info": [
+    "<pig_cup>'s usual saucer is white.",
+    "<pig_cup>'s usual milk pitcher is blue.",
+    "<pig_cup> holds hot cocoa on winter mornings.",
+    "A red tea timer stands beside <pig_cup> while hot drinks steep.",
+    "<pig_cup>'s breakfast tray is wooden.",
+    "<pig_cup>'s dessert fork is pink.",
+    "<pig_cup>'s lid rests on a white towel during washing.",
+    "A blue ice bucket stands beside <pig_cup> when it holds iced tea.",
+    "Two sugar cubes stand beside <pig_cup> at breakfast.",
+    "Three marshmallows top the cocoa in <pig_cup>.",
+    "A pink napkin is folded beside <pig_cup>'s handle during drinks.",
+    "<pig_cup> is held by its handle with the right hand.",
+    "<pig_cup>'s gift box is white.",
+    "A red ribbon is tied around <pig_cup>'s gift box.",
+    "<pig_cup> stands on a glass shelf at a cafe.",
+    "A small price card stands to the left of <pig_cup> at the cafe.",
+    "<pig_cup> is washed with a yellow sponge.",
+    "<pig_cup> dries upright on a gray mat.",
+    "<pig_cup> is filled halfway during drink tastings.",
+    "<pig_cup>'s lid rests on a small green plate during drinking."
+  ],
+  "noisy_info": [
+    "<skulls_mug>'s usual coaster is black.",
+    "<skulls_mug>'s usual stirring spoon is bronze.",
+    "<skulls_mug> holds dark coffee on cold mornings.",
+    "A purple candle stands to the right of <skulls_mug> during evening displays.",
+    "<pig_cup>'s cafe tray is metal.",
+    "<pig_cup>'s picnic fork is blue.",
+    "<pig_cup>'s lid rests on a yellow mat during storage.",
+    "<pig_cup>'s exterior stays dry when it is empty on a shelf."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<pig_cup> is standing beside its usual breakfast sugar.",
+      "t2i_exact_prompt": "<pig_cup> is standing beside two sugar cubes at breakfast.",
+      "grounding_info": [
+        "Two sugar cubes stand beside <pig_cup> at breakfast."
+      ]
+    },
+    {
+      "t2i_prompt": "Cocoa in <pig_cup> is topped with its usual marshmallows.",
+      "t2i_exact_prompt": "Cocoa in <pig_cup> is topped with three marshmallows.",
+      "grounding_info": [
+        "Three marshmallows top the cocoa in <pig_cup>."
+      ]
+    },
+    {
+      "t2i_prompt": "A napkin is folded in its usual place beside <pig_cup> during drinks.",
+      "t2i_exact_prompt": "A pink napkin is folded beside <pig_cup>'s handle during drinks.",
+      "grounding_info": [
+        "A pink napkin is folded beside <pig_cup>'s handle during drinks."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being held by its handle in the usual hand.",
+      "t2i_exact_prompt": "<pig_cup> is being held by its handle with the right hand.",
+      "grounding_info": [
+        "<pig_cup> is held by its handle with the right hand."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being placed inside its gift box.",
+      "t2i_exact_prompt": "<pig_cup> is being placed inside its white gift box.",
+      "grounding_info": [
+        "<pig_cup>'s gift box is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup>'s gift box is decorated in the usual way.",
+      "t2i_exact_prompt": "<pig_cup>'s gift box is decorated with a red ribbon tied around it.",
+      "grounding_info": [
+        "A red ribbon is tied around <pig_cup>'s gift box."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing in its usual display place at a cafe.",
+      "t2i_exact_prompt": "<pig_cup> is standing on a glass shelf, its usual display place at a cafe.",
+      "grounding_info": [
+        "<pig_cup> stands on a glass shelf at a cafe."
+      ]
+    },
+    {
+      "t2i_prompt": "A price card is standing in its usual place beside <pig_cup> at the cafe.",
+      "t2i_exact_prompt": "A small price card is standing to the left of <pig_cup> at the cafe.",
+      "grounding_info": [
+        "A small price card stands to the left of <pig_cup> at the cafe."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being washed with its usual sponge.",
+      "t2i_exact_prompt": "<pig_cup> is being washed with its usual yellow sponge.",
+      "grounding_info": [
+        "<pig_cup> is washed with a yellow sponge."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is drying in its usual position on its drying mat.",
+      "t2i_exact_prompt": "<pig_cup> is drying upright on its gray drying mat.",
+      "grounding_info": [
+        "<pig_cup> dries upright on a gray mat."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is filled to its usual level during a drink tasting.",
+      "t2i_exact_prompt": "<pig_cup> is filled halfway during a drink tasting.",
+      "grounding_info": [
+        "<pig_cup> is filled halfway during drink tastings."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup>'s lid is resting in its usual place during drinking.",
+      "t2i_exact_prompt": "<pig_cup>'s lid is resting on a small green plate during drinking.",
+      "grounding_info": [
+        "<pig_cup>'s lid rests on a small green plate during drinking."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<pig_cup> is standing on its usual saucer.",
+      "t2i_exact_prompt": "<pig_cup> is standing on its usual white saucer.",
+      "grounding_info": [
+        "<pig_cup>'s usual saucer is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing beside its usual milk pitcher.",
+      "t2i_exact_prompt": "<pig_cup> is standing beside its usual blue milk pitcher.",
+      "grounding_info": [
+        "<pig_cup>'s usual milk pitcher is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is filled with its usual drink on a winter morning.",
+      "t2i_exact_prompt": "<pig_cup> is filled with hot cocoa, its usual drink on a winter morning.",
+      "grounding_info": [
+        "<pig_cup> holds hot cocoa on winter mornings."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing beside its usual timer while a hot drink steeps.",
+      "t2i_exact_prompt": "<pig_cup> is standing beside a red tea timer while a hot drink steeps.",
+      "grounding_info": [
+        "A red tea timer stands beside <pig_cup> while hot drinks steep."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing on its usual breakfast tray.",
+      "t2i_exact_prompt": "<pig_cup> is standing on its usual wooden breakfast tray.",
+      "grounding_info": [
+        "<pig_cup>'s breakfast tray is wooden."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing beside its usual dessert fork.",
+      "t2i_exact_prompt": "<pig_cup> is standing beside its usual pink dessert fork.",
+      "grounding_info": [
+        "<pig_cup>'s dessert fork is pink."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being washed with its lid resting on the usual towel.",
+      "t2i_exact_prompt": "<pig_cup> is being washed with its lid resting on a white towel.",
+      "grounding_info": [
+        "<pig_cup>'s lid rests on a white towel during washing."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is filled with iced tea beside its usual iced-tea accessory.",
+      "t2i_exact_prompt": "<pig_cup> is filled with iced tea beside a blue ice bucket, its usual iced-tea accessory.",
+      "grounding_info": [
+        "A blue ice bucket stands beside <pig_cup> when it holds iced tea."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<pig_cup> is prepared with its usual sugar and cocoa topping at breakfast.",
+      "t2i_exact_prompt": "<pig_cup> is prepared beside two sugar cubes with its cocoa topped by three marshmallows at breakfast.",
+      "grounding_info": [
+        "Two sugar cubes stand beside <pig_cup> at breakfast.",
+        "Three marshmallows top the cocoa in <pig_cup>."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup>'s lid is resting near the napkin during drinking.",
+      "t2i_exact_prompt": "<pig_cup>'s lid is resting on a small green plate beside a pink napkin during drinking.",
+      "grounding_info": [
+        "A pink napkin is folded beside <pig_cup>'s handle during drinks.",
+        "<pig_cup>'s lid rests on a small green plate during drinking."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being held by its handle during a drink tasting.",
+      "t2i_exact_prompt": "<pig_cup> is being held by its handle with the right hand and is filled halfway during a drink tasting.",
+      "grounding_info": [
+        "<pig_cup> is held by its handle with the right hand.",
+        "<pig_cup> is filled halfway during drink tastings."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being placed inside its decorated gift box.",
+      "t2i_exact_prompt": "<pig_cup> is being placed inside its white gift box with a red ribbon tied around it.",
+      "grounding_info": [
+        "<pig_cup>'s gift box is white.",
+        "A red ribbon is tied around <pig_cup>'s gift box."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is displayed beside its price card at a cafe.",
+      "t2i_exact_prompt": "<pig_cup> is displayed on a glass shelf with a small price card standing to its left at a cafe.",
+      "grounding_info": [
+        "<pig_cup> stands on a glass shelf at a cafe.",
+        "A small price card stands to the left of <pig_cup> at the cafe."
+      ]
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being washed and then placed in its usual drying position.",
+      "t2i_exact_prompt": "<pig_cup> is being washed with a yellow sponge and then placed upright on a gray drying mat.",
+      "grounding_info": [
+        "<pig_cup> is washed with a yellow sponge.",
+        "<pig_cup> dries upright on a gray mat."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<pig_cup> is being used with its usual drinking straw.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being carried inside its usual travel pouch.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<pig_cup> is standing beside its breakfast sugar and its usual flower vase.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<pig_cup> is being placed inside its gift box with its usual greeting card.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "object",
+  "name": "cup",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

@@ -1,0 +1,165 @@
+{
+  "concept_generation": [
+    "A photo of <maeve_dog>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <maeve_dog> going out wearing its bib.",
+    "A photo of <maeve_dog> resting indoors.",
+    "A photo of <maeve_dog> with her plush toy.",
+    "A photo of <maeve_dog> doing what she loves at the beach.",
+    "A photo of <maeve_dog> on an adventure during last year's birthday."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <maeve_dog> going out wearing its pink bib.",
+    "A photo of <maeve_dog> resting on a sofa indoors.",
+    "A photo of <maeve_dog> with her plush toy shaped like a rabbit.",
+    "A photo of <maeve_dog> digging in the sand at the beach.",
+    "A photo of <maeve_dog> on an adventure in the forest during last year's birthday."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a quiet suburban street, <maeve_dog> is standing on the sidewalk. A row of houses and parked bicycles can be seen in the background.",
+    "A photo of <maeve_dog> sitting on a wooden bench in a park. Tall trees and a walking path stretch behind the bench.",
+    "A photo of a sunny kitchen interior, <maeve_dog> is lying on the tiled floor. A dining table and chairs are placed nearby."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <maeve_dog> doing what she loves at the beach, with a sandcastle built by someone else nearby. The background shows the ocean and a clear sky."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <maeve_dog> digging in the sand at the beach, with a sandcastle built by someone else nearby. The background shows the ocean and a clear sky."
+  ],
+  "info": "<maeve_dog> is a small white dog with fluffy fur, a bushy tail, and distinctive dark markings around the eyes and ears.",
+  "extra_info": [
+    "<maeve_dog>'s name tag is star-shaped.",
+    "<maeve_dog>'s feeding station is green.",
+    "<maeve_dog>'s toy rope is orange.",
+    "<maeve_dog>'s blanket is yellow.",
+    "<maeve_dog>'s favorite plush toy is bear-shaped.",
+    "<maeve_dog>'s indoor food puzzle is purple.",
+    "<maeve_dog>'s usual reward food is salmon flakes.",
+    "<maeve_dog> circles near the entrance when seeing a leash.",
+    "<maeve_dog> sits quietly when seeing a bird.",
+    "<maeve_dog>'s life jacket is yellow."
+  ],
+  "noisy_info": [
+    "<mam>'s name tag is heart-shaped.",
+    "<mydieu>'s feeding station is gray.",
+    "<maeve_dog>'s travel plush toy is duck-shaped.",
+    "<maeve_dog>'s outdoor food puzzle is blue."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their name tag.",
+      "t2i_exact_prompt": "<maeve_dog> is wearing their star-shaped name tag.",
+      "grounding_info": [
+        "<maeve_dog>'s name tag is star-shaped."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is standing at their feeding station.",
+      "t2i_exact_prompt": "<maeve_dog> is standing at their green feeding station.",
+      "grounding_info": [
+        "<maeve_dog>'s feeding station is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is playing with their toy rope.",
+      "t2i_exact_prompt": "<maeve_dog> is playing with their orange toy rope.",
+      "grounding_info": [
+        "<maeve_dog>'s toy rope is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is resting on their blanket.",
+      "t2i_exact_prompt": "<maeve_dog> is resting on their yellow blanket.",
+      "grounding_info": [
+        "<maeve_dog>'s blanket is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is eating their usual reward food.",
+      "t2i_exact_prompt": "<maeve_dog> is eating salmon flakes, their usual reward food.",
+      "grounding_info": [
+        "<maeve_dog>'s usual reward food is salmon flakes."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their life jacket near water.",
+      "t2i_exact_prompt": "<maeve_dog> is wearing their yellow life jacket near water.",
+      "grounding_info": [
+        "<maeve_dog>'s life jacket is yellow."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<maeve_dog> is holding their favorite plush toy.",
+      "t2i_exact_prompt": "<maeve_dog> is holding their bear-shaped favorite plush toy.",
+      "grounding_info": [
+        "<maeve_dog>'s favorite plush toy is bear-shaped."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is using their indoor food puzzle.",
+      "t2i_exact_prompt": "<maeve_dog> is using their purple indoor food puzzle.",
+      "grounding_info": [
+        "<maeve_dog>'s indoor food puzzle is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> has just seen a leash.",
+      "t2i_exact_prompt": "<maeve_dog> has just seen a leash and circles near the entrance.",
+      "grounding_info": [
+        "<maeve_dog> circles near the entrance when seeing a leash."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> has just seen a bird.",
+      "t2i_exact_prompt": "<maeve_dog> has just seen a bird and sits quietly.",
+      "grounding_info": [
+        "<maeve_dog> sits quietly when seeing a bird."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their name tag and life jacket near water.",
+      "t2i_exact_prompt": "<maeve_dog> is wearing their star-shaped name tag and yellow life jacket near water.",
+      "grounding_info": [
+        "<maeve_dog>'s name tag is star-shaped.",
+        "<maeve_dog>'s life jacket is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is eating their usual reward food at their feeding station.",
+      "t2i_exact_prompt": "<maeve_dog> is eating salmon flakes, their usual reward food, at their green feeding station.",
+      "grounding_info": [
+        "<maeve_dog>'s feeding station is green.",
+        "<maeve_dog>'s usual reward food is salmon flakes."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is playing with their toy rope beside their blanket.",
+      "t2i_exact_prompt": "<maeve_dog> is playing with their orange toy rope beside their yellow blanket.",
+      "grounding_info": [
+        "<maeve_dog>'s toy rope is orange.",
+        "<maeve_dog>'s blanket is yellow."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their usual winter boots.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their life jacket beside their favorite pond.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "dog",
+  "name": "Cookie",
+  "conversation_type": "object",
+  "generation_type": "live_subject"
+}

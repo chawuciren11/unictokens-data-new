@@ -1,0 +1,167 @@
+{
+  "concept_generation": [
+    "A photo of <b_jordan>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <b_jordan> wearing his earrings.",
+    "A photo of <b_jordan> wearing his baseball cap.",
+    "A photo of <b_jordan> cooking while wearing his apron.",
+    "A photo of <b_jordan> standing with his skateboard.",
+    "A photo of <b_jordan> with his pet.",
+    "A photo of <b_jordan> wearing his headphones."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <b_jordan> wearing diamond stud earrings.",
+    "A photo of <b_jordan> wearing a red baseball cap.",
+    "A photo of <b_jordan> wearing a white chef's apron while cooking.",
+    "A photo of <b_jordan> standing with a bright yellow skateboard.",
+    "A photo of <b_jordan> with his dog.",
+    "A photo of <b_jordan> wearing teal over-ear headphones."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a sunlit basketball court, <b_jordan> is walking across the painted lines. A tall chain-link fence surrounds the court.",
+    "A photo of <b_jordan> sitting inside a café, near a large window. A wooden chair and a steaming cup on the table are visible.",
+    "A photo of a quiet city street at night, <b_jordan> is standing under a glowing streetlamp. Parked cars line the road, and a brick building stands in the background."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <b_jordan> working in his room, wearing his headphones, with his pet resting nearby, taken at night."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <b_jordan> working in his room, wearing his teal over-ear headphones, with his dog resting nearby, taken at night."
+  ],
+  "info": "<b_jordan> is a man with a close-cropped beard, medium-dark skin, and a clean fade haircut.",
+  "extra_info": [
+    "<b_jordan>'s bedroom rug is blue.",
+    "<b_jordan>'s kitchen curtains are teal.",
+    "<b_jordan>'s everyday wristwatch is gold.",
+    "<b_jordan>'s camera is black.",
+    "<b_jordan>'s favorite fruit is a pear.",
+    "<b_jordan>'s favorite flower is a tulip.",
+    "<b_jordan> checks the mailbox after breakfast.",
+    "<b_jordan> writes in a diary after dinner.",
+    "<b_jordan>'s strongest swimming skill is breaststroke.",
+    "<b_jordan>'s family car is silver."
+  ],
+  "noisy_info": [
+    "<coco>'s bedroom rug is green.",
+    "<emma>'s kitchen curtains are orange.",
+    "<b_jordan>'s usual breakfast fruit is a banana.",
+    "<b_jordan>'s hiking wristwatch is green."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<b_jordan> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<b_jordan> is standing on the blue rug in their bedroom.",
+      "grounding_info": [
+        "<b_jordan>'s bedroom rug is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<b_jordan> is opening the teal curtains in their kitchen.",
+      "grounding_info": [
+        "<b_jordan>'s kitchen curtains are teal."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<b_jordan> is checking the time on their gold everyday wristwatch.",
+      "grounding_info": [
+        "<b_jordan>'s everyday wristwatch is gold."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<b_jordan> is taking a photograph with their black camera.",
+      "grounding_info": [
+        "<b_jordan>'s camera is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<b_jordan> is placing a tulip, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<b_jordan>'s favorite flower is a tulip."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is following their usual diary routine.",
+      "t2i_exact_prompt": "<b_jordan> is writing in a diary after dinner, their usual diary routine.",
+      "grounding_info": [
+        "<b_jordan> writes in a diary after dinner."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<b_jordan> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<b_jordan> is choosing a pear, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<b_jordan>'s favorite fruit is a pear."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<b_jordan> is checking the mailbox after breakfast, their usual mailbox routine.",
+      "grounding_info": [
+        "<b_jordan> checks the mailbox after breakfast."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<b_jordan> is demonstrating breaststroke, their strongest swimming skill.",
+      "grounding_info": [
+        "<b_jordan>'s strongest swimming skill is breaststroke."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<b_jordan> is loading a bag into their silver family car.",
+      "grounding_info": [
+        "<b_jordan>'s family car is silver."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<b_jordan> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<b_jordan> is wearing their gold everyday wristwatch while standing on their blue bedroom rug.",
+      "grounding_info": [
+        "<b_jordan>'s bedroom rug is blue.",
+        "<b_jordan>'s everyday wristwatch is gold."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<b_jordan> is writing in a diary after dinner beside their teal kitchen curtains.",
+      "grounding_info": [
+        "<b_jordan>'s kitchen curtains are teal.",
+        "<b_jordan> writes in a diary after dinner."
+      ]
+    },
+    {
+      "t2i_prompt": "<b_jordan> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<b_jordan> is photographing a tulip, their favorite flower, with their black camera.",
+      "grounding_info": [
+        "<b_jordan>'s camera is black.",
+        "<b_jordan>'s favorite flower is a tulip."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<b_jordan> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<b_jordan> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

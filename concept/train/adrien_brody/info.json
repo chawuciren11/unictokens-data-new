@@ -1,0 +1,255 @@
+{
+  "info": "<adrien_brody> is a slender man with sharp facial features, expressive hazel eyes, and often styled dark hair.",
+  "extra_info": [
+    "<adrien_brody>'s usual lunch spot is a bench in the central park.",
+    "<adrien_brody> nods while listening to a friend.",
+    "<adrien_brody>'s desk lamp is white.",
+    "<adrien_brody>'s rowboat is green.",
+    "<adrien_brody>'s formal suit is black.",
+    "<adrien_brody>'s usual hat is gray.",
+    "<adrien_brody> uses a flashlight when it is dark.",
+    "<adrien_brody> clasps his hands when asking for help.",
+    "<adrien_brody> gives a thumbs-up when thanking someone.",
+    "<adrien_brody>'s favorite quiet place is a rooftop.",
+    "<adrien_brody> visits a barber as part of the usual monthly routine.",
+    "<adrien_brody> bows when apologizing.",
+    "<adrien_brody> usually begins chess games with a pawn move.",
+    "<adrien_brody>'s favorite animal is a panda.",
+    "<adrien_brody>'s dining table is round.",
+    "<adrien_brody>'s skateboard is purple.",
+    "<adrien_brody> usually meets friends under the station clock.",
+    "<adrien_brody> leans forward in strong wind.",
+    "<adrien_brody> makes a small snowman when it snows.",
+    "<adrien_brody> waters the balcony plants after work."
+  ],
+  "noisy_info": [
+    "<b_jordan>'s usual lunch spot is a table in a riverside cafe.",
+    "<emma>'s desk lamp is yellow.",
+    "<leonardo> visits an art museum as part of the usual monthly routine.",
+    "<ningning>'s favorite animal is a rabbit.",
+    "<adrien_brody> wears a red hat at costume parties.",
+    "<adrien_brody> usually ends chess games with a queen move.",
+    "<adrien_brody> gives a thumbs-down when rejecting an offer.",
+    "<adrien_brody> builds a sandcastle on sunny beach days."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<adrien_brody> is listening carefully to a friend.",
+      "t2i_exact_prompt": "<adrien_brody> is nodding while listening carefully to a friend.",
+      "grounding_info": [
+        "<adrien_brody> nods while listening to a friend."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is using his rowboat on a lake.",
+      "t2i_exact_prompt": "<adrien_brody> is using his green rowboat on a lake.",
+      "grounding_info": [
+        "<adrien_brody>'s rowboat is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is wearing his formal suit at an event.",
+      "t2i_exact_prompt": "<adrien_brody> is wearing his black formal suit at an event.",
+      "grounding_info": [
+        "<adrien_brody>'s formal suit is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is walking through a dark room.",
+      "t2i_exact_prompt": "<adrien_brody> is walking through a dark room while using a flashlight.",
+      "grounding_info": [
+        "<adrien_brody> uses a flashlight when it is dark."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is asking another person for help.",
+      "t2i_exact_prompt": "<adrien_brody> is clasping his hands while asking another person for help.",
+      "grounding_info": [
+        "<adrien_brody> clasps his hands when asking for help."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is relaxing in his favorite quiet place.",
+      "t2i_exact_prompt": "<adrien_brody> is relaxing on a rooftop, his favorite quiet place.",
+      "grounding_info": [
+        "<adrien_brody>'s favorite quiet place is a rooftop."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is apologizing to another person.",
+      "t2i_exact_prompt": "<adrien_brody> is bowing while apologizing to another person.",
+      "grounding_info": [
+        "<adrien_brody> bows when apologizing."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is placing plates on his dining table.",
+      "t2i_exact_prompt": "<adrien_brody> is placing plates on his round dining table.",
+      "grounding_info": [
+        "<adrien_brody>'s dining table is round."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is riding his skateboard in a park.",
+      "t2i_exact_prompt": "<adrien_brody> is riding his purple skateboard in a park.",
+      "grounding_info": [
+        "<adrien_brody>'s skateboard is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is waiting at his usual meeting place.",
+      "t2i_exact_prompt": "<adrien_brody> is waiting under the station clock, his usual meeting place.",
+      "grounding_info": [
+        "<adrien_brody> usually meets friends under the station clock."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is walking outside in strong wind.",
+      "t2i_exact_prompt": "<adrien_brody> is walking outside and leaning forward in strong wind.",
+      "grounding_info": [
+        "<adrien_brody> leans forward in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is following his usual routine after work.",
+      "t2i_exact_prompt": "<adrien_brody> is watering the balcony plants as part of his usual routine after work.",
+      "grounding_info": [
+        "<adrien_brody> waters the balcony plants after work."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<adrien_brody> is eating lunch at his usual lunch spot.",
+      "t2i_exact_prompt": "<adrien_brody> is eating lunch on a bench in the central park, his usual lunch spot.",
+      "grounding_info": [
+        "<adrien_brody>'s usual lunch spot is a bench in the central park."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is turning on the lamp on his desk.",
+      "t2i_exact_prompt": "<adrien_brody> is turning on the white lamp on his desk.",
+      "grounding_info": [
+        "<adrien_brody>'s desk lamp is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is wearing his usual hat.",
+      "t2i_exact_prompt": "<adrien_brody> is wearing his usual gray hat.",
+      "grounding_info": [
+        "<adrien_brody>'s usual hat is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is thanking someone for his help.",
+      "t2i_exact_prompt": "<adrien_brody> is giving a thumbs-up while thanking someone for his help.",
+      "grounding_info": [
+        "<adrien_brody> gives a thumbs-up when thanking someone."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is following his usual monthly routine.",
+      "t2i_exact_prompt": "<adrien_brody> is visiting a barber as part of his usual monthly routine.",
+      "grounding_info": [
+        "<adrien_brody> visits a barber as part of the usual monthly routine."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is beginning a chess game with his usual opening move.",
+      "t2i_exact_prompt": "<adrien_brody> is making a pawn move, his usual opening move in a chess game.",
+      "grounding_info": [
+        "<adrien_brody> usually begins chess games with a pawn move."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is looking at his favorite animal at a zoo.",
+      "t2i_exact_prompt": "<adrien_brody> is looking at a panda, his favorite animal, at a zoo.",
+      "grounding_info": [
+        "<adrien_brody>'s favorite animal is a panda."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is spending time outside on a snowy day.",
+      "t2i_exact_prompt": "<adrien_brody> is making a small snowman outside on a snowy day.",
+      "grounding_info": [
+        "<adrien_brody> makes a small snowman when it snows."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<adrien_brody> is wearing his formal suit while listening to a friend.",
+      "t2i_exact_prompt": "<adrien_brody> is wearing his black formal suit while nodding and listening to a friend.",
+      "grounding_info": [
+        "<adrien_brody>'s formal suit is black.",
+        "<adrien_brody> nods while listening to a friend."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is using his rowboat on a lake while reacting to strong wind.",
+      "t2i_exact_prompt": "<adrien_brody> is using his green rowboat on a lake while reacting to strong wind by leaning forward.",
+      "grounding_info": [
+        "<adrien_brody>'s rowboat is green.",
+        "<adrien_brody> leans forward in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is waiting in the dark at his usual meeting place.",
+      "t2i_exact_prompt": "<adrien_brody> is waiting in the dark at his usual meeting place under the station clock while using a flashlight.",
+      "grounding_info": [
+        "<adrien_brody> uses a flashlight when it is dark.",
+        "<adrien_brody> usually meets friends under the station clock."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is asking another person for help and apologizing to him.",
+      "t2i_exact_prompt": "<adrien_brody> is asking another person for help with his hands clasped and apologizing to him with a bow.",
+      "grounding_info": [
+        "<adrien_brody> clasps his hands when asking for help.",
+        "<adrien_brody> bows when apologizing."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is doing his usual activity after work before relaxing in his favorite quiet place.",
+      "t2i_exact_prompt": "<adrien_brody> is watering the balcony plants, his usual activity after work, before relaxing on a rooftop, his favorite quiet place.",
+      "grounding_info": [
+        "<adrien_brody> waters the balcony plants after work.",
+        "<adrien_brody>'s favorite quiet place is a rooftop."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is placing his skateboard beside his dining table.",
+      "t2i_exact_prompt": "<adrien_brody> is placing his purple skateboard beside his round dining table.",
+      "grounding_info": [
+        "<adrien_brody>'s skateboard is purple.",
+        "<adrien_brody>'s dining table is round."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<adrien_brody> is wearing his favorite pair of socks.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is playing with his pet.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is using his rowboat on his favorite lake.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is wearing his formal suit with his favorite tie.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

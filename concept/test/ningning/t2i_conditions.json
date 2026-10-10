@@ -1,0 +1,167 @@
+{
+  "concept_generation": [
+    "A photo of <ningning>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <ningning> wearing her favorite shirts.",
+    "A photo of <ningning> wearing her necklace on stage.",
+    "A photo of <ningning> taken during an outdoor photoshoot in 2024.",
+    "A photo of <ningning> practicing piano.",
+    "A photo of <ningning> holding her clutch bag.",
+    "A photo of <ningning> wearing her trench coat."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <ningning> wearing her white athletic short-sleeved shirts.",
+    "A photo of <ningning> wearing her crystal necklace on stage.",
+    "A photo of <ningning> wore her grey hoodie in the outdoor.",
+    "A photo of <ningning> ties her long hair with a silk ribbon when practicing piano.",
+    "A photo of <ningning> holding her small black clutch bag.",
+    "A photo of <ningning> wearing her beige trench coat on rainy days."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a riverside promenade at sunset, <ningning> is standing by the railing. Street lamps line the walkway and the water reflects golden light.",
+    "A photo of <ningning> sitting in a quiet library, surrounded by tall wooden shelves. An open book rests on the table in front of her.",
+    "A photo of a flower market in the morning, <ningning> is walking past colorful stalls. Baskets of roses, lilies, and tulips fill the scene."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <ningning> practicing piano. The background is a cozy room, with musical notes on the wall."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <ningning> ties her long hair with a silk ribbon when practicing piano. The background is a cozy room, with musical notes on the wall."
+  ],
+  "info": "<ningning> is a young woman with long black hair, porcelain skin, and delicate facial features often highlighted by stylish makeup.",
+  "extra_info": [
+    "<ningning>'s bedroom rug is red.",
+    "<ningning>'s kitchen curtains are green.",
+    "<ningning>'s everyday wristwatch is green.",
+    "<ningning>'s camera is yellow.",
+    "<ningning>'s favorite fruit is strawberries.",
+    "<ningning>'s favorite flower is lavender.",
+    "<ningning> checks the mailbox at sunset.",
+    "<ningning> writes in a diary after dance practice.",
+    "<ningning>'s strongest swimming skill is front crawl.",
+    "<ningning>'s family car is purple."
+  ],
+  "noisy_info": [
+    "<wangkai>'s bedroom rug is yellow.",
+    "<will>'s kitchen curtains are gray.",
+    "<ningning>'s usual breakfast fruit is cherries.",
+    "<ningning>'s hiking wristwatch is gray."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<ningning> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<ningning> is standing on the red rug in their bedroom.",
+      "grounding_info": [
+        "<ningning>'s bedroom rug is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<ningning> is opening the green curtains in their kitchen.",
+      "grounding_info": [
+        "<ningning>'s kitchen curtains are green."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<ningning> is checking the time on their green everyday wristwatch.",
+      "grounding_info": [
+        "<ningning>'s everyday wristwatch is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<ningning> is taking a photograph with their yellow camera.",
+      "grounding_info": [
+        "<ningning>'s camera is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<ningning> is placing lavender, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<ningning>'s favorite flower is lavender."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is following their usual diary routine.",
+      "t2i_exact_prompt": "<ningning> is writing in a diary after dance practice, their usual diary routine.",
+      "grounding_info": [
+        "<ningning> writes in a diary after dance practice."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<ningning> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<ningning> is choosing strawberries, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<ningning>'s favorite fruit is strawberries."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<ningning> is checking the mailbox at sunset, their usual mailbox routine.",
+      "grounding_info": [
+        "<ningning> checks the mailbox at sunset."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<ningning> is demonstrating front crawl, their strongest swimming skill.",
+      "grounding_info": [
+        "<ningning>'s strongest swimming skill is front crawl."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<ningning> is loading a bag into their purple family car.",
+      "grounding_info": [
+        "<ningning>'s family car is purple."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<ningning> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<ningning> is wearing their green everyday wristwatch while standing on their red bedroom rug.",
+      "grounding_info": [
+        "<ningning>'s bedroom rug is red.",
+        "<ningning>'s everyday wristwatch is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<ningning> is writing in a diary after dance practice beside their green kitchen curtains.",
+      "grounding_info": [
+        "<ningning>'s kitchen curtains are green.",
+        "<ningning> writes in a diary after dance practice."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<ningning> is photographing lavender, their favorite flower, with their yellow camera.",
+      "grounding_info": [
+        "<ningning>'s camera is yellow.",
+        "<ningning>'s favorite flower is lavender."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<ningning> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<ningning> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "woman",
+  "name": "Lily",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

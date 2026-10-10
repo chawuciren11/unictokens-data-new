@@ -1,0 +1,167 @@
+{
+  "concept_generation": [
+    "A photo of <butin>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <butin> lying during sunny days.",
+    "A photo of <butin> resting on its home.",
+    "A photo of <butin> hearing the music.",
+    "A photo of <butin> drinking from his bowl.",
+    "A photo of <butin> with his toy ball.",
+    "A photo of <butin> wearing its bib."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <butin> lying in the backyard during sunny days.",
+    "A photo of <butin> at his cozy wooden cabin home.",
+    "A photo of <butin> howling when he hears music playing.",
+    "A photo of <butin> drinking from his large blue water bowl.",
+    "A photo of <butin> with his bright orange rubber toy ball.",
+    "A photo of <butin> wearing his crocheted bib."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a snowy forest trail, <butin> is standing on the path. Pine trees covered in snow rise on both sides.",
+    "A photo of <butin> sitting at the entrance of a wooden cabin. A lantern hangs by the door and stacked firewood is placed nearby.",
+    "A photo of a sandy beach at sunset, <butin> is running along the shoreline. Waves crash gently, and seashells scatter across the sand."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <butin> wearing his bib, drinking from his bowl, with his toy ball nearby."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <butin> wearing his crocheted bib, drinking from his large blue water bowl, with his bright orange rubber toy ball nearby."
+  ],
+  "info": "<butin> is a Siberian Husky dog with light brown and white fur, blue eyes, and expressive facial features often captured in humorous or relaxed poses.",
+  "extra_info": [
+    "<butin>'s name tag is square.",
+    "<butin>'s feeding station is blue.",
+    "<butin>'s toy rope is blue.",
+    "<butin>'s blanket is gray.",
+    "<butin>'s favorite plush toy is fox-shaped.",
+    "<butin>'s indoor food puzzle is green.",
+    "<butin>'s usual reward food is cheese pieces.",
+    "<butin> sits on a mat when seeing a leash.",
+    "<butin> crouches low when seeing a bird.",
+    "<butin>'s life jacket is orange."
+  ],
+  "noisy_info": [
+    "<maeve_dog>'s name tag is star-shaped.",
+    "<mam>'s feeding station is yellow.",
+    "<butin>'s travel plush toy is bear-shaped.",
+    "<butin>'s outdoor food puzzle is purple."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<butin> is wearing their name tag.",
+      "t2i_exact_prompt": "<butin> is wearing their square name tag.",
+      "grounding_info": [
+        "<butin>'s name tag is square."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> is standing at their feeding station.",
+      "t2i_exact_prompt": "<butin> is standing at their blue feeding station.",
+      "grounding_info": [
+        "<butin>'s feeding station is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> is playing with their toy rope.",
+      "t2i_exact_prompt": "<butin> is playing with their blue toy rope.",
+      "grounding_info": [
+        "<butin>'s toy rope is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> is resting on their blanket.",
+      "t2i_exact_prompt": "<butin> is resting on their gray blanket.",
+      "grounding_info": [
+        "<butin>'s blanket is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> is eating their usual reward food.",
+      "t2i_exact_prompt": "<butin> is eating cheese pieces, their usual reward food.",
+      "grounding_info": [
+        "<butin>'s usual reward food is cheese pieces."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> is wearing their life jacket near water.",
+      "t2i_exact_prompt": "<butin> is wearing their orange life jacket near water.",
+      "grounding_info": [
+        "<butin>'s life jacket is orange."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<butin> is holding their favorite plush toy.",
+      "t2i_exact_prompt": "<butin> is holding their fox-shaped favorite plush toy.",
+      "grounding_info": [
+        "<butin>'s favorite plush toy is fox-shaped."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> is using their indoor food puzzle.",
+      "t2i_exact_prompt": "<butin> is using their green indoor food puzzle.",
+      "grounding_info": [
+        "<butin>'s indoor food puzzle is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> has just seen a leash.",
+      "t2i_exact_prompt": "<butin> has just seen a leash and sits on a mat.",
+      "grounding_info": [
+        "<butin> sits on a mat when seeing a leash."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> has just seen a bird.",
+      "t2i_exact_prompt": "<butin> has just seen a bird and crouches low.",
+      "grounding_info": [
+        "<butin> crouches low when seeing a bird."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<butin> is wearing their name tag and life jacket near water.",
+      "t2i_exact_prompt": "<butin> is wearing their square name tag and orange life jacket near water.",
+      "grounding_info": [
+        "<butin>'s name tag is square.",
+        "<butin>'s life jacket is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> is eating their usual reward food at their feeding station.",
+      "t2i_exact_prompt": "<butin> is eating cheese pieces, their usual reward food, at their blue feeding station.",
+      "grounding_info": [
+        "<butin>'s feeding station is blue.",
+        "<butin>'s usual reward food is cheese pieces."
+      ]
+    },
+    {
+      "t2i_prompt": "<butin> is playing with their toy rope beside their blanket.",
+      "t2i_exact_prompt": "<butin> is playing with their blue toy rope beside their gray blanket.",
+      "grounding_info": [
+        "<butin>'s toy rope is blue.",
+        "<butin>'s blanket is gray."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<butin> is sitting inside their usual travel carrier.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<butin> is wearing their life jacket beside their favorite pond.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "dog",
+  "name": "Cookie",
+  "conversation_type": "object",
+  "generation_type": "live_subject"
+}

@@ -1,0 +1,255 @@
+{
+  "info": "<ningning> is a young woman with long black hair, porcelain skin, and delicate facial features often highlighted by stylish makeup.",
+  "extra_info": [
+    "<ningning>'s usual lunch spot is a bench in a flower garden.",
+    "<ningning>'s daily cup is purple.",
+    "<ningning> visits a botanical garden as part of her usual monthly routine.",
+    "<ningning>'s bedroom walls are lavender.",
+    "<ningning>'s favorite animal is a rabbit.",
+    "<ningning> usually meets friends near the dance studio.",
+    "<ningning>'s desk lamp is purple.",
+    "<ningning>'s personal notebook is pink.",
+    "<ningning>'s formal suit is silver.",
+    "<ningning> bows slightly when meeting a stranger.",
+    "<ningning>'s rowboat is yellow.",
+    "<ningning> turns her body sideways in strong wind.",
+    "<ningning>'s best dish is fried rice.",
+    "<ningning>'s cooking apron is pink.",
+    "<ningning> practices dance steps every evening.",
+    "<ningning>'s most treasured book has a purple cover.",
+    "<ningning> wears cat-eye sunglasses in bright sunlight.",
+    "<ningning>'s weekend bicycle is yellow.",
+    "<ningning>'s favorite music is electronic music.",
+    "<ningning>'s strongest musical skill is playing the flute."
+  ],
+  "noisy_info": [
+    "<wangkai>'s usual lunch spot is a table in a quiet teahouse.",
+    "<wangkai> attends a tea ceremony as part of his usual monthly routine.",
+    "<wangkai>'s favorite animal is a crane.",
+    "<wangkai>'s desk lamp is black.",
+    "<ningning>'s travel cup is yellow.",
+    "<ningning>'s guest room walls are white.",
+    "<ningning> usually meets coworkers inside the music hall.",
+    "<ningning>'s work notebook is gray."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<ningning> is wearing her formal suit at an event.",
+      "t2i_exact_prompt": "<ningning> is wearing her silver formal suit at an event.",
+      "grounding_info": [
+        "<ningning>'s formal suit is silver."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is greeting a stranger.",
+      "t2i_exact_prompt": "<ningning> is greeting a stranger by bowing slightly.",
+      "grounding_info": [
+        "<ningning> bows slightly when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is using her rowboat on a lake.",
+      "t2i_exact_prompt": "<ningning> is using her yellow rowboat on a lake.",
+      "grounding_info": [
+        "<ningning>'s rowboat is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is walking outside in strong wind.",
+      "t2i_exact_prompt": "<ningning> is walking outside in strong wind while turning her body sideways.",
+      "grounding_info": [
+        "<ningning> turns her body sideways in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is cooking the dish her makes best.",
+      "t2i_exact_prompt": "<ningning> is cooking fried rice, the dish her makes best.",
+      "grounding_info": [
+        "<ningning>'s best dish is fried rice."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is wearing her apron while cooking.",
+      "t2i_exact_prompt": "<ningning> is wearing her pink apron while cooking.",
+      "grounding_info": [
+        "<ningning>'s cooking apron is pink."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is doing her usual evening activity.",
+      "t2i_exact_prompt": "<ningning> is doing her usual evening activity by practicing dance steps.",
+      "grounding_info": [
+        "<ningning> practices dance steps every evening."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is holding her most treasured book.",
+      "t2i_exact_prompt": "<ningning> is holding her most treasured book with a purple cover.",
+      "grounding_info": [
+        "<ningning>'s most treasured book has a purple cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is walking outside in bright sunlight.",
+      "t2i_exact_prompt": "<ningning> is walking outside in bright sunlight while wearing cat-eye sunglasses.",
+      "grounding_info": [
+        "<ningning> wears cat-eye sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is riding her weekend bicycle.",
+      "t2i_exact_prompt": "<ningning> is riding her yellow weekend bicycle.",
+      "grounding_info": [
+        "<ningning>'s weekend bicycle is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is relaxing while listening to her favorite music.",
+      "t2i_exact_prompt": "<ningning> is relaxing while listening to electronic music, her favorite music.",
+      "grounding_info": [
+        "<ningning>'s favorite music is electronic music."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is demonstrating her strongest musical skill.",
+      "t2i_exact_prompt": "<ningning> is demonstrating her strongest musical skill by playing the flute.",
+      "grounding_info": [
+        "<ningning>'s strongest musical skill is playing the flute."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<ningning> is eating lunch at her usual lunch spot.",
+      "t2i_exact_prompt": "<ningning> is eating lunch at a bench in a flower garden, her usual lunch spot.",
+      "grounding_info": [
+        "<ningning>'s usual lunch spot is a bench in a flower garden."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is following her usual monthly routine.",
+      "t2i_exact_prompt": "<ningning> is following her usual monthly routine by visiting a botanical garden.",
+      "grounding_info": [
+        "<ningning> visits a botanical garden as part of her usual monthly routine."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is looking at her favorite animal at a zoo.",
+      "t2i_exact_prompt": "<ningning> is looking at a rabbit, her favorite animal, at a zoo.",
+      "grounding_info": [
+        "<ningning>'s favorite animal is a rabbit."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is turning on the lamp on her desk.",
+      "t2i_exact_prompt": "<ningning> is turning on the purple lamp on her desk.",
+      "grounding_info": [
+        "<ningning>'s desk lamp is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is drinking from her daily cup.",
+      "t2i_exact_prompt": "<ningning> is drinking from her purple daily cup.",
+      "grounding_info": [
+        "<ningning>'s daily cup is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is standing in front of the wall in her bedroom.",
+      "t2i_exact_prompt": "<ningning> is standing in front of the lavender wall in her bedroom.",
+      "grounding_info": [
+        "<ningning>'s bedroom walls are lavender."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is waiting at her usual meeting place.",
+      "t2i_exact_prompt": "<ningning> is waiting near the dance studio, her usual meeting place.",
+      "grounding_info": [
+        "<ningning> usually meets friends near the dance studio."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is writing in her personal notebook.",
+      "t2i_exact_prompt": "<ningning> is writing in her pink personal notebook.",
+      "grounding_info": [
+        "<ningning>'s personal notebook is pink."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<ningning> is wearing her formal suit while greeting a stranger.",
+      "t2i_exact_prompt": "<ningning> is wearing her silver formal suit while greeting a stranger by bowing slightly.",
+      "grounding_info": [
+        "<ningning>'s formal suit is silver.",
+        "<ningning> bows slightly when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is using her rowboat on a lake while reacting to strong wind.",
+      "t2i_exact_prompt": "<ningning> is using her yellow rowboat on a lake while reacting to strong wind by turning her body sideways.",
+      "grounding_info": [
+        "<ningning>'s rowboat is yellow.",
+        "<ningning> turns her body sideways in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is cooking the dish her makes best while wearing her apron.",
+      "t2i_exact_prompt": "<ningning> is cooking fried rice, the dish her makes best, while wearing her pink apron.",
+      "grounding_info": [
+        "<ningning>'s best dish is fried rice.",
+        "<ningning>'s cooking apron is pink."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is doing her usual evening activity while holding her most treasured book.",
+      "t2i_exact_prompt": "<ningning> is doing her usual evening activity by practicing dance steps while holding her most treasured book with a purple cover.",
+      "grounding_info": [
+        "<ningning> practices dance steps every evening.",
+        "<ningning>'s most treasured book has a purple cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is riding her weekend bicycle in bright sunlight.",
+      "t2i_exact_prompt": "<ningning> is riding her yellow weekend bicycle in bright sunlight while wearing cat-eye sunglasses.",
+      "grounding_info": [
+        "<ningning>'s weekend bicycle is yellow.",
+        "<ningning> wears cat-eye sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<ningning> is performing her favorite kind of music with the instrument her plays best.",
+      "t2i_exact_prompt": "<ningning> is performing electronic music, her favorite kind of music, on the flute, the instrument her plays best.",
+      "grounding_info": [
+        "<ningning>'s favorite music is electronic music.",
+        "<ningning>'s strongest musical skill is playing the flute."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<ningning> is wearing her favorite pair of socks.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<ningning> is playing with her pet.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<ningning> is using her rowboat on her favorite lake.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<ningning> is wearing her formal suit with her favorite tie.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "woman",
+  "name": "Lily",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

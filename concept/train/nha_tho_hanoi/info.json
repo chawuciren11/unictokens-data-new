@@ -1,0 +1,255 @@
+{
+  "info": "<nha_tho_hanoi> is a Gothic Revival cathedral with twin bell towers, pointed arches, and a large rose window on the facade.",
+  "extra_info": [
+    "A green information booth stands in <nha_tho_hanoi>'s front square on weekday afternoons.",
+    "Blue banners decorate <nha_tho_hanoi> during its annual music festival.",
+    "<nha_tho_hanoi>'s facade is lit with warm yellow lights after sunset.",
+    "Red umbrellas gather near <nha_tho_hanoi>'s main entrance on rainy days.",
+    "A book stall stands to the left of <nha_tho_hanoi>'s entrance on weekends.",
+    "Bicycles are parked beside <nha_tho_hanoi>'s north wall on weekday mornings.",
+    "Pigeons gather in <nha_tho_hanoi>'s front square at dawn.",
+    "Black security barriers surround <nha_tho_hanoi>'s square during large festivals.",
+    "White flowers decorate <nha_tho_hanoi>'s central steps during weddings.",
+    "A red carpet leads up to <nha_tho_hanoi>'s main doorway during weddings.",
+    "Spotlights illuminate <nha_tho_hanoi>'s twin towers at night.",
+    "Street lamps around <nha_tho_hanoi>'s square switch on at dusk.",
+    "A Christmas tree stands to the left of <nha_tho_hanoi>'s entrance in December.",
+    "A wooden nativity scene stands to the right of <nha_tho_hanoi>'s entrance at Christmas.",
+    "A choir stands on <nha_tho_hanoi>'s front steps during the music festival.",
+    "White folding chairs fill <nha_tho_hanoi>'s plaza during the music festival.",
+    "A white service van parks beside <nha_tho_hanoi>'s side door on maintenance mornings.",
+    "Orange traffic cones stand beside the service van near <nha_tho_hanoi>.",
+    "Visitors form two lines outside <nha_tho_hanoi>'s main door on holidays.",
+    "Two blue guide signs stand beside the visitor lines at <nha_tho_hanoi>."
+  ],
+  "noisy_info": [
+    "<pig_cup>'s usual saucer is white.",
+    "<pig_cup>'s usual milk pitcher is blue.",
+    "<pig_cup> holds hot cocoa on winter mornings.",
+    "A red tea timer stands beside <pig_cup> while hot drinks steep.",
+    "A food stall stands to the right of <nha_tho_hanoi>'s entrance during holidays.",
+    "Buses stop along <nha_tho_hanoi>'s south curb on weekend afternoons.",
+    "Candle holders line <nha_tho_hanoi>'s steps at night.",
+    "Wooden benches fill <nha_tho_hanoi>'s square during quiet outdoor services."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<nha_tho_hanoi>'s central steps are decorated with the usual wedding flowers.",
+      "t2i_exact_prompt": "<nha_tho_hanoi>'s central steps are decorated with white flowers during a wedding.",
+      "grounding_info": [
+        "White flowers decorate <nha_tho_hanoi>'s central steps during weddings."
+      ]
+    },
+    {
+      "t2i_prompt": "A wedding carpet leads up to <nha_tho_hanoi>'s main doorway.",
+      "t2i_exact_prompt": "A red wedding carpet leads up to <nha_tho_hanoi>'s main doorway.",
+      "grounding_info": [
+        "A red carpet leads up to <nha_tho_hanoi>'s main doorway during weddings."
+      ]
+    },
+    {
+      "t2i_prompt": "<nha_tho_hanoi>'s twin towers are illuminated in their usual way at night.",
+      "t2i_exact_prompt": "<nha_tho_hanoi>'s twin towers are illuminated by spotlights at night.",
+      "grounding_info": [
+        "Spotlights illuminate <nha_tho_hanoi>'s twin towers at night."
+      ]
+    },
+    {
+      "t2i_prompt": "The usual lights around <nha_tho_hanoi>'s square are switching on at dusk.",
+      "t2i_exact_prompt": "The street lamps around <nha_tho_hanoi>'s square are switching on at dusk.",
+      "grounding_info": [
+        "Street lamps around <nha_tho_hanoi>'s square switch on at dusk."
+      ]
+    },
+    {
+      "t2i_prompt": "A Christmas tree is standing in its usual December location near <nha_tho_hanoi>.",
+      "t2i_exact_prompt": "A Christmas tree is standing to the left of <nha_tho_hanoi>'s entrance in December.",
+      "grounding_info": [
+        "A Christmas tree stands to the left of <nha_tho_hanoi>'s entrance in December."
+      ]
+    },
+    {
+      "t2i_prompt": "A nativity scene is standing in its usual Christmas location near <nha_tho_hanoi>.",
+      "t2i_exact_prompt": "A wooden nativity scene is standing to the right of <nha_tho_hanoi>'s entrance at Christmas.",
+      "grounding_info": [
+        "A wooden nativity scene stands to the right of <nha_tho_hanoi>'s entrance at Christmas."
+      ]
+    },
+    {
+      "t2i_prompt": "A choir is standing in its usual place during <nha_tho_hanoi>'s music festival.",
+      "t2i_exact_prompt": "A choir is standing on <nha_tho_hanoi>'s front steps during the music festival.",
+      "grounding_info": [
+        "A choir stands on <nha_tho_hanoi>'s front steps during the music festival."
+      ]
+    },
+    {
+      "t2i_prompt": "Folding chairs fill <nha_tho_hanoi>'s plaza during the music festival.",
+      "t2i_exact_prompt": "White folding chairs fill <nha_tho_hanoi>'s plaza during the music festival.",
+      "grounding_info": [
+        "White folding chairs fill <nha_tho_hanoi>'s plaza during the music festival."
+      ]
+    },
+    {
+      "t2i_prompt": "A service van is parked in its usual place near <nha_tho_hanoi> on a maintenance morning.",
+      "t2i_exact_prompt": "A white service van is parked beside <nha_tho_hanoi>'s side door on a maintenance morning.",
+      "grounding_info": [
+        "A white service van parks beside <nha_tho_hanoi>'s side door on maintenance mornings."
+      ]
+    },
+    {
+      "t2i_prompt": "Traffic cones are standing beside the service van near <nha_tho_hanoi>.",
+      "t2i_exact_prompt": "Orange traffic cones are standing beside the service van near <nha_tho_hanoi>.",
+      "grounding_info": [
+        "Orange traffic cones stand beside the service van near <nha_tho_hanoi>."
+      ]
+    },
+    {
+      "t2i_prompt": "Visitors are waiting in the usual arrangement outside <nha_tho_hanoi>'s main door on a holiday.",
+      "t2i_exact_prompt": "Visitors are waiting in two lines outside <nha_tho_hanoi>'s main door on a holiday.",
+      "grounding_info": [
+        "Visitors form two lines outside <nha_tho_hanoi>'s main door on holidays."
+      ]
+    },
+    {
+      "t2i_prompt": "Guide signs are standing beside the visitor lines at <nha_tho_hanoi>.",
+      "t2i_exact_prompt": "Two blue guide signs are standing beside the visitor lines at <nha_tho_hanoi>.",
+      "grounding_info": [
+        "Two blue guide signs stand beside the visitor lines at <nha_tho_hanoi>."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "An information booth is standing in its usual weekday location in front of <nha_tho_hanoi>.",
+      "t2i_exact_prompt": "A green information booth is standing in <nha_tho_hanoi>'s front square on a weekday afternoon.",
+      "grounding_info": [
+        "A green information booth stands in <nha_tho_hanoi>'s front square on weekday afternoons."
+      ]
+    },
+    {
+      "t2i_prompt": "<nha_tho_hanoi> is decorated with its usual banners during the annual music festival.",
+      "t2i_exact_prompt": "<nha_tho_hanoi> is decorated with its usual blue banners during the annual music festival.",
+      "grounding_info": [
+        "Blue banners decorate <nha_tho_hanoi> during its annual music festival."
+      ]
+    },
+    {
+      "t2i_prompt": "<nha_tho_hanoi>'s facade is illuminated in its usual way after sunset.",
+      "t2i_exact_prompt": "<nha_tho_hanoi>'s facade is illuminated with warm yellow lights after sunset.",
+      "grounding_info": [
+        "<nha_tho_hanoi>'s facade is lit with warm yellow lights after sunset."
+      ]
+    },
+    {
+      "t2i_prompt": "People with umbrellas are gathering near <nha_tho_hanoi>'s main entrance on a rainy day.",
+      "t2i_exact_prompt": "People with red umbrellas are gathering near <nha_tho_hanoi>'s main entrance on a rainy day.",
+      "grounding_info": [
+        "Red umbrellas gather near <nha_tho_hanoi>'s main entrance on rainy days."
+      ]
+    },
+    {
+      "t2i_prompt": "A weekend stall is standing in its usual place near <nha_tho_hanoi>'s entrance.",
+      "t2i_exact_prompt": "A book stall is standing to the left of <nha_tho_hanoi>'s entrance on a weekend.",
+      "grounding_info": [
+        "A book stall stands to the left of <nha_tho_hanoi>'s entrance on weekends."
+      ]
+    },
+    {
+      "t2i_prompt": "Vehicles are parked in their usual place beside <nha_tho_hanoi> on a weekday morning.",
+      "t2i_exact_prompt": "Bicycles are parked beside <nha_tho_hanoi>'s north wall on a weekday morning.",
+      "grounding_info": [
+        "Bicycles are parked beside <nha_tho_hanoi>'s north wall on weekday mornings."
+      ]
+    },
+    {
+      "t2i_prompt": "Birds are gathering in their usual area near <nha_tho_hanoi> at dawn.",
+      "t2i_exact_prompt": "Pigeons are gathering in <nha_tho_hanoi>'s front square at dawn.",
+      "grounding_info": [
+        "Pigeons gather in <nha_tho_hanoi>'s front square at dawn."
+      ]
+    },
+    {
+      "t2i_prompt": "Security barriers surround <nha_tho_hanoi>'s square during a large festival.",
+      "t2i_exact_prompt": "Black security barriers surround <nha_tho_hanoi>'s square during a large festival.",
+      "grounding_info": [
+        "Black security barriers surround <nha_tho_hanoi>'s square during large festivals."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<nha_tho_hanoi>'s central steps are decorated, and a carpet leads up to its main doorway for a wedding.",
+      "t2i_exact_prompt": "<nha_tho_hanoi>'s central steps are decorated with white flowers, and a red carpet leads up to its main doorway for a wedding.",
+      "grounding_info": [
+        "White flowers decorate <nha_tho_hanoi>'s central steps during weddings.",
+        "A red carpet leads up to <nha_tho_hanoi>'s main doorway during weddings."
+      ]
+    },
+    {
+      "t2i_prompt": "<nha_tho_hanoi>'s twin towers are illuminated, and the lights around its square switch on at nightfall.",
+      "t2i_exact_prompt": "<nha_tho_hanoi>'s twin towers are illuminated by spotlights, and the street lamps around its square switch on at dusk.",
+      "grounding_info": [
+        "Spotlights illuminate <nha_tho_hanoi>'s twin towers at night.",
+        "Street lamps around <nha_tho_hanoi>'s square switch on at dusk."
+      ]
+    },
+    {
+      "t2i_prompt": "A Christmas decoration stands to the left of <nha_tho_hanoi>'s entrance, and another stands to the right.",
+      "t2i_exact_prompt": "A Christmas tree stands to the left of <nha_tho_hanoi>'s entrance, and a wooden nativity scene stands to the right.",
+      "grounding_info": [
+        "A Christmas tree stands to the left of <nha_tho_hanoi>'s entrance in December.",
+        "A wooden nativity scene stands to the right of <nha_tho_hanoi>'s entrance at Christmas."
+      ]
+    },
+    {
+      "t2i_prompt": "A choir stands in front of <nha_tho_hanoi>, and folding chairs fill its plaza for the music festival.",
+      "t2i_exact_prompt": "A choir stands on <nha_tho_hanoi>'s front steps, and white folding chairs fill its plaza for the music festival.",
+      "grounding_info": [
+        "A choir stands on <nha_tho_hanoi>'s front steps during the music festival.",
+        "White folding chairs fill <nha_tho_hanoi>'s plaza during the music festival."
+      ]
+    },
+    {
+      "t2i_prompt": "A service van is parked beside <nha_tho_hanoi>'s side door with traffic cones standing beside it.",
+      "t2i_exact_prompt": "A white service van is parked beside <nha_tho_hanoi>'s side door with orange traffic cones standing beside it.",
+      "grounding_info": [
+        "A white service van parks beside <nha_tho_hanoi>'s side door on maintenance mornings.",
+        "Orange traffic cones stand beside the service van near <nha_tho_hanoi>."
+      ]
+    },
+    {
+      "t2i_prompt": "Visitors are waiting in lines outside <nha_tho_hanoi>'s main door beside guide signs.",
+      "t2i_exact_prompt": "Visitors are waiting in two lines outside <nha_tho_hanoi>'s main door beside two blue guide signs.",
+      "grounding_info": [
+        "Visitors form two lines outside <nha_tho_hanoi>'s main door on holidays.",
+        "Two blue guide signs stand beside the visitor lines at <nha_tho_hanoi>."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "A festival arch stands in its usual place at <nha_tho_hanoi>'s entrance.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "An outdoor altar stands in its usual place beside <nha_tho_hanoi>.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "White wedding flowers decorate <nha_tho_hanoi>'s steps beside the usual wedding carriage.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<nha_tho_hanoi>'s twin towers are illuminated above the usual projection screen.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "building",
+  "name": "building",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

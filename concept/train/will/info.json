@@ -1,0 +1,255 @@
+{
+  "info": "<will> is a charismatic man with a well-groomed beard, short black hair, and a radiant smile.",
+  "extra_info": [
+    "<will>'s usual lunch spot is a bench beside a public fountain.",
+    "<will>'s daily cup is orange.",
+    "<will> volunteers at a food bank as part of his usual monthly routine.",
+    "<will>'s bedroom walls are beige.",
+    "<will>'s favorite animal is an elephant.",
+    "<will> usually meets friends beside the community center.",
+    "<will>'s desk lamp is red.",
+    "<will>'s personal notebook is green.",
+    "<will>'s formal suit is beige.",
+    "<will> smiles when meeting a stranger.",
+    "<will>'s rowboat is orange.",
+    "<will> holds his hat in strong wind.",
+    "<will>'s best dish is pancakes.",
+    "<will>'s cooking apron is red.",
+    "<will> watches a comedy show every evening.",
+    "<will>'s most treasured book has a yellow cover.",
+    "<will> wears heart-shaped sunglasses in bright sunlight.",
+    "<will>'s weekend bicycle is orange.",
+    "<will>'s favorite music is soul music.",
+    "<will>'s strongest musical skill is playing the trumpet."
+  ],
+  "noisy_info": [
+    "<willinvietnam>'s usual lunch spot is a table in an outdoor market.",
+    "<willinvietnam> visits a night market as part of his usual monthly routine.",
+    "<willinvietnam>'s favorite animal is an otter.",
+    "<willinvietnam>'s desk lamp is gray.",
+    "<will>'s travel cup is purple.",
+    "<will>'s guest room walls are green.",
+    "<will> usually meets coworkers near the recording studio.",
+    "<will>'s work notebook is orange."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<will> is wearing his formal suit at an event.",
+      "t2i_exact_prompt": "<will> is wearing his beige formal suit at an event.",
+      "grounding_info": [
+        "<will>'s formal suit is beige."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is greeting a stranger.",
+      "t2i_exact_prompt": "<will> is greeting a stranger by smiling.",
+      "grounding_info": [
+        "<will> smiles when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is using his rowboat on a lake.",
+      "t2i_exact_prompt": "<will> is using his orange rowboat on a lake.",
+      "grounding_info": [
+        "<will>'s rowboat is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is walking outside in strong wind.",
+      "t2i_exact_prompt": "<will> is walking outside in strong wind while holding his hat.",
+      "grounding_info": [
+        "<will> holds his hat in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is cooking the dish his makes best.",
+      "t2i_exact_prompt": "<will> is cooking pancakes, the dish his makes best.",
+      "grounding_info": [
+        "<will>'s best dish is pancakes."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is wearing his apron while cooking.",
+      "t2i_exact_prompt": "<will> is wearing his red apron while cooking.",
+      "grounding_info": [
+        "<will>'s cooking apron is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is doing his usual evening activity.",
+      "t2i_exact_prompt": "<will> is doing his usual evening activity by watching a comedy show.",
+      "grounding_info": [
+        "<will> watches a comedy show every evening."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is holding his most treasured book.",
+      "t2i_exact_prompt": "<will> is holding his most treasured book with a yellow cover.",
+      "grounding_info": [
+        "<will>'s most treasured book has a yellow cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is walking outside in bright sunlight.",
+      "t2i_exact_prompt": "<will> is walking outside in bright sunlight while wearing heart-shaped sunglasses.",
+      "grounding_info": [
+        "<will> wears heart-shaped sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is riding his weekend bicycle.",
+      "t2i_exact_prompt": "<will> is riding his orange weekend bicycle.",
+      "grounding_info": [
+        "<will>'s weekend bicycle is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is relaxing while listening to his favorite music.",
+      "t2i_exact_prompt": "<will> is relaxing while listening to soul music, his favorite music.",
+      "grounding_info": [
+        "<will>'s favorite music is soul music."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is demonstrating his strongest musical skill.",
+      "t2i_exact_prompt": "<will> is demonstrating his strongest musical skill by playing the trumpet.",
+      "grounding_info": [
+        "<will>'s strongest musical skill is playing the trumpet."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<will> is eating lunch at his usual lunch spot.",
+      "t2i_exact_prompt": "<will> is eating lunch at a bench beside a public fountain, his usual lunch spot.",
+      "grounding_info": [
+        "<will>'s usual lunch spot is a bench beside a public fountain."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is following his usual monthly routine.",
+      "t2i_exact_prompt": "<will> is following his usual monthly routine by volunteering at a food bank.",
+      "grounding_info": [
+        "<will> volunteers at a food bank as part of his usual monthly routine."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is looking at his favorite animal at a zoo.",
+      "t2i_exact_prompt": "<will> is looking at an elephant, his favorite animal, at a zoo.",
+      "grounding_info": [
+        "<will>'s favorite animal is an elephant."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is turning on the lamp on his desk.",
+      "t2i_exact_prompt": "<will> is turning on the red lamp on his desk.",
+      "grounding_info": [
+        "<will>'s desk lamp is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is drinking from his daily cup.",
+      "t2i_exact_prompt": "<will> is drinking from his orange daily cup.",
+      "grounding_info": [
+        "<will>'s daily cup is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is standing in front of the wall in his bedroom.",
+      "t2i_exact_prompt": "<will> is standing in front of the beige wall in his bedroom.",
+      "grounding_info": [
+        "<will>'s bedroom walls are beige."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is waiting at his usual meeting place.",
+      "t2i_exact_prompt": "<will> is waiting beside the community center, his usual meeting place.",
+      "grounding_info": [
+        "<will> usually meets friends beside the community center."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is writing in his personal notebook.",
+      "t2i_exact_prompt": "<will> is writing in his green personal notebook.",
+      "grounding_info": [
+        "<will>'s personal notebook is green."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<will> is wearing his formal suit while greeting a stranger.",
+      "t2i_exact_prompt": "<will> is wearing his beige formal suit while greeting a stranger by smiling.",
+      "grounding_info": [
+        "<will>'s formal suit is beige.",
+        "<will> smiles when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is using his rowboat on a lake while reacting to strong wind.",
+      "t2i_exact_prompt": "<will> is using his orange rowboat on a lake while reacting to strong wind by holding his hat.",
+      "grounding_info": [
+        "<will>'s rowboat is orange.",
+        "<will> holds his hat in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is cooking the dish his makes best while wearing his apron.",
+      "t2i_exact_prompt": "<will> is cooking pancakes, the dish his makes best, while wearing his red apron.",
+      "grounding_info": [
+        "<will>'s best dish is pancakes.",
+        "<will>'s cooking apron is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is doing his usual evening activity while holding his most treasured book.",
+      "t2i_exact_prompt": "<will> is doing his usual evening activity by watching a comedy show while holding his most treasured book with a yellow cover.",
+      "grounding_info": [
+        "<will> watches a comedy show every evening.",
+        "<will>'s most treasured book has a yellow cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is riding his weekend bicycle in bright sunlight.",
+      "t2i_exact_prompt": "<will> is riding his orange weekend bicycle in bright sunlight while wearing heart-shaped sunglasses.",
+      "grounding_info": [
+        "<will>'s weekend bicycle is orange.",
+        "<will> wears heart-shaped sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is performing his favorite kind of music with the instrument his plays best.",
+      "t2i_exact_prompt": "<will> is performing soul music, his favorite kind of music, on the trumpet, the instrument his plays best.",
+      "grounding_info": [
+        "<will>'s favorite music is soul music.",
+        "<will>'s strongest musical skill is playing the trumpet."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<will> is wearing his favorite pair of socks.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<will> is playing with his pet.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<will> is using his rowboat on his favorite lake.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<will> is wearing his formal suit with his favorite tie.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

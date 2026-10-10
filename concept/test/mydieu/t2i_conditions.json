@@ -1,0 +1,163 @@
+{
+  "concept_generation": [
+    "A photo of <mydieu>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <mydieu> wearing his collar in the house.",
+    "A photo of <mydieu> in his home.",
+    "A photo of <mydieu> wearing his scarf in winter.",
+    "A photo of <mydieu> playing alone."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <mydieu> wearing his pink collar in the house.",
+    "A photo of <mydieu> in his cozy wooden house deep in the forest.",
+    "A photo of <mydieu> wearing his knitted yellow scarf in winter.",
+    "A photo of <mydieu> playing alone with his red feather wand."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a sunlit balcony, <mydieu> is lying near a potted plant. A metal railing and a chair are also visible.",
+    "A photo of <mydieu> sitting on the steps of a stone staircase. Fallen leaves are scattered across the ground.",
+    "A photo of a cozy study room, <mydieu> is curled up on a cushioned armchair. A wooden desk and a lamp stand nearby."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <mydieu> playing alone, wearing his winter scarf. The background is a cozy wooden house deep in the forest."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <mydieu> playing alone with his red feather wand, wearing his knitted yellow scarf. The background is a cozy wooden house deep in the forest."
+  ],
+  "info": "<mydieu> is an orange tabby cat with golden eyes, a rounded belly.",
+  "extra_info": [
+    "<mydieu>'s name tag is oval.",
+    "<mydieu>'s feeding station is gray.",
+    "<mydieu>'s toy rope is purple.",
+    "<mydieu>'s blanket is orange.",
+    "<mydieu>'s favorite plush toy is duck-shaped.",
+    "<mydieu>'s indoor food puzzle is red.",
+    "<mydieu>'s usual reward food is turkey strips.",
+    "<mydieu> looks toward their owner when seeing a leash.",
+    "<mydieu> steps behind a curtain when seeing a bird.",
+    "<mydieu>'s life jacket is green."
+  ],
+  "noisy_info": [
+    "A navy curtain hangs behind <dunpai> during school visits.",
+    "A crystal vase stands behind <gold_pineapple> at spring dinners.",
+    "<mydieu>'s travel plush toy is fish-shaped.",
+    "<mydieu>'s outdoor food puzzle is yellow."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<mydieu> is wearing their name tag.",
+      "t2i_exact_prompt": "<mydieu> is wearing their oval name tag.",
+      "grounding_info": [
+        "<mydieu>'s name tag is oval."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> is standing at their feeding station.",
+      "t2i_exact_prompt": "<mydieu> is standing at their gray feeding station.",
+      "grounding_info": [
+        "<mydieu>'s feeding station is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> is playing with their toy rope.",
+      "t2i_exact_prompt": "<mydieu> is playing with their purple toy rope.",
+      "grounding_info": [
+        "<mydieu>'s toy rope is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> is resting on their blanket.",
+      "t2i_exact_prompt": "<mydieu> is resting on their orange blanket.",
+      "grounding_info": [
+        "<mydieu>'s blanket is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> is eating their usual reward food.",
+      "t2i_exact_prompt": "<mydieu> is eating turkey strips, their usual reward food.",
+      "grounding_info": [
+        "<mydieu>'s usual reward food is turkey strips."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> is wearing their life jacket near water.",
+      "t2i_exact_prompt": "<mydieu> is wearing their green life jacket near water.",
+      "grounding_info": [
+        "<mydieu>'s life jacket is green."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<mydieu> is holding their favorite plush toy.",
+      "t2i_exact_prompt": "<mydieu> is holding their duck-shaped favorite plush toy.",
+      "grounding_info": [
+        "<mydieu>'s favorite plush toy is duck-shaped."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> is using their indoor food puzzle.",
+      "t2i_exact_prompt": "<mydieu> is using their red indoor food puzzle.",
+      "grounding_info": [
+        "<mydieu>'s indoor food puzzle is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> has just seen a leash.",
+      "t2i_exact_prompt": "<mydieu> has just seen a leash and looks toward their owner.",
+      "grounding_info": [
+        "<mydieu> looks toward their owner when seeing a leash."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> has just seen a bird.",
+      "t2i_exact_prompt": "<mydieu> has just seen a bird and steps behind a curtain.",
+      "grounding_info": [
+        "<mydieu> steps behind a curtain when seeing a bird."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<mydieu> is wearing their name tag and life jacket near water.",
+      "t2i_exact_prompt": "<mydieu> is wearing their oval name tag and green life jacket near water.",
+      "grounding_info": [
+        "<mydieu>'s name tag is oval.",
+        "<mydieu>'s life jacket is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> is eating their usual reward food at their feeding station.",
+      "t2i_exact_prompt": "<mydieu> is eating turkey strips, their usual reward food, at their gray feeding station.",
+      "grounding_info": [
+        "<mydieu>'s feeding station is gray.",
+        "<mydieu>'s usual reward food is turkey strips."
+      ]
+    },
+    {
+      "t2i_prompt": "<mydieu> is playing with their toy rope beside their blanket.",
+      "t2i_exact_prompt": "<mydieu> is playing with their purple toy rope beside their orange blanket.",
+      "grounding_info": [
+        "<mydieu>'s toy rope is purple.",
+        "<mydieu>'s blanket is orange."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<mydieu> is playing inside their usual cat tunnel.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<mydieu> is wearing their life jacket beside their favorite pond.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "cat",
+  "name": "Cookie",
+  "conversation_type": "object",
+  "generation_type": "live_subject"
+}

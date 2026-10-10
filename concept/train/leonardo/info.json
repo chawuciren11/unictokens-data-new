@@ -1,0 +1,255 @@
+{
+  "info": "<leonardo> is a mature man with slicked-back hair and a square jawline.",
+  "extra_info": [
+    "<leonardo>'s usual lunch spot is a table in a harbor restaurant.",
+    "<leonardo>'s daily cup is red.",
+    "<leonardo> visits an art museum as part of his usual monthly routine.",
+    "<leonardo>'s bedroom walls are navy blue.",
+    "<leonardo>'s favorite animal is an owl.",
+    "<leonardo> usually meets friends beside the harbor clock.",
+    "<leonardo>'s desk lamp is blue.",
+    "<leonardo>'s personal notebook is silver.",
+    "<leonardo>'s formal suit is dark green.",
+    "<leonardo> offers a handshake when meeting a stranger.",
+    "<leonardo>'s rowboat is black.",
+    "<leonardo> grips the side of the boat in strong wind.",
+    "<leonardo>'s best dish is mushroom risotto.",
+    "<leonardo>'s cooking apron is green.",
+    "<leonardo> reads beside a window every evening.",
+    "<leonardo>'s most treasured book has a white cover.",
+    "<leonardo> wears hexagonal sunglasses in bright sunlight.",
+    "<leonardo>'s weekend bicycle is black.",
+    "<leonardo>'s favorite music is blues.",
+    "<leonardo>'s strongest musical skill is playing the saxophone."
+  ],
+  "noisy_info": [
+    "<ningning>'s usual lunch spot is a bench in a flower garden.",
+    "<ningning> visits a botanical garden as part of her usual monthly routine.",
+    "<ningning>'s favorite animal is a rabbit.",
+    "<ningning>'s desk lamp is purple.",
+    "<leonardo>'s travel cup is green.",
+    "<leonardo>'s guest room walls are beige.",
+    "<leonardo> usually meets coworkers near the conference room.",
+    "<leonardo>'s work notebook is brown."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<leonardo> is wearing his formal suit at an event.",
+      "t2i_exact_prompt": "<leonardo> is wearing his dark green formal suit at an event.",
+      "grounding_info": [
+        "<leonardo>'s formal suit is dark green."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is greeting a stranger.",
+      "t2i_exact_prompt": "<leonardo> is greeting a stranger by offering a handshake.",
+      "grounding_info": [
+        "<leonardo> offers a handshake when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is using his rowboat on a lake.",
+      "t2i_exact_prompt": "<leonardo> is using his black rowboat on a lake.",
+      "grounding_info": [
+        "<leonardo>'s rowboat is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is walking outside in strong wind.",
+      "t2i_exact_prompt": "<leonardo> is walking outside in strong wind while gripping the side of the boat.",
+      "grounding_info": [
+        "<leonardo> grips the side of the boat in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is cooking the dish his makes best.",
+      "t2i_exact_prompt": "<leonardo> is cooking mushroom risotto, the dish his makes best.",
+      "grounding_info": [
+        "<leonardo>'s best dish is mushroom risotto."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is wearing his apron while cooking.",
+      "t2i_exact_prompt": "<leonardo> is wearing his green apron while cooking.",
+      "grounding_info": [
+        "<leonardo>'s cooking apron is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is doing his usual evening activity.",
+      "t2i_exact_prompt": "<leonardo> is doing his usual evening activity by reading beside a window.",
+      "grounding_info": [
+        "<leonardo> reads beside a window every evening."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is holding his most treasured book.",
+      "t2i_exact_prompt": "<leonardo> is holding his most treasured book with a white cover.",
+      "grounding_info": [
+        "<leonardo>'s most treasured book has a white cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is walking outside in bright sunlight.",
+      "t2i_exact_prompt": "<leonardo> is walking outside in bright sunlight while wearing hexagonal sunglasses.",
+      "grounding_info": [
+        "<leonardo> wears hexagonal sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is riding his weekend bicycle.",
+      "t2i_exact_prompt": "<leonardo> is riding his black weekend bicycle.",
+      "grounding_info": [
+        "<leonardo>'s weekend bicycle is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is relaxing while listening to his favorite music.",
+      "t2i_exact_prompt": "<leonardo> is relaxing while listening to blues, his favorite music.",
+      "grounding_info": [
+        "<leonardo>'s favorite music is blues."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is demonstrating his strongest musical skill.",
+      "t2i_exact_prompt": "<leonardo> is demonstrating his strongest musical skill by playing the saxophone.",
+      "grounding_info": [
+        "<leonardo>'s strongest musical skill is playing the saxophone."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<leonardo> is eating lunch at his usual lunch spot.",
+      "t2i_exact_prompt": "<leonardo> is eating lunch at a table in a harbor restaurant, his usual lunch spot.",
+      "grounding_info": [
+        "<leonardo>'s usual lunch spot is a table in a harbor restaurant."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is following his usual monthly routine.",
+      "t2i_exact_prompt": "<leonardo> is following his usual monthly routine by visiting an art museum.",
+      "grounding_info": [
+        "<leonardo> visits an art museum as part of his usual monthly routine."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is looking at his favorite animal at a zoo.",
+      "t2i_exact_prompt": "<leonardo> is looking at an owl, his favorite animal, at a zoo.",
+      "grounding_info": [
+        "<leonardo>'s favorite animal is an owl."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is turning on the lamp on his desk.",
+      "t2i_exact_prompt": "<leonardo> is turning on the blue lamp on his desk.",
+      "grounding_info": [
+        "<leonardo>'s desk lamp is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is drinking from his daily cup.",
+      "t2i_exact_prompt": "<leonardo> is drinking from his red daily cup.",
+      "grounding_info": [
+        "<leonardo>'s daily cup is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is standing in front of the wall in his bedroom.",
+      "t2i_exact_prompt": "<leonardo> is standing in front of the navy blue wall in his bedroom.",
+      "grounding_info": [
+        "<leonardo>'s bedroom walls are navy blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is waiting at his usual meeting place.",
+      "t2i_exact_prompt": "<leonardo> is waiting beside the harbor clock, his usual meeting place.",
+      "grounding_info": [
+        "<leonardo> usually meets friends beside the harbor clock."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is writing in his personal notebook.",
+      "t2i_exact_prompt": "<leonardo> is writing in his silver personal notebook.",
+      "grounding_info": [
+        "<leonardo>'s personal notebook is silver."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<leonardo> is wearing his formal suit while greeting a stranger.",
+      "t2i_exact_prompt": "<leonardo> is wearing his dark green formal suit while greeting a stranger by offering a handshake.",
+      "grounding_info": [
+        "<leonardo>'s formal suit is dark green.",
+        "<leonardo> offers a handshake when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is using his rowboat on a lake while reacting to strong wind.",
+      "t2i_exact_prompt": "<leonardo> is using his black rowboat on a lake while reacting to strong wind by gripping the side of the boat.",
+      "grounding_info": [
+        "<leonardo>'s rowboat is black.",
+        "<leonardo> grips the side of the boat in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is cooking the dish his makes best while wearing his apron.",
+      "t2i_exact_prompt": "<leonardo> is cooking mushroom risotto, the dish his makes best, while wearing his green apron.",
+      "grounding_info": [
+        "<leonardo>'s best dish is mushroom risotto.",
+        "<leonardo>'s cooking apron is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is doing his usual evening activity while holding his most treasured book.",
+      "t2i_exact_prompt": "<leonardo> is doing his usual evening activity by reading beside a window while holding his most treasured book with a white cover.",
+      "grounding_info": [
+        "<leonardo> reads beside a window every evening.",
+        "<leonardo>'s most treasured book has a white cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is riding his weekend bicycle in bright sunlight.",
+      "t2i_exact_prompt": "<leonardo> is riding his black weekend bicycle in bright sunlight while wearing hexagonal sunglasses.",
+      "grounding_info": [
+        "<leonardo>'s weekend bicycle is black.",
+        "<leonardo> wears hexagonal sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<leonardo> is performing his favorite kind of music with the instrument his plays best.",
+      "t2i_exact_prompt": "<leonardo> is performing blues, his favorite kind of music, on the saxophone, the instrument his plays best.",
+      "grounding_info": [
+        "<leonardo>'s favorite music is blues.",
+        "<leonardo>'s strongest musical skill is playing the saxophone."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<leonardo> is wearing his favorite pair of socks.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<leonardo> is playing with his pet.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<leonardo> is using his rowboat on his favorite lake.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<leonardo> is wearing his formal suit with his favorite tie.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

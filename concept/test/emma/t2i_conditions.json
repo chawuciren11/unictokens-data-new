@@ -1,0 +1,167 @@
+{
+  "concept_generation": [
+    "A photo of <emma>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <emma> at formal events.",
+    "A photo of <emma> wearing her magic hat.",
+    "A photo of <emma> with her hair tied by a ribbon when running.",
+    "A photo of <emma> drinking tea from her porcelain cup.",
+    "A photo of <emma> standing next to her exhibited painting in 2023.",
+    "A photo of <emma> during summer walks."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <emma> at formal events wearing her elegant black dress.",
+    "A photo of <emma> wearing her blue magical hat.",
+    "A photo of <emma> with her hair tied by a white ribbon when running.",
+    "A photo of <emma> drinking tea from her porcelain cup with floral patterns.",
+    "A photo of <emma> standing next to her painting of flowers exhibited in 2023.",
+    "A photo of <emma> during summer walks wearing her wide-brimmed sunhat."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a quiet art gallery, <emma> is standing near a large framed painting. Wooden floors and spotlights illuminate the room.",
+    "A photo of <emma> sitting on a stone bench in a garden. A tall hedge and blooming flowers surround the scene.",
+    "A photo of a railway platform in the evening, <emma> is waiting beside a lamppost. The tracks stretch into the distance and a train approaches."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <emma> holding her tea cup, standing with her painting in 2023."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <emma> holding her porcelain cup with floral patterns, standing with her painting of flowers exhibited."
+  ],
+  "info": "<emma> is a graceful young woman known for her expressive eyes and smooth complexion.",
+  "extra_info": [
+    "<emma>'s bedroom rug is beige.",
+    "<emma>'s kitchen curtains are orange.",
+    "<emma>'s everyday wristwatch is blue.",
+    "<emma>'s camera is blue.",
+    "<emma>'s favorite fruit is a peach.",
+    "<emma>'s favorite flower is a lily.",
+    "<emma> checks the mailbox on Monday evenings.",
+    "<emma> writes in a diary at her desk each evening.",
+    "<emma>'s strongest swimming skill is butterfly stroke.",
+    "<emma>'s family car is yellow."
+  ],
+  "noisy_info": [
+    "<fine_woolfhard>'s bedroom rug is brown.",
+    "<leonardo>'s kitchen curtains are red.",
+    "<emma>'s usual breakfast fruit is an apple.",
+    "<emma>'s hiking wristwatch is brown."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<emma> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<emma> is standing on the beige rug in their bedroom.",
+      "grounding_info": [
+        "<emma>'s bedroom rug is beige."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<emma> is opening the orange curtains in their kitchen.",
+      "grounding_info": [
+        "<emma>'s kitchen curtains are orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<emma> is checking the time on their blue everyday wristwatch.",
+      "grounding_info": [
+        "<emma>'s everyday wristwatch is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<emma> is taking a photograph with their blue camera.",
+      "grounding_info": [
+        "<emma>'s camera is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<emma> is placing a lily, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<emma>'s favorite flower is a lily."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is following their usual diary routine.",
+      "t2i_exact_prompt": "<emma> is writing in a diary at her desk each evening, their usual diary routine.",
+      "grounding_info": [
+        "<emma> writes in a diary at her desk each evening."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<emma> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<emma> is choosing a peach, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<emma>'s favorite fruit is a peach."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<emma> is checking the mailbox on Monday evenings, their usual mailbox routine.",
+      "grounding_info": [
+        "<emma> checks the mailbox on Monday evenings."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<emma> is demonstrating butterfly stroke, their strongest swimming skill.",
+      "grounding_info": [
+        "<emma>'s strongest swimming skill is butterfly stroke."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<emma> is loading a bag into their yellow family car.",
+      "grounding_info": [
+        "<emma>'s family car is yellow."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<emma> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<emma> is wearing their blue everyday wristwatch while standing on their beige bedroom rug.",
+      "grounding_info": [
+        "<emma>'s bedroom rug is beige.",
+        "<emma>'s everyday wristwatch is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<emma> is writing in a diary at her desk each evening beside their orange kitchen curtains.",
+      "grounding_info": [
+        "<emma>'s kitchen curtains are orange.",
+        "<emma> writes in a diary at her desk each evening."
+      ]
+    },
+    {
+      "t2i_prompt": "<emma> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<emma> is photographing a lily, their favorite flower, with their blue camera.",
+      "grounding_info": [
+        "<emma>'s camera is blue.",
+        "<emma>'s favorite flower is a lily."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<emma> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<emma> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "woman",
+  "name": "Lily",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

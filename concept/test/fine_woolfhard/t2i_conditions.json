@@ -1,0 +1,167 @@
+{
+  "concept_generation": [
+    "A photo of <fine_woolfhard>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <fine_woolfhard> sitting in a garden.",
+    "A photo of <fine_woolfhard> on magazine covers.",
+    "A photo of <fine_woolfhard> reading wearing his glasses.",
+    "A photo of <fine_woolfhard> doing his favorite outdoor activity in autumn.",
+    "A photo of <fine_woolfhard> with his pet.",
+    "A photo of <fine_woolfhard> went cycling in 2019."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <fine_woolfhard> sitting in a garden wearing his patterned shirt.",
+    "A photo of <fine_woolfhard> on magazine covers dressed in all black.",
+    "A photo of <fine_woolfhard> reading wearing his round silver-rimmed glasses.",
+    "A photo of <fine_woolfhard> hiking in the mountains during autumn.",
+    "A photo of <fine_woolfhard> with his pet dog.",
+    "A photo of <fine_woolfhard> went cycling in the countryside."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a narrow cobblestone alley, <fine_woolfhard> is walking past brick walls. A bicycle leans against one side of the street.",
+    "A photo of <fine_woolfhard> sitting in a library hall under tall arched windows. Stacks of books and wooden chairs fill the space.",
+    "A photo of a riverside park in autumn, <fine_woolfhard> is standing near a metal railing. Fallen leaves cover the ground and a bridge spans the water in the distance."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <fine_woolfhard> engaging in his favorite autumn outdoor activity, with his pet. The background is filled with colorful fall foliage."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <fine_woolfhard> hiking in the mountains during autumn, with his pet dog. The background is filled with colorful fall foliage."
+  ],
+  "info": "<fine_woolfhard> is a young man with pale skin, prominent cheekbones, and medium-length curly black hair.",
+  "extra_info": [
+    "<fine_woolfhard>'s bedroom rug is brown.",
+    "<fine_woolfhard>'s kitchen curtains are blue.",
+    "<fine_woolfhard>'s everyday wristwatch is brown.",
+    "<fine_woolfhard>'s camera is green.",
+    "<fine_woolfhard>'s favorite fruit is a banana.",
+    "<fine_woolfhard>'s favorite flower is a daisy.",
+    "<fine_woolfhard> checks the mailbox after lunch.",
+    "<fine_woolfhard> writes in a diary after practicing music.",
+    "<fine_woolfhard>'s strongest swimming skill is sidestroke.",
+    "<fine_woolfhard>'s family car is green."
+  ],
+  "noisy_info": [
+    "<leonardo>'s bedroom rug is purple.",
+    "<ningning>'s kitchen curtains are green.",
+    "<fine_woolfhard>'s usual breakfast fruit is a peach.",
+    "<fine_woolfhard>'s hiking wristwatch is white."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<fine_woolfhard> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<fine_woolfhard> is standing on the brown rug in their bedroom.",
+      "grounding_info": [
+        "<fine_woolfhard>'s bedroom rug is brown."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<fine_woolfhard> is opening the blue curtains in their kitchen.",
+      "grounding_info": [
+        "<fine_woolfhard>'s kitchen curtains are blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<fine_woolfhard> is checking the time on their brown everyday wristwatch.",
+      "grounding_info": [
+        "<fine_woolfhard>'s everyday wristwatch is brown."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<fine_woolfhard> is taking a photograph with their green camera.",
+      "grounding_info": [
+        "<fine_woolfhard>'s camera is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<fine_woolfhard> is placing a daisy, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<fine_woolfhard>'s favorite flower is a daisy."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is following their usual diary routine.",
+      "t2i_exact_prompt": "<fine_woolfhard> is writing in a diary after practicing music, their usual diary routine.",
+      "grounding_info": [
+        "<fine_woolfhard> writes in a diary after practicing music."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<fine_woolfhard> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<fine_woolfhard> is choosing a banana, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<fine_woolfhard>'s favorite fruit is a banana."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<fine_woolfhard> is checking the mailbox after lunch, their usual mailbox routine.",
+      "grounding_info": [
+        "<fine_woolfhard> checks the mailbox after lunch."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<fine_woolfhard> is demonstrating sidestroke, their strongest swimming skill.",
+      "grounding_info": [
+        "<fine_woolfhard>'s strongest swimming skill is sidestroke."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<fine_woolfhard> is loading a bag into their green family car.",
+      "grounding_info": [
+        "<fine_woolfhard>'s family car is green."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<fine_woolfhard> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<fine_woolfhard> is wearing their brown everyday wristwatch while standing on their brown bedroom rug.",
+      "grounding_info": [
+        "<fine_woolfhard>'s bedroom rug is brown.",
+        "<fine_woolfhard>'s everyday wristwatch is brown."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<fine_woolfhard> is writing in a diary after practicing music beside their blue kitchen curtains.",
+      "grounding_info": [
+        "<fine_woolfhard>'s kitchen curtains are blue.",
+        "<fine_woolfhard> writes in a diary after practicing music."
+      ]
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<fine_woolfhard> is photographing a daisy, their favorite flower, with their green camera.",
+      "grounding_info": [
+        "<fine_woolfhard>'s camera is green.",
+        "<fine_woolfhard>'s favorite flower is a daisy."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<fine_woolfhard> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<fine_woolfhard> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

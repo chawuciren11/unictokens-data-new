@@ -1,0 +1,207 @@
+{
+  "archive": "unictokens-generation-data-40-files.zip",
+  "archive_sha256": "c06cc7caee722378467a53f7ce12fd9cf3ee5915ce7f63a05f22cb888c6a7b5d",
+  "file_count": 40,
+  "files": [
+    {
+      "path": "concept/test/adrien_brody/t2i_conditions.json",
+      "bytes": 7214,
+      "sha256": "ba24ee6215acb0773772a0a0245464bf85927f008dcfbf1e2b8b47ef983c641b"
+    },
+    {
+      "path": "concept/test/b_jordan/t2i_conditions.json",
+      "bytes": 6783,
+      "sha256": "5bf5034110cf8cffa13962a70339f2327cf5315300e91d8f1680f9e3779e875a"
+    },
+    {
+      "path": "concept/test/bo/t2i_conditions.json",
+      "bytes": 6079,
+      "sha256": "e3e91c76f9dc77dceb82cf6148b461f972b077759f2d8a5226ea429eb7906d1b"
+    },
+    {
+      "path": "concept/test/butin/t2i_conditions.json",
+      "bytes": 6241,
+      "sha256": "bd061f5f5cec5dc69531d10b033c7e8c63ffcd523cf25c3d1f1ea422982a2d9e"
+    },
+    {
+      "path": "concept/test/coco/t2i_conditions.json",
+      "bytes": 6678,
+      "sha256": "1e36649ebb971560d8dfdf8e16b18b42f7e3bb630c829334b037180401723806"
+    },
+    {
+      "path": "concept/test/dunpai/t2i_conditions.json",
+      "bytes": 7751,
+      "sha256": "16cf89fd48e075a988beb3833429097ab94aca52c3337b4653a2a3b9f4cf1a9e"
+    },
+    {
+      "path": "concept/test/emma/t2i_conditions.json",
+      "bytes": 6670,
+      "sha256": "dce7ca216f61bc722e99dabb42baf2929477de2625547e1cf254eadae69e9eb2"
+    },
+    {
+      "path": "concept/test/fine_woolfhard/t2i_conditions.json",
+      "bytes": 7355,
+      "sha256": "060770d54898dc71f3143ad78dba08c46feb0634ed91682718d5e47e2bb6cd5b"
+    },
+    {
+      "path": "concept/test/gold_pineapple/t2i_conditions.json",
+      "bytes": 8108,
+      "sha256": "70c64f7c80bd06c042b5fa8b8b21bdd0f37957d6dde71186850b7f56d07bdc0e"
+    },
+    {
+      "path": "concept/test/leonardo/t2i_conditions.json",
+      "bytes": 7101,
+      "sha256": "5fad036358988af4f2153976d5f365b4f35c8e8f5c62be464f8989a0aac74d0f"
+    },
+    {
+      "path": "concept/test/maeve_dog/t2i_conditions.json",
+      "bytes": 6591,
+      "sha256": "9bbb1d24a1924e15127ab541f6eff2c13c77c3f8b0a1fc121485b1c3d085a127"
+    },
+    {
+      "path": "concept/test/mam/t2i_conditions.json",
+      "bytes": 6088,
+      "sha256": "6c38cc937d8b7001b0fd03c6923ecdbcab8ec503b1408022ed2cb195b7db9574"
+    },
+    {
+      "path": "concept/test/mydieu/t2i_conditions.json",
+      "bytes": 6160,
+      "sha256": "a0d1df404451500aa02c977a7cf633babff62b56074fb3d5b25ee91c6d6a982c"
+    },
+    {
+      "path": "concept/test/nha_tho_hanoi/t2i_conditions.json",
+      "bytes": 8503,
+      "sha256": "7bbef69ef0f7094cfda89242209d135d7ba99235059d62b1bdf1b6830ac0f2cf"
+    },
+    {
+      "path": "concept/test/ningning/t2i_conditions.json",
+      "bytes": 6986,
+      "sha256": "2250a58a349f299bdafebb7a70dd86add75a2139f3b24fe8f616b18e8af8752e"
+    },
+    {
+      "path": "concept/test/pig_cup/t2i_conditions.json",
+      "bytes": 7264,
+      "sha256": "36fb5b4da0bc322da90df90752d537f5051f2a087040b2060c0a1ea008b746fe"
+    },
+    {
+      "path": "concept/test/skulls_mug/t2i_conditions.json",
+      "bytes": 7752,
+      "sha256": "4f37d0ab24a47177ba4d147a4fa554d197e97aa00f16642784c009a507633833"
+    },
+    {
+      "path": "concept/test/wangkai/t2i_conditions.json",
+      "bytes": 6642,
+      "sha256": "af176b888e1fc05ebb87bd66227a278cf543495e09b3c7cb4a4be9353ac49141"
+    },
+    {
+      "path": "concept/test/will/t2i_conditions.json",
+      "bytes": 6449,
+      "sha256": "7689b962483b8e1b28e8dace75e510467cc80b3341613e0c646fd048e0983b6a"
+    },
+    {
+      "path": "concept/test/willinvietnam/t2i_conditions.json",
+      "bytes": 7159,
+      "sha256": "28b54079f9c964df79128bdb081d65e0f89bcb23aedec6f6eb9ed519bb2b0069"
+    },
+    {
+      "path": "concept/train/adrien_brody/info.json",
+      "bytes": 10478,
+      "sha256": "e09522213cecad5a4ac93bac0fd43c30fb84ce667c0ccb3cb9c8abcb679e7fd3"
+    },
+    {
+      "path": "concept/train/b_jordan/info.json",
+      "bytes": 10205,
+      "sha256": "e36c575d0165093d2c6880d9fc2eb4dcb183410d5aec9a55e09dc61956feb417"
+    },
+    {
+      "path": "concept/train/bo/info.json",
+      "bytes": 9132,
+      "sha256": "ac57ad4f9982c2a384bb6ef305cbf44107665efc1c94bff113492e72f73380b7"
+    },
+    {
+      "path": "concept/train/butin/info.json",
+      "bytes": 9423,
+      "sha256": "786ecf72e4ec73f045dcc87e6437face0c0c8797f057505cbc488d94fbf14706"
+    },
+    {
+      "path": "concept/train/coco/info.json",
+      "bytes": 9638,
+      "sha256": "a35a58650bf6ed90b1a5206c917f92192dc1f60ceae6be4c64464fec6c053d84"
+    },
+    {
+      "path": "concept/train/dunpai/info.json",
+      "bytes": 10787,
+      "sha256": "b0344a5d06dd5dbc7b7229f307abec65a6970af29b0ed59087280e9e721ec991"
+    },
+    {
+      "path": "concept/train/emma/info.json",
+      "bytes": 9629,
+      "sha256": "4589e890e05678557e336ac00a18ab55b73bb16c8246541b7edbe1d9c0316217"
+    },
+    {
+      "path": "concept/train/fine_woolfhard/info.json",
+      "bytes": 10799,
+      "sha256": "0e2cf423828640523c19839b00e2e5627830b74bc7086d87ccb651df0a8ec5c9"
+    },
+    {
+      "path": "concept/train/gold_pineapple/info.json",
+      "bytes": 11818,
+      "sha256": "6e80ab558d90efa2419298d08fae70056506d1d40f2759d8127b600a09c168af"
+    },
+    {
+      "path": "concept/train/leonardo/info.json",
+      "bytes": 10206,
+      "sha256": "69e60bfc4ea384dce740f8f7af6066a7415d03a57ccda3f27767d9504a5fdac2"
+    },
+    {
+      "path": "concept/train/maeve_dog/info.json",
+      "bytes": 9975,
+      "sha256": "72e49c49eec7edcfb586fd5aea4c223cd1b4398ae8ec8acee2b6c3c1f671e463"
+    },
+    {
+      "path": "concept/train/mam/info.json",
+      "bytes": 9226,
+      "sha256": "81fcfa12fc6d16dda266f7cae5b2d6c37d9c1c6c422487e222acd80a15e98c3d"
+    },
+    {
+      "path": "concept/train/mydieu/info.json",
+      "bytes": 9520,
+      "sha256": "c7caf1983d7c98b7f429254bf02fccdc4beeedc71756fc1a17d21a797321fcd9"
+    },
+    {
+      "path": "concept/train/nha_tho_hanoi/info.json",
+      "bytes": 12990,
+      "sha256": "8dfc9c1bc8b9e815ca62f36f48bcc4a77b43fe1d0337b21defdb1c533fce58ce"
+    },
+    {
+      "path": "concept/train/ningning/info.json",
+      "bytes": 10208,
+      "sha256": "aceb3c5311283371754ba48fdaf6693e407d9f19b94f25a59549358e01b94af5"
+    },
+    {
+      "path": "concept/train/pig_cup/info.json",
+      "bytes": 10455,
+      "sha256": "ab2359ac9a4a9b3a0fa291892be1f182eb974eb0d77d834c1c59e25d38fcb90b"
+    },
+    {
+      "path": "concept/train/skulls_mug/info.json",
+      "bytes": 11492,
+      "sha256": "d3cc0a4bc1d1abf08ac6e3051f303fd39d6f4ea1ab2b83b8dd2544f164dc77dc"
+    },
+    {
+      "path": "concept/train/wangkai/info.json",
+      "bytes": 10157,
+      "sha256": "3c38992cc07073d0250906e48ff7d1983f6356fc1b1d6892bed4108fa106b2f5"
+    },
+    {
+      "path": "concept/train/will/info.json",
+      "bytes": 9677,
+      "sha256": "962fd1283fa4034804a262fa0bcee10a0d1bfa73a9d13bbc43adb87ce5660945"
+    },
+    {
+      "path": "concept/train/willinvietnam/info.json",
+      "bytes": 10689,
+      "sha256": "985c1eb486e872e9a6f5be46268d624263adce6205a61800cabed298134cead5"
+    }
+  ]
+}

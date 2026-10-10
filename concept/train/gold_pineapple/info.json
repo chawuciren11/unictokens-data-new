@@ -1,0 +1,255 @@
+{
+  "info": "<gold_pineapple> is a glossy golden pineapple-shaped container with a crisscross texture and spiky metallic leaves.",
+  "extra_info": [
+    "<gold_pineapple>'s usual display tray is black.",
+    "<gold_pineapple>'s usual serving spoon is silver.",
+    "<gold_pineapple>'s lid rests on a white plate during dessert service.",
+    "A round mirror stands behind <gold_pineapple> during candlelight displays.",
+    "<gold_pineapple>'s storage shelf is white.",
+    "<gold_pineapple>'s dessert tongs are gold.",
+    "<gold_pineapple>'s lid is wrapped in a red cloth during transport.",
+    "<gold_pineapple>'s usual evening placemat is burgundy.",
+    "<gold_pineapple> contains wrapped candies at parties.",
+    "<gold_pineapple> holds ice cubes at summer dinners.",
+    "<gold_pineapple> stands at the center of a round table during celebrations.",
+    "Two white candles stand beside <gold_pineapple> during dinners.",
+    "<gold_pineapple> is carried with both hands when moved.",
+    "A red ribbon is tied around <gold_pineapple>'s leaves when it is given as a gift.",
+    "<gold_pineapple> stands on a blue cloth at exhibitions.",
+    "<gold_pineapple> is polished with a black cloth every month.",
+    "<gold_pineapple> is stored with its lid closed.",
+    "<gold_pineapple>'s lid rests on a small plate while snacks are served.",
+    "Three small glass bowls stand beside <gold_pineapple> at summer dinners.",
+    "A small amber lamp stands beside <gold_pineapple> in the evening."
+  ],
+  "noisy_info": [
+    "A green information booth stands in <nha_tho_hanoi>'s front square on weekday afternoons.",
+    "Blue banners decorate <nha_tho_hanoi> during its annual music festival.",
+    "<nha_tho_hanoi>'s facade is lit with warm yellow lights after sunset.",
+    "Red umbrellas gather near <nha_tho_hanoi>'s main entrance on rainy days.",
+    "<gold_pineapple>'s shipping crate is brown.",
+    "<gold_pineapple>'s cleaning brush is blue.",
+    "<gold_pineapple>'s lid rests on a gray towel during cleaning.",
+    "<gold_pineapple> produces a bright white glare in direct sunlight."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<gold_pineapple> is open at a party with its usual contents visible.",
+      "t2i_exact_prompt": "<gold_pineapple> is open at a party and contains wrapped candies, its usual party contents.",
+      "grounding_info": [
+        "<gold_pineapple> contains wrapped candies at parties."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is open at a summer dinner with its usual contents visible.",
+      "t2i_exact_prompt": "<gold_pineapple> is open at a summer dinner and holds ice cubes, its usual summer contents.",
+      "grounding_info": [
+        "<gold_pineapple> holds ice cubes at summer dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing in its usual place during a celebration.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing at the center of a round table, its usual place during a celebration.",
+      "grounding_info": [
+        "<gold_pineapple> stands at the center of a round table during celebrations."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing beside its usual dinner decorations.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing beside two white candles, its usual dinner decorations.",
+      "grounding_info": [
+        "Two white candles stand beside <gold_pineapple> during dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is being moved in the usual way.",
+      "t2i_exact_prompt": "<gold_pineapple> is being moved with both hands, the usual way it is carried.",
+      "grounding_info": [
+        "<gold_pineapple> is carried with both hands when moved."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is decorated in the usual way when given as a gift.",
+      "t2i_exact_prompt": "<gold_pineapple> is decorated with a red ribbon tied around its leaves when given as a gift.",
+      "grounding_info": [
+        "A red ribbon is tied around <gold_pineapple>'s leaves when it is given as a gift."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing on its usual cloth at an exhibition.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing on its usual blue cloth at an exhibition.",
+      "grounding_info": [
+        "<gold_pineapple> stands on a blue cloth at exhibitions."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is being polished with its usual monthly cloth.",
+      "t2i_exact_prompt": "<gold_pineapple> is being polished with its usual black monthly cloth.",
+      "grounding_info": [
+        "<gold_pineapple> is polished with a black cloth every month."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is being stored in its usual state.",
+      "t2i_exact_prompt": "<gold_pineapple> is being stored with its lid closed, its usual storage state.",
+      "grounding_info": [
+        "<gold_pineapple> is stored with its lid closed."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is open while snacks are served with its lid resting nearby.",
+      "t2i_exact_prompt": "<gold_pineapple> is open while snacks are served with its lid resting on a small plate nearby.",
+      "grounding_info": [
+        "<gold_pineapple>'s lid rests on a small plate while snacks are served."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing beside its usual small bowls at a summer dinner.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing beside three small glass bowls at a summer dinner.",
+      "grounding_info": [
+        "Three small glass bowls stand beside <gold_pineapple> at summer dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing beside its usual lamp in the evening.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing beside a small amber lamp in the evening.",
+      "grounding_info": [
+        "A small amber lamp stands beside <gold_pineapple> in the evening."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<gold_pineapple> is standing on its usual display tray.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing on its usual black display tray.",
+      "grounding_info": [
+        "<gold_pineapple>'s usual display tray is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is displayed beside its usual serving spoon.",
+      "t2i_exact_prompt": "<gold_pineapple> is displayed beside its usual silver serving spoon.",
+      "grounding_info": [
+        "<gold_pineapple>'s usual serving spoon is silver."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is open during dessert service with its lid resting nearby.",
+      "t2i_exact_prompt": "<gold_pineapple> is open during dessert service with its lid resting on a white plate nearby.",
+      "grounding_info": [
+        "<gold_pineapple>'s lid rests on a white plate during dessert service."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is displayed in front of its usual mirror during a candlelight display.",
+      "t2i_exact_prompt": "<gold_pineapple> is displayed in front of a round mirror during a candlelight display.",
+      "grounding_info": [
+        "A round mirror stands behind <gold_pineapple> during candlelight displays."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing on its storage shelf.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing on its white storage shelf.",
+      "grounding_info": [
+        "<gold_pineapple>'s storage shelf is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing beside its dessert tongs.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing beside its gold dessert tongs.",
+      "grounding_info": [
+        "<gold_pineapple>'s dessert tongs are gold."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple>'s lid is wrapped in its usual cloth during transport.",
+      "t2i_exact_prompt": "<gold_pineapple>'s lid is wrapped in its usual red cloth during transport.",
+      "grounding_info": [
+        "<gold_pineapple>'s lid is wrapped in a red cloth during transport."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing on its usual evening placemat.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing on its usual burgundy evening placemat.",
+      "grounding_info": [
+        "<gold_pineapple>'s usual evening placemat is burgundy."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<gold_pineapple> is open with its party contents visible and its lid resting nearby.",
+      "t2i_exact_prompt": "<gold_pineapple> is open with wrapped candies, its party contents, visible and its lid resting on a small plate nearby.",
+      "grounding_info": [
+        "<gold_pineapple> contains wrapped candies at parties.",
+        "<gold_pineapple>'s lid rests on a small plate while snacks are served."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is open beside its usual bowls at a summer dinner.",
+      "t2i_exact_prompt": "<gold_pineapple> is open with ice cubes inside beside three small glass bowls at a summer dinner.",
+      "grounding_info": [
+        "<gold_pineapple> holds ice cubes at summer dinners.",
+        "Three small glass bowls stand beside <gold_pineapple> at summer dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing in its usual place beside its dinner decorations during a celebration.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing at the center of a round table beside two white candles during a celebration.",
+      "grounding_info": [
+        "<gold_pineapple> stands at the center of a round table during celebrations.",
+        "Two white candles stand beside <gold_pineapple> during dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is being carried in its usual storage state.",
+      "t2i_exact_prompt": "<gold_pineapple> is being carried with both hands while its lid is closed, its usual storage state.",
+      "grounding_info": [
+        "<gold_pineapple> is carried with both hands when moved.",
+        "<gold_pineapple> is stored with its lid closed."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is decorated as a gift while standing on its usual exhibition cloth.",
+      "t2i_exact_prompt": "<gold_pineapple> has a red ribbon tied around its leaves as a gift while standing on its blue exhibition cloth.",
+      "grounding_info": [
+        "A red ribbon is tied around <gold_pineapple>'s leaves when it is given as a gift.",
+        "<gold_pineapple> stands on a blue cloth at exhibitions."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is being polished beside its usual evening lamp.",
+      "t2i_exact_prompt": "<gold_pineapple> is being polished with its black monthly cloth beside a small amber evening lamp.",
+      "grounding_info": [
+        "<gold_pineapple> is polished with a black cloth every month.",
+        "A small amber lamp stands beside <gold_pineapple> in the evening."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<gold_pineapple> is displayed beneath its usual glass dome.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is stored inside its usual cabinet.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> contains wrapped candies beside its usual flower vase.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing on its exhibition cloth under its usual ceiling lamp.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "object",
+  "name": "pineapple",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

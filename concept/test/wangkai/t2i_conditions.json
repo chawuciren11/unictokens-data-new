@@ -1,0 +1,165 @@
+{
+  "concept_generation": [
+    "A photo of <wangkai>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <wangkai> in his home.",
+    "A photo of <wangkai> wearing his jackets.",
+    "A photo of the most unforgettable event for <wangkai>.",
+    "A photo of <wangkai> holding his favorite food.",
+    "A photo of <wangkai> at a film premiere in 2021."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <wangkai> in his home by the sea.",
+    "A photo of <wangkai> wearing his jackets with subtle lapel pins as accessories.",
+    "A photo of <wangkai> on a desert survival trip",
+    "A photo of <wangkai> holding a hamburger.",
+    "A photo of <wangkai> at a film premiere wearing a tuxedo."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a tree-lined avenue, <wangkai> is walking along the sidewalk. Parked bicycles and a brick building stand nearby.",
+    "A photo of <wangkai> sitting in a modern office lounge. A leather sofa and a glass coffee table are placed in the room.",
+    "A photo of a railway station platform, <wangkai> is standing beside a metal bench. An arriving train and overhead signs are visible."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <wangkai> holding his favorite food, at a film premiere in 2021. The background is a red carpet event."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <wangkai> holding a hamburger, at a film premiere wearing a tuxedo. The background is a red carpet event."
+  ],
+  "info": "<wangkai> is a well-groomed man with neatly styled black hair, fair skin, and a defined jawline.",
+  "extra_info": [
+    "<wangkai>'s bedroom rug is yellow.",
+    "<wangkai>'s kitchen curtains are purple.",
+    "<wangkai>'s everyday wristwatch is red.",
+    "<wangkai>'s camera is orange.",
+    "<wangkai>'s favorite fruit is a mango.",
+    "<wangkai>'s favorite flower is a peony.",
+    "<wangkai> checks the mailbox after returning home.",
+    "<wangkai> writes in a diary after evening tea.",
+    "<wangkai>'s strongest swimming skill is combat sidestroke.",
+    "<wangkai>'s family car is brown."
+  ],
+  "noisy_info": [
+    "<will>'s bedroom rug is white.",
+    "<willinvietnam>'s kitchen curtains are white.",
+    "<wangkai>'s usual breakfast fruit is a pear.",
+    "<wangkai>'s hiking wristwatch is navy blue."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<wangkai> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<wangkai> is standing on the yellow rug in their bedroom.",
+      "grounding_info": [
+        "<wangkai>'s bedroom rug is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<wangkai> is opening the purple curtains in their kitchen.",
+      "grounding_info": [
+        "<wangkai>'s kitchen curtains are purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<wangkai> is checking the time on their red everyday wristwatch.",
+      "grounding_info": [
+        "<wangkai>'s everyday wristwatch is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<wangkai> is taking a photograph with their orange camera.",
+      "grounding_info": [
+        "<wangkai>'s camera is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<wangkai> is placing a peony, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<wangkai>'s favorite flower is a peony."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is following their usual diary routine.",
+      "t2i_exact_prompt": "<wangkai> is writing in a diary after evening tea, their usual diary routine.",
+      "grounding_info": [
+        "<wangkai> writes in a diary after evening tea."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<wangkai> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<wangkai> is choosing a mango, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<wangkai>'s favorite fruit is a mango."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<wangkai> is checking the mailbox after returning home, their usual mailbox routine.",
+      "grounding_info": [
+        "<wangkai> checks the mailbox after returning home."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<wangkai> is demonstrating combat sidestroke, their strongest swimming skill.",
+      "grounding_info": [
+        "<wangkai>'s strongest swimming skill is combat sidestroke."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<wangkai> is loading a bag into their brown family car.",
+      "grounding_info": [
+        "<wangkai>'s family car is brown."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<wangkai> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<wangkai> is wearing their red everyday wristwatch while standing on their yellow bedroom rug.",
+      "grounding_info": [
+        "<wangkai>'s bedroom rug is yellow.",
+        "<wangkai>'s everyday wristwatch is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<wangkai> is writing in a diary after evening tea beside their purple kitchen curtains.",
+      "grounding_info": [
+        "<wangkai>'s kitchen curtains are purple.",
+        "<wangkai> writes in a diary after evening tea."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<wangkai> is photographing a peony, their favorite flower, with their orange camera.",
+      "grounding_info": [
+        "<wangkai>'s camera is orange.",
+        "<wangkai>'s favorite flower is a peony."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<wangkai> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<wangkai> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

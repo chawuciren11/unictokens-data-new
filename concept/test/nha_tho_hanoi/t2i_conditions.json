@@ -1,0 +1,161 @@
+{
+  "concept_generation": [
+    "A photo of <nha_tho_hanoi>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of this area before the construction of <nha_tho_hanoi>.",
+    "A photo of <nha_tho_hanoi> taken in 2020, it still retains its original appearance.",
+    "A photo of <nha_tho_hanoi> during festivals."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of this area before the construction of <nha_tho_hanoi>, showing a plain landscape.",
+    "A photo of <nha_tho_hanoi> without the cross on the central bell tower.",
+    "A photo of <nha_tho_hanoi> decorated with flowers and banners."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a bustling city square, <nha_tho_hanoi> rises in the background. People are walking across the plaza and bicycles are parked nearby.",
+    "A photo of <nha_tho_hanoi> viewed from a tree-lined street. Cars are parked along the curb and streetlights line the road.",
+    "A photo of a festival evening, <nha_tho_hanoi> is illuminated in the distance. Colorful lanterns hang overhead and a crowd gathers in front of the facade."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <nha_tho_hanoi> during a festival, though the weather was overcast and rainy, with few people present aside from the decorations."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <nha_tho_hanoi> decorated with flowers and banners, though the weather was overcast and rainy, with few people present aside from the decorations."
+  ],
+  "info": "<nha_tho_hanoi> is a Gothic Revival cathedral with twin bell towers, pointed arches, and a large rose window on the facade.",
+  "extra_info": [
+    "Purple banners decorate <nha_tho_hanoi> during its literature festival.",
+    "A yellow book-return box stands to the left of <nha_tho_hanoi> on weekday mornings.",
+    "Green tour umbrellas gather in front of <nha_tho_hanoi> during weekday tours.",
+    "Orange lanterns line <nha_tho_hanoi>'s central steps during the autumn festival.",
+    "A wooden podium stands in <nha_tho_hanoi>'s plaza during literature-festival lectures.",
+    "A blue carpet leads to <nha_tho_hanoi>'s side entrance during choir rehearsals.",
+    "Food donation boxes stand to the right of <nha_tho_hanoi>'s entrance in January.",
+    "Three white tour buses park along <nha_tho_hanoi>'s east curb during weekday tours.",
+    "A red ticket booth stands near <nha_tho_hanoi>'s gate during autumn concerts.",
+    "A black camera tripod stands in front of <nha_tho_hanoi> during documentary filming."
+  ],
+  "noisy_info": [
+    "<pig_cup>'s usual coaster is cork.",
+    "A green glass bottle stands behind <skulls_mug> during gothic dinners.",
+    "A blue parcel box stands beside <nha_tho_hanoi> on weekend afternoons.",
+    "A green runner leads to <nha_tho_hanoi>'s main entrance during school ceremonies."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<nha_tho_hanoi> is decorated with its usual banners during the literature festival.",
+      "t2i_exact_prompt": "<nha_tho_hanoi> is decorated with purple banners during the literature festival.",
+      "grounding_info": [
+        "Purple banners decorate <nha_tho_hanoi> during its literature festival."
+      ]
+    },
+    {
+      "t2i_prompt": "A podium is standing in its usual place during a literature-festival lecture at <nha_tho_hanoi>.",
+      "t2i_exact_prompt": "A wooden podium is standing in <nha_tho_hanoi>'s plaza during a literature-festival lecture.",
+      "grounding_info": [
+        "A wooden podium stands in <nha_tho_hanoi>'s plaza during literature-festival lectures."
+      ]
+    },
+    {
+      "t2i_prompt": "Tour umbrellas are gathering in their usual place near <nha_tho_hanoi> during a weekday tour.",
+      "t2i_exact_prompt": "Green tour umbrellas are gathering in front of <nha_tho_hanoi> during a weekday tour.",
+      "grounding_info": [
+        "Green tour umbrellas gather in front of <nha_tho_hanoi> during weekday tours."
+      ]
+    },
+    {
+      "t2i_prompt": "Tour buses are parked in their usual place near <nha_tho_hanoi> during a weekday tour.",
+      "t2i_exact_prompt": "Three white tour buses are parked along <nha_tho_hanoi>'s east curb during a weekday tour.",
+      "grounding_info": [
+        "Three white tour buses park along <nha_tho_hanoi>'s east curb during weekday tours."
+      ]
+    },
+    {
+      "t2i_prompt": "Lanterns are lining <nha_tho_hanoi>'s central steps during the autumn festival.",
+      "t2i_exact_prompt": "Orange lanterns are lining <nha_tho_hanoi>'s central steps during the autumn festival.",
+      "grounding_info": [
+        "Orange lanterns line <nha_tho_hanoi>'s central steps during the autumn festival."
+      ]
+    },
+    {
+      "t2i_prompt": "A ticket booth is standing in its usual place near <nha_tho_hanoi> during an autumn concert.",
+      "t2i_exact_prompt": "A red ticket booth is standing near <nha_tho_hanoi>'s gate during an autumn concert.",
+      "grounding_info": [
+        "A red ticket booth stands near <nha_tho_hanoi>'s gate during autumn concerts."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "A book-return box is standing in its usual weekday location beside <nha_tho_hanoi>.",
+      "t2i_exact_prompt": "A yellow book-return box is standing to the left of <nha_tho_hanoi> on a weekday morning.",
+      "grounding_info": [
+        "A yellow book-return box stands to the left of <nha_tho_hanoi> on weekday mornings."
+      ]
+    },
+    {
+      "t2i_prompt": "A rehearsal carpet is leading to <nha_tho_hanoi>'s side entrance.",
+      "t2i_exact_prompt": "A blue carpet is leading to <nha_tho_hanoi>'s side entrance during a choir rehearsal.",
+      "grounding_info": [
+        "A blue carpet leads to <nha_tho_hanoi>'s side entrance during choir rehearsals."
+      ]
+    },
+    {
+      "t2i_prompt": "Donation boxes are standing in their usual January location near <nha_tho_hanoi>.",
+      "t2i_exact_prompt": "Food donation boxes are standing to the right of <nha_tho_hanoi>'s entrance in January.",
+      "grounding_info": [
+        "Food donation boxes stand to the right of <nha_tho_hanoi>'s entrance in January."
+      ]
+    },
+    {
+      "t2i_prompt": "A camera tripod is standing in its usual filming position near <nha_tho_hanoi>.",
+      "t2i_exact_prompt": "A black camera tripod is standing in front of <nha_tho_hanoi> during documentary filming.",
+      "grounding_info": [
+        "A black camera tripod stands in front of <nha_tho_hanoi> during documentary filming."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<nha_tho_hanoi> is decorated with its usual banners beside a podium during a literature-festival lecture.",
+      "t2i_exact_prompt": "<nha_tho_hanoi> is decorated with purple banners beside a wooden podium during a literature-festival lecture.",
+      "grounding_info": [
+        "Purple banners decorate <nha_tho_hanoi> during its literature festival.",
+        "A wooden podium stands in <nha_tho_hanoi>'s plaza during literature-festival lectures."
+      ]
+    },
+    {
+      "t2i_prompt": "Tour umbrellas gather in front of <nha_tho_hanoi> beside the usual tour buses during a weekday tour.",
+      "t2i_exact_prompt": "Green tour umbrellas gather in front of <nha_tho_hanoi> beside three white tour buses along the east curb during a weekday tour.",
+      "grounding_info": [
+        "Green tour umbrellas gather in front of <nha_tho_hanoi> during weekday tours.",
+        "Three white tour buses park along <nha_tho_hanoi>'s east curb during weekday tours."
+      ]
+    },
+    {
+      "t2i_prompt": "Lanterns line <nha_tho_hanoi>'s steps beside its usual ticket booth during an autumn event.",
+      "t2i_exact_prompt": "Orange lanterns line <nha_tho_hanoi>'s central steps beside a red ticket booth during an autumn event.",
+      "grounding_info": [
+        "Orange lanterns line <nha_tho_hanoi>'s central steps during the autumn festival.",
+        "A red ticket booth stands near <nha_tho_hanoi>'s gate during autumn concerts."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "A wind sculpture stands in its usual place beside <nha_tho_hanoi>.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "Purple banners decorate <nha_tho_hanoi> beside its usual literature-festival mascot.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "building",
+  "name": "building",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

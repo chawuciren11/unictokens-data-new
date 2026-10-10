@@ -1,0 +1,167 @@
+{
+  "concept_generation": [
+    "A photo of <bo>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <bo> wearing his harness.",
+    "A photo of <bo> drinking from his bowl.",
+    "A photo of <bo> in the backyard.",
+    "A photo of <bo> wearing its hat.",
+    "A photo of <bo> resting on its resting spot.",
+    "A photo of <bo> doing what he loves when he is in the garden."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <bo> wearing his blue harness.",
+    "A photo of <bo> drinking from his stainless steel bowl.",
+    "A photo of <bo> in the backyard where he has dug a small hole with his paws.",
+    "A photo of <bo> wearing his red hat.",
+    "A photo of <bo> resting on his soft white carpet resting spot.",
+    "A photo of <bo> chasing butterflies in the garden."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a quiet park in the morning, <bo> is standing on the grassy field. Behind him, a row of tall trees casts long shadows.",
+    "A photo of <bo> sitting on a stone pathway in a Japanese garden. A red wooden bridge and a pond with koi fish are visible nearby.",
+    "A photo of a living room interior, <bo> is resting on a patterned rug. A sofa and a small wooden coffee table can be seen in the background."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <bo> wearing his hat, resting at his relaxation spot, with his eyes closed, appearing very relaxed."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <bo> wearing his red hat, resting at his soft white carpet resting spot, with his eyes closed, appearing very relaxed."
+  ],
+  "info": "<bo> is a Shiba Inu dog with a round face, fluffy cream and reddish-brown fur, and a curly tail.",
+  "extra_info": [
+    "<bo>'s name tag is round.",
+    "<bo>'s feeding station is white.",
+    "<bo>'s toy rope is red.",
+    "<bo>'s blanket is blue.",
+    "<bo>'s favorite plush toy is rabbit-shaped.",
+    "<bo>'s indoor food puzzle is orange.",
+    "<bo>'s usual reward food is cooked chicken.",
+    "<bo> waits by the door when seeing a leash.",
+    "<bo> becomes still when seeing a bird.",
+    "<bo>'s life jacket is pink."
+  ],
+  "noisy_info": [
+    "<butin>'s name tag is square.",
+    "<maeve_dog>'s feeding station is green.",
+    "<bo>'s travel plush toy is fox-shaped.",
+    "<bo>'s outdoor food puzzle is green."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<bo> is wearing their name tag.",
+      "t2i_exact_prompt": "<bo> is wearing their round name tag.",
+      "grounding_info": [
+        "<bo>'s name tag is round."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is standing at their feeding station.",
+      "t2i_exact_prompt": "<bo> is standing at their white feeding station.",
+      "grounding_info": [
+        "<bo>'s feeding station is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is playing with their toy rope.",
+      "t2i_exact_prompt": "<bo> is playing with their red toy rope.",
+      "grounding_info": [
+        "<bo>'s toy rope is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is resting on their blanket.",
+      "t2i_exact_prompt": "<bo> is resting on their blue blanket.",
+      "grounding_info": [
+        "<bo>'s blanket is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is eating their usual reward food.",
+      "t2i_exact_prompt": "<bo> is eating cooked chicken, their usual reward food.",
+      "grounding_info": [
+        "<bo>'s usual reward food is cooked chicken."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is wearing their life jacket near water.",
+      "t2i_exact_prompt": "<bo> is wearing their pink life jacket near water.",
+      "grounding_info": [
+        "<bo>'s life jacket is pink."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<bo> is holding their favorite plush toy.",
+      "t2i_exact_prompt": "<bo> is holding their rabbit-shaped favorite plush toy.",
+      "grounding_info": [
+        "<bo>'s favorite plush toy is rabbit-shaped."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is using their indoor food puzzle.",
+      "t2i_exact_prompt": "<bo> is using their orange indoor food puzzle.",
+      "grounding_info": [
+        "<bo>'s indoor food puzzle is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> has just seen a leash.",
+      "t2i_exact_prompt": "<bo> has just seen a leash and waits by the door.",
+      "grounding_info": [
+        "<bo> waits by the door when seeing a leash."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> has just seen a bird.",
+      "t2i_exact_prompt": "<bo> has just seen a bird and becomes still.",
+      "grounding_info": [
+        "<bo> becomes still when seeing a bird."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<bo> is wearing their name tag and life jacket near water.",
+      "t2i_exact_prompt": "<bo> is wearing their round name tag and pink life jacket near water.",
+      "grounding_info": [
+        "<bo>'s name tag is round.",
+        "<bo>'s life jacket is pink."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is eating their usual reward food at their feeding station.",
+      "t2i_exact_prompt": "<bo> is eating cooked chicken, their usual reward food, at their white feeding station.",
+      "grounding_info": [
+        "<bo>'s feeding station is white.",
+        "<bo>'s usual reward food is cooked chicken."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is playing with their toy rope beside their blanket.",
+      "t2i_exact_prompt": "<bo> is playing with their red toy rope beside their blue blanket.",
+      "grounding_info": [
+        "<bo>'s toy rope is red.",
+        "<bo>'s blanket is blue."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<bo> is standing beside their usual grooming brush.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<bo> is wearing their life jacket beside their favorite pond.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "dog",
+  "name": "Cookie",
+  "conversation_type": "object",
+  "generation_type": "live_subject"
+}

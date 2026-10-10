@@ -1,0 +1,255 @@
+{
+  "info": "<bo> is a Shiba Inu dog with a round face, fluffy cream and reddish-brown fur, and a curly tail.",
+  "extra_info": [
+    "<bo>'s collar is red.",
+    "<bo>'s pet bed is blue.",
+    "<bo>'s toy ball is yellow.",
+    "<bo> looks toward the door when the doorbell rings.",
+    "<bo>'s daily water bowl is silver.",
+    "<bo>'s indoor sleeping basket is cream.",
+    "<bo>'s regular treat is a chicken biscuit.",
+    "<bo> hides under a table during thunder.",
+    "<bo>'s harness is blue.",
+    "<bo>'s raincoat is yellow.",
+    "<bo>'s indoor crate is gray.",
+    "<bo>'s outdoor shelter is green.",
+    "<bo>'s chew toy is bone-shaped.",
+    "<bo>'s flying disc is orange.",
+    "<bo>'s usual main meal is dry dog food.",
+    "<bo>'s usual wet meal is beef wet food.",
+    "<bo> moves to the hallway when the vacuum cleaner starts.",
+    "<bo> runs toward their owner when their owner returns home.",
+    "<bo> tilts their head when hearing their name.",
+    "<bo> shakes water from their body after getting wet."
+  ],
+  "noisy_info": [
+    "<butin>'s collar is black.",
+    "<butin>'s pet bed is gray.",
+    "<butin>'s toy ball is orange.",
+    "<butin> walks to a window when the doorbell rings.",
+    "<bo>'s travel water bowl is orange.",
+    "<bo>'s outdoor sleeping basket is green.",
+    "<bo>'s training reward is dried beef.",
+    "<bo> waits behind a chair during fireworks."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<bo> is wearing their harness.",
+      "t2i_exact_prompt": "<bo> is wearing their blue harness.",
+      "grounding_info": [
+        "<bo>'s harness is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is wearing their raincoat in the rain.",
+      "t2i_exact_prompt": "<bo> is wearing their yellow raincoat in the rain.",
+      "grounding_info": [
+        "<bo>'s raincoat is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is sitting inside their indoor crate.",
+      "t2i_exact_prompt": "<bo> is sitting inside their gray indoor crate.",
+      "grounding_info": [
+        "<bo>'s indoor crate is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is resting inside their outdoor shelter.",
+      "t2i_exact_prompt": "<bo> is resting inside their green outdoor shelter.",
+      "grounding_info": [
+        "<bo>'s outdoor shelter is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is holding their chew toy.",
+      "t2i_exact_prompt": "<bo> is holding their bone-shaped chew toy.",
+      "grounding_info": [
+        "<bo>'s chew toy is bone-shaped."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is playing with their flying disc.",
+      "t2i_exact_prompt": "<bo> is playing with their orange flying disc.",
+      "grounding_info": [
+        "<bo>'s flying disc is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is eating their usual main meal.",
+      "t2i_exact_prompt": "<bo> is eating dry dog food, their usual main meal.",
+      "grounding_info": [
+        "<bo>'s usual main meal is dry dog food."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is eating their usual wet meal.",
+      "t2i_exact_prompt": "<bo> is eating beef wet food, their usual wet meal.",
+      "grounding_info": [
+        "<bo>'s usual wet meal is beef wet food."
+      ]
+    },
+    {
+      "t2i_prompt": "A vacuum cleaner has started near <bo>.",
+      "t2i_exact_prompt": "A vacuum cleaner has started near <bo>, causing them to move to the hallway.",
+      "grounding_info": [
+        "<bo> moves to the hallway when the vacuum cleaner starts."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo>'s owner is returning home.",
+      "t2i_exact_prompt": "<bo> is running toward their owner as the owner returns home.",
+      "grounding_info": [
+        "<bo> runs toward their owner when their owner returns home."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo>'s owner is calling their name.",
+      "t2i_exact_prompt": "<bo> is tilting their head while their owner calls their name.",
+      "grounding_info": [
+        "<bo> tilts their head when hearing their name."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> has just walked through the rain.",
+      "t2i_exact_prompt": "<bo> has just walked through the rain and is shaking water from their body.",
+      "grounding_info": [
+        "<bo> shakes water from their body after getting wet."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<bo> is wearing their collar.",
+      "t2i_exact_prompt": "<bo> is wearing their red collar.",
+      "grounding_info": [
+        "<bo>'s collar is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is resting in their pet bed.",
+      "t2i_exact_prompt": "<bo> is resting in their blue pet bed.",
+      "grounding_info": [
+        "<bo>'s pet bed is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is playing with their toy ball.",
+      "t2i_exact_prompt": "<bo> is playing with their yellow toy ball.",
+      "grounding_info": [
+        "<bo>'s toy ball is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "The doorbell is ringing near <bo>.",
+      "t2i_exact_prompt": "The doorbell is ringing near <bo>, prompting them to look toward the door.",
+      "grounding_info": [
+        "<bo> looks toward the door when the doorbell rings."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is drinking from their daily water bowl.",
+      "t2i_exact_prompt": "<bo> is drinking from their silver daily water bowl.",
+      "grounding_info": [
+        "<bo>'s daily water bowl is silver."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is sleeping in their indoor sleeping basket.",
+      "t2i_exact_prompt": "<bo> is sleeping in their cream indoor sleeping basket.",
+      "grounding_info": [
+        "<bo>'s indoor sleeping basket is cream."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is eating their regular treat.",
+      "t2i_exact_prompt": "<bo> is eating a chicken biscuit, their regular treat.",
+      "grounding_info": [
+        "<bo>'s regular treat is a chicken biscuit."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is inside the house during thunder.",
+      "t2i_exact_prompt": "<bo> is inside the house during thunder and is hiding under a table.",
+      "grounding_info": [
+        "<bo> hides under a table during thunder."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<bo> is wearing their harness while their owner calls their name.",
+      "t2i_exact_prompt": "<bo> is wearing their blue harness and tilting their head while their owner calls their name.",
+      "grounding_info": [
+        "<bo>'s harness is blue.",
+        "<bo> tilts their head when hearing their name."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is wearing their raincoat after getting wet.",
+      "t2i_exact_prompt": "<bo> is wearing their yellow raincoat after getting wet and is shaking water from their body.",
+      "grounding_info": [
+        "<bo>'s raincoat is yellow.",
+        "<bo> shakes water from their body after getting wet."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is holding their chew toy inside their indoor crate.",
+      "t2i_exact_prompt": "<bo> is holding their bone-shaped chew toy inside their gray indoor crate.",
+      "grounding_info": [
+        "<bo>'s chew toy is bone-shaped.",
+        "<bo>'s indoor crate is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is playing with their flying disc beside their outdoor shelter.",
+      "t2i_exact_prompt": "<bo> is playing with their orange flying disc beside their green outdoor shelter.",
+      "grounding_info": [
+        "<bo>'s flying disc is orange.",
+        "<bo>'s outdoor shelter is green."
+      ]
+    },
+    {
+      "t2i_prompt": "A vacuum cleaner has started while <bo> is eating their usual main meal.",
+      "t2i_exact_prompt": "A vacuum cleaner has started while <bo> is eating dry dog food, their usual main meal, prompting them to move to the hallway.",
+      "grounding_info": [
+        "<bo>'s usual main meal is dry dog food.",
+        "<bo> moves to the hallway when the vacuum cleaner starts."
+      ]
+    },
+    {
+      "t2i_prompt": "<bo> is eating their usual wet meal when their owner returns home.",
+      "t2i_exact_prompt": "<bo> is eating beef wet food, their usual wet meal, when their owner returns home, prompting them to run toward the owner.",
+      "grounding_info": [
+        "<bo>'s usual wet meal is beef wet food.",
+        "<bo> runs toward their owner when their owner returns home."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<bo> is wearing their favorite costume.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<bo> is sleeping in their favorite room.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<bo> is wearing their harness beside their favorite pond.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<bo> is playing with their flying disc at their favorite park.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "dog",
+  "name": "Cookie",
+  "conversation_type": "object",
+  "generation_type": "live_subject"
+}

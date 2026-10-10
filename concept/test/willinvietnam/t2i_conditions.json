@@ -1,0 +1,165 @@
+{
+  "concept_generation": [
+    "A photo of <willinvietnam>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <willinvietnam> wearing his T-shirt.",
+    "A photo of <willinvietnam> eating street food.",
+    "A photo of <willinvietnam> running.",
+    "A photo of <willinvietnam> wearing his wig at a party.",
+    "A photo of <willinvietnam> working."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <willinvietnam> wearing his blue T-shirt.",
+    "A photo of <willinvietnam> eating street food while casually dressed.",
+    "A photo of <willinvietnam> wearing his green athletic short-sleeved shirt when he goes running.",
+    "A photo of <willinvietnam> wearing an afro-shaped wig at a party.",
+    "A photo of <willinvietnam> working in a biological laboratory."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a lively street in Hanoi, <willinvietnam> is walking past food stalls. Red lanterns hang overhead and scooters are parked along the road.",
+    "A photo of <willinvietnam> sitting on a wooden boat in a river. Green hills rise in the distance and water ripples around the boat.",
+    "A photo of a bright café interior, <willinvietnam> is leaning on a counter. Hanging plants and chalkboard menus decorate the wall."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <willinvietnam> working, dressing in a white lab coat, holding a test tube in his hand. He appears to be looking anxious."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <willinvietnam> working in a biological laboratory, dressing in a white lab coat, holding a test tube in his hand. He appears to be looking anxious."
+  ],
+  "info": "<willinvietnam> is a cheerful young man with short wavy brown hair and fair skin.",
+  "extra_info": [
+    "<willinvietnam>'s bedroom rug is orange.",
+    "<willinvietnam>'s kitchen curtains are white.",
+    "<willinvietnam>'s everyday wristwatch is gray.",
+    "<willinvietnam>'s camera is brown.",
+    "<willinvietnam>'s favorite fruit is cherries.",
+    "<willinvietnam>'s favorite flower is a lotus.",
+    "<willinvietnam> checks the mailbox every Sunday afternoon.",
+    "<willinvietnam> writes in a diary after writing a postcard.",
+    "<willinvietnam>'s strongest swimming skill is underwater swimming.",
+    "<willinvietnam>'s family car is gray."
+  ],
+  "noisy_info": [
+    "<bo>'s name tag is round.",
+    "<butin>'s feeding station is blue.",
+    "<willinvietnam>'s usual breakfast fruit is a banana.",
+    "<willinvietnam>'s hiking wristwatch is red."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<willinvietnam> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<willinvietnam> is standing on the orange rug in their bedroom.",
+      "grounding_info": [
+        "<willinvietnam>'s bedroom rug is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<willinvietnam> is opening the white curtains in their kitchen.",
+      "grounding_info": [
+        "<willinvietnam>'s kitchen curtains are white."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<willinvietnam> is checking the time on their gray everyday wristwatch.",
+      "grounding_info": [
+        "<willinvietnam>'s everyday wristwatch is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<willinvietnam> is taking a photograph with their brown camera.",
+      "grounding_info": [
+        "<willinvietnam>'s camera is brown."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<willinvietnam> is placing a lotus, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<willinvietnam>'s favorite flower is a lotus."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is following their usual diary routine.",
+      "t2i_exact_prompt": "<willinvietnam> is writing in a diary after writing a postcard, their usual diary routine.",
+      "grounding_info": [
+        "<willinvietnam> writes in a diary after writing a postcard."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<willinvietnam> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<willinvietnam> is choosing cherries, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<willinvietnam>'s favorite fruit is cherries."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<willinvietnam> is checking the mailbox every Sunday afternoon, their usual mailbox routine.",
+      "grounding_info": [
+        "<willinvietnam> checks the mailbox every Sunday afternoon."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<willinvietnam> is demonstrating underwater swimming, their strongest swimming skill.",
+      "grounding_info": [
+        "<willinvietnam>'s strongest swimming skill is underwater swimming."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<willinvietnam> is loading a bag into their gray family car.",
+      "grounding_info": [
+        "<willinvietnam>'s family car is gray."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<willinvietnam> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<willinvietnam> is wearing their gray everyday wristwatch while standing on their orange bedroom rug.",
+      "grounding_info": [
+        "<willinvietnam>'s bedroom rug is orange.",
+        "<willinvietnam>'s everyday wristwatch is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<willinvietnam> is writing in a diary after writing a postcard beside their white kitchen curtains.",
+      "grounding_info": [
+        "<willinvietnam>'s kitchen curtains are white.",
+        "<willinvietnam> writes in a diary after writing a postcard."
+      ]
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<willinvietnam> is photographing a lotus, their favorite flower, with their brown camera.",
+      "grounding_info": [
+        "<willinvietnam>'s camera is brown.",
+        "<willinvietnam>'s favorite flower is a lotus."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<willinvietnam> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<willinvietnam> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

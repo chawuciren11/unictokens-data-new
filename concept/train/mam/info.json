@@ -1,0 +1,255 @@
+{
+  "info": "<mam> is a British Shorthair cat with silver tabby fur, large round amber eyes, and a stocky build.",
+  "extra_info": [
+    "<mam>'s collar is green.",
+    "<mam>'s pet bed is purple.",
+    "<mam>'s toy ball is blue.",
+    "<mam> watches the hallway when the doorbell rings.",
+    "<mam>'s daily water bowl is white.",
+    "<mam>'s indoor sleeping basket is gray.",
+    "<mam>'s regular treat is a salmon bite.",
+    "<mam> climbs onto a shelf during thunder.",
+    "<mam>'s harness is yellow.",
+    "<mam>'s raincoat is blue.",
+    "<mam>'s indoor crate is white.",
+    "<mam>'s outdoor shelter is red.",
+    "<mam>'s chew toy is fish-shaped.",
+    "<mam>'s flying disc is blue.",
+    "<mam>'s usual main meal is salmon kibble.",
+    "<mam>'s usual wet meal is salmon wet food.",
+    "<mam> jumps onto a chair when the vacuum cleaner starts.",
+    "<mam> waits on a windowsill when their owner returns home.",
+    "<mam> looks toward their owner when hearing their name.",
+    "<mam> licks water from a paw after getting wet."
+  ],
+  "noisy_info": [
+    "<mydieu>'s collar is purple.",
+    "<mydieu>'s pet bed is yellow.",
+    "<mydieu>'s toy ball is red.",
+    "<mydieu> peeks around a corner when the doorbell rings.",
+    "<mam>'s travel water bowl is gray.",
+    "<mam>'s outdoor sleeping basket is red.",
+    "<mam>'s training reward is creamy cat food.",
+    "<mam> hides under a bed during fireworks."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<mam> is wearing their harness.",
+      "t2i_exact_prompt": "<mam> is wearing their yellow harness.",
+      "grounding_info": [
+        "<mam>'s harness is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is wearing their raincoat in the rain.",
+      "t2i_exact_prompt": "<mam> is wearing their blue raincoat in the rain.",
+      "grounding_info": [
+        "<mam>'s raincoat is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is sitting inside their indoor crate.",
+      "t2i_exact_prompt": "<mam> is sitting inside their white indoor crate.",
+      "grounding_info": [
+        "<mam>'s indoor crate is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is resting inside their outdoor shelter.",
+      "t2i_exact_prompt": "<mam> is resting inside their red outdoor shelter.",
+      "grounding_info": [
+        "<mam>'s outdoor shelter is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is holding their chew toy.",
+      "t2i_exact_prompt": "<mam> is holding their fish-shaped chew toy.",
+      "grounding_info": [
+        "<mam>'s chew toy is fish-shaped."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is playing with their flying disc.",
+      "t2i_exact_prompt": "<mam> is playing with their blue flying disc.",
+      "grounding_info": [
+        "<mam>'s flying disc is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is eating their usual main meal.",
+      "t2i_exact_prompt": "<mam> is eating salmon kibble, their usual main meal.",
+      "grounding_info": [
+        "<mam>'s usual main meal is salmon kibble."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is eating their usual wet meal.",
+      "t2i_exact_prompt": "<mam> is eating salmon wet food, their usual wet meal.",
+      "grounding_info": [
+        "<mam>'s usual wet meal is salmon wet food."
+      ]
+    },
+    {
+      "t2i_prompt": "A vacuum cleaner has started near <mam>.",
+      "t2i_exact_prompt": "A vacuum cleaner has started near <mam>, causing them to jump onto a chair.",
+      "grounding_info": [
+        "<mam> jumps onto a chair when the vacuum cleaner starts."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam>'s owner is returning home.",
+      "t2i_exact_prompt": "<mam> is waiting on a windowsill as their owner returns home.",
+      "grounding_info": [
+        "<mam> waits on a windowsill when their owner returns home."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam>'s owner is calling their name.",
+      "t2i_exact_prompt": "<mam> is looking toward their owner while the owner calls their name.",
+      "grounding_info": [
+        "<mam> looks toward their owner when hearing their name."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> has just walked through the rain.",
+      "t2i_exact_prompt": "<mam> has just walked through the rain and is licking water from a paw.",
+      "grounding_info": [
+        "<mam> licks water from a paw after getting wet."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<mam> is wearing their collar.",
+      "t2i_exact_prompt": "<mam> is wearing their green collar.",
+      "grounding_info": [
+        "<mam>'s collar is green."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is resting in their pet bed.",
+      "t2i_exact_prompt": "<mam> is resting in their purple pet bed.",
+      "grounding_info": [
+        "<mam>'s pet bed is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is playing with their toy ball.",
+      "t2i_exact_prompt": "<mam> is playing with their blue toy ball.",
+      "grounding_info": [
+        "<mam>'s toy ball is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "The doorbell is ringing near <mam>.",
+      "t2i_exact_prompt": "The doorbell is ringing near <mam>, prompting them to watch the hallway.",
+      "grounding_info": [
+        "<mam> watches the hallway when the doorbell rings."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is drinking from their daily water bowl.",
+      "t2i_exact_prompt": "<mam> is drinking from their white daily water bowl.",
+      "grounding_info": [
+        "<mam>'s daily water bowl is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is sleeping in their indoor sleeping basket.",
+      "t2i_exact_prompt": "<mam> is sleeping in their gray indoor sleeping basket.",
+      "grounding_info": [
+        "<mam>'s indoor sleeping basket is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is eating their regular treat.",
+      "t2i_exact_prompt": "<mam> is eating a salmon bite, their regular treat.",
+      "grounding_info": [
+        "<mam>'s regular treat is a salmon bite."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is inside the house during thunder.",
+      "t2i_exact_prompt": "<mam> is inside the house during thunder and is climbing onto a shelf.",
+      "grounding_info": [
+        "<mam> climbs onto a shelf during thunder."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<mam> is wearing their harness while their owner calls their name.",
+      "t2i_exact_prompt": "<mam> is wearing their yellow harness and looking toward their owner while the owner calls their name.",
+      "grounding_info": [
+        "<mam>'s harness is yellow.",
+        "<mam> looks toward their owner when hearing their name."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is wearing their raincoat after getting wet.",
+      "t2i_exact_prompt": "<mam> is wearing their blue raincoat after getting wet and is licking water from a paw.",
+      "grounding_info": [
+        "<mam>'s raincoat is blue.",
+        "<mam> licks water from a paw after getting wet."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is holding their chew toy inside their indoor crate.",
+      "t2i_exact_prompt": "<mam> is holding their fish-shaped chew toy inside their white indoor crate.",
+      "grounding_info": [
+        "<mam>'s chew toy is fish-shaped.",
+        "<mam>'s indoor crate is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is playing with their flying disc beside their outdoor shelter.",
+      "t2i_exact_prompt": "<mam> is playing with their blue flying disc beside their red outdoor shelter.",
+      "grounding_info": [
+        "<mam>'s flying disc is blue.",
+        "<mam>'s outdoor shelter is red."
+      ]
+    },
+    {
+      "t2i_prompt": "A vacuum cleaner has started while <mam> is eating their usual main meal.",
+      "t2i_exact_prompt": "A vacuum cleaner has started while <mam> is eating salmon kibble, their usual main meal, prompting them to jump onto a chair.",
+      "grounding_info": [
+        "<mam>'s usual main meal is salmon kibble.",
+        "<mam> jumps onto a chair when the vacuum cleaner starts."
+      ]
+    },
+    {
+      "t2i_prompt": "<mam> is eating their usual wet meal when their owner returns home.",
+      "t2i_exact_prompt": "<mam> is eating salmon wet food, their usual wet meal, when their owner returns home, prompting them to wait on a windowsill.",
+      "grounding_info": [
+        "<mam>'s usual wet meal is salmon wet food.",
+        "<mam> waits on a windowsill when their owner returns home."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<mam> is wearing their favorite costume.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<mam> is sleeping in their favorite room.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<mam> is wearing their harness beside their favorite pond.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<mam> is playing with their flying disc at their favorite park.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "cat",
+  "name": "Cookie",
+  "conversation_type": "object",
+  "generation_type": "live_subject"
+}

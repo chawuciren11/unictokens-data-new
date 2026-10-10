@@ -1,0 +1,255 @@
+{
+  "info": "<wangkai> is a well-groomed man with neatly styled black hair, fair skin, and a defined jawline.",
+  "extra_info": [
+    "<wangkai>'s usual lunch spot is a table in a quiet teahouse.",
+    "<wangkai>'s daily cup is black.",
+    "<wangkai> attends a tea ceremony as part of his usual monthly routine.",
+    "<wangkai>'s bedroom walls are light blue.",
+    "<wangkai>'s favorite animal is a crane.",
+    "<wangkai> usually meets friends under the station arch.",
+    "<wangkai>'s desk lamp is black.",
+    "<wangkai>'s personal notebook is brown.",
+    "<wangkai>'s formal suit is dark blue.",
+    "<wangkai> places one hand on his chest when meeting a stranger.",
+    "<wangkai>'s rowboat is brown.",
+    "<wangkai> braces with both feet in strong wind.",
+    "<wangkai>'s best dish is steamed fish.",
+    "<wangkai>'s cooking apron is gray.",
+    "<wangkai> drinks tea on a balcony every evening.",
+    "<wangkai>'s most treasured book has a brown cover.",
+    "<wangkai> wears teardrop-shaped sunglasses in bright sunlight.",
+    "<wangkai>'s weekend bicycle is silver.",
+    "<wangkai>'s favorite music is folk music.",
+    "<wangkai>'s strongest musical skill is playing the cello."
+  ],
+  "noisy_info": [
+    "<will>'s usual lunch spot is a bench beside a public fountain.",
+    "<will> volunteers at a food bank as part of his usual monthly routine.",
+    "<will>'s favorite animal is an elephant.",
+    "<will>'s desk lamp is red.",
+    "<wangkai>'s travel cup is silver.",
+    "<wangkai>'s guest room walls are cream.",
+    "<wangkai> usually meets coworkers beside the office elevator.",
+    "<wangkai>'s work notebook is white."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<wangkai> is wearing his formal suit at an event.",
+      "t2i_exact_prompt": "<wangkai> is wearing his dark blue formal suit at an event.",
+      "grounding_info": [
+        "<wangkai>'s formal suit is dark blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is greeting a stranger.",
+      "t2i_exact_prompt": "<wangkai> is greeting a stranger by placing one hand on his chest.",
+      "grounding_info": [
+        "<wangkai> places one hand on his chest when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is using his rowboat on a lake.",
+      "t2i_exact_prompt": "<wangkai> is using his brown rowboat on a lake.",
+      "grounding_info": [
+        "<wangkai>'s rowboat is brown."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is walking outside in strong wind.",
+      "t2i_exact_prompt": "<wangkai> is walking outside in strong wind while bracing with both feet.",
+      "grounding_info": [
+        "<wangkai> braces with both feet in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is cooking the dish his makes best.",
+      "t2i_exact_prompt": "<wangkai> is cooking steamed fish, the dish his makes best.",
+      "grounding_info": [
+        "<wangkai>'s best dish is steamed fish."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is wearing his apron while cooking.",
+      "t2i_exact_prompt": "<wangkai> is wearing his gray apron while cooking.",
+      "grounding_info": [
+        "<wangkai>'s cooking apron is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is doing his usual evening activity.",
+      "t2i_exact_prompt": "<wangkai> is doing his usual evening activity by drinking tea on a balcony.",
+      "grounding_info": [
+        "<wangkai> drinks tea on a balcony every evening."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is holding his most treasured book.",
+      "t2i_exact_prompt": "<wangkai> is holding his most treasured book with a brown cover.",
+      "grounding_info": [
+        "<wangkai>'s most treasured book has a brown cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is walking outside in bright sunlight.",
+      "t2i_exact_prompt": "<wangkai> is walking outside in bright sunlight while wearing teardrop-shaped sunglasses.",
+      "grounding_info": [
+        "<wangkai> wears teardrop-shaped sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is riding his weekend bicycle.",
+      "t2i_exact_prompt": "<wangkai> is riding his silver weekend bicycle.",
+      "grounding_info": [
+        "<wangkai>'s weekend bicycle is silver."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is relaxing while listening to his favorite music.",
+      "t2i_exact_prompt": "<wangkai> is relaxing while listening to folk music, his favorite music.",
+      "grounding_info": [
+        "<wangkai>'s favorite music is folk music."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is demonstrating his strongest musical skill.",
+      "t2i_exact_prompt": "<wangkai> is demonstrating his strongest musical skill by playing the cello.",
+      "grounding_info": [
+        "<wangkai>'s strongest musical skill is playing the cello."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<wangkai> is eating lunch at his usual lunch spot.",
+      "t2i_exact_prompt": "<wangkai> is eating lunch at a table in a quiet teahouse, his usual lunch spot.",
+      "grounding_info": [
+        "<wangkai>'s usual lunch spot is a table in a quiet teahouse."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is following his usual monthly routine.",
+      "t2i_exact_prompt": "<wangkai> is following his usual monthly routine by attending a tea ceremony.",
+      "grounding_info": [
+        "<wangkai> attends a tea ceremony as part of his usual monthly routine."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is looking at his favorite animal at a zoo.",
+      "t2i_exact_prompt": "<wangkai> is looking at a crane, his favorite animal, at a zoo.",
+      "grounding_info": [
+        "<wangkai>'s favorite animal is a crane."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is turning on the lamp on his desk.",
+      "t2i_exact_prompt": "<wangkai> is turning on the black lamp on his desk.",
+      "grounding_info": [
+        "<wangkai>'s desk lamp is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is drinking from his daily cup.",
+      "t2i_exact_prompt": "<wangkai> is drinking from his black daily cup.",
+      "grounding_info": [
+        "<wangkai>'s daily cup is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is standing in front of the wall in his bedroom.",
+      "t2i_exact_prompt": "<wangkai> is standing in front of the light blue wall in his bedroom.",
+      "grounding_info": [
+        "<wangkai>'s bedroom walls are light blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is waiting at his usual meeting place.",
+      "t2i_exact_prompt": "<wangkai> is waiting under the station arch, his usual meeting place.",
+      "grounding_info": [
+        "<wangkai> usually meets friends under the station arch."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is writing in his personal notebook.",
+      "t2i_exact_prompt": "<wangkai> is writing in his brown personal notebook.",
+      "grounding_info": [
+        "<wangkai>'s personal notebook is brown."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<wangkai> is wearing his formal suit while greeting a stranger.",
+      "t2i_exact_prompt": "<wangkai> is wearing his dark blue formal suit while greeting a stranger by placing one hand on his chest.",
+      "grounding_info": [
+        "<wangkai>'s formal suit is dark blue.",
+        "<wangkai> places one hand on his chest when meeting a stranger."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is using his rowboat on a lake while reacting to strong wind.",
+      "t2i_exact_prompt": "<wangkai> is using his brown rowboat on a lake while reacting to strong wind by bracing with both feet.",
+      "grounding_info": [
+        "<wangkai>'s rowboat is brown.",
+        "<wangkai> braces with both feet in strong wind."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is cooking the dish his makes best while wearing his apron.",
+      "t2i_exact_prompt": "<wangkai> is cooking steamed fish, the dish his makes best, while wearing his gray apron.",
+      "grounding_info": [
+        "<wangkai>'s best dish is steamed fish.",
+        "<wangkai>'s cooking apron is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is doing his usual evening activity while holding his most treasured book.",
+      "t2i_exact_prompt": "<wangkai> is doing his usual evening activity by drinking tea on a balcony while holding his most treasured book with a brown cover.",
+      "grounding_info": [
+        "<wangkai> drinks tea on a balcony every evening.",
+        "<wangkai>'s most treasured book has a brown cover."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is riding his weekend bicycle in bright sunlight.",
+      "t2i_exact_prompt": "<wangkai> is riding his silver weekend bicycle in bright sunlight while wearing teardrop-shaped sunglasses.",
+      "grounding_info": [
+        "<wangkai>'s weekend bicycle is silver.",
+        "<wangkai> wears teardrop-shaped sunglasses in bright sunlight."
+      ]
+    },
+    {
+      "t2i_prompt": "<wangkai> is performing his favorite kind of music with the instrument his plays best.",
+      "t2i_exact_prompt": "<wangkai> is performing folk music, his favorite kind of music, on the cello, the instrument his plays best.",
+      "grounding_info": [
+        "<wangkai>'s favorite music is folk music.",
+        "<wangkai>'s strongest musical skill is playing the cello."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<wangkai> is wearing his favorite pair of socks.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<wangkai> is playing with his pet.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<wangkai> is using his rowboat on his favorite lake.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<wangkai> is wearing his formal suit with his favorite tie.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

@@ -1,0 +1,167 @@
+{
+  "concept_generation": [
+    "A photo of <adrien_brody>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <adrien_brody> wearing his favorite jacket.",
+    "A photo of <adrien_brody> wearing his sunglasses.",
+    "A photo of <adrien_brody> going mountain climbing.",
+    "A photo of <adrien_brody> running.",
+    "A photo of <adrien_brody> walking on near his house.",
+    "A photo of <adrien_brody> at work, showing his company logo."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <adrien_brody> wearing a dark leather jacket.",
+    "A photo of <adrien_brody> wearing red-rimmed sunglasses.",
+    "A photo of <adrien_brody> wearing a blue windbreaker while mountain climbing.",
+    "A photo of <adrien_brody> wearing a blue athletic short-sleeved shirt while running.",
+    "A photo of <adrien_brody> walking on the beach near his home.",
+    "A photo of <adrien_brody> at Apple Inc., with the Apple logo visible."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a quiet afternoon in a medieval-style town, <adrien_brody> is leisurely walking on the cobblestone streets. In the background, ancient stone buildings can be seen.",
+    "A photo of <adrien_brody> sitting at his desk in an office, focused on his work. A computer and documents are placed on the desk.",
+    "A photo of a fountain square, <adrien_brody> is reading a book next to the fountain. The cover of the book is red, and <adrien_brody> is wearing a brown coat."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <adrien_brody> wearing the clothes he runs in, enjoying a walk near his home, as it is a sunny day."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <adrien_brody> wearing his blue athletic short-sleeved shirt, enjoying a walk on the beach, as it is a sunny day."
+  ],
+  "info": "<adrien_brody> is a slender man with sharp facial features, expressive hazel eyes, and often styled dark hair.",
+  "extra_info": [
+    "<adrien_brody>'s bedroom rug is gray.",
+    "<adrien_brody>'s kitchen curtains are yellow.",
+    "<adrien_brody>'s everyday wristwatch is silver.",
+    "<adrien_brody>'s camera is red.",
+    "<adrien_brody>'s favorite fruit is an apple.",
+    "<adrien_brody>'s favorite flower is a sunflower.",
+    "<adrien_brody> checks the mailbox every weekday morning.",
+    "<adrien_brody> writes in a diary before bed.",
+    "<adrien_brody>'s strongest swimming skill is backstroke.",
+    "<adrien_brody>'s family car is white."
+  ],
+  "noisy_info": [
+    "<b_jordan>'s bedroom rug is blue.",
+    "<coco>'s kitchen curtains are cream.",
+    "<adrien_brody>'s usual breakfast fruit is an orange.",
+    "<adrien_brody>'s hiking wristwatch is black."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<adrien_brody> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<adrien_brody> is standing on the gray rug in their bedroom.",
+      "grounding_info": [
+        "<adrien_brody>'s bedroom rug is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<adrien_brody> is opening the yellow curtains in their kitchen.",
+      "grounding_info": [
+        "<adrien_brody>'s kitchen curtains are yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<adrien_brody> is checking the time on their silver everyday wristwatch.",
+      "grounding_info": [
+        "<adrien_brody>'s everyday wristwatch is silver."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<adrien_brody> is taking a photograph with their red camera.",
+      "grounding_info": [
+        "<adrien_brody>'s camera is red."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<adrien_brody> is placing a sunflower, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<adrien_brody>'s favorite flower is a sunflower."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is following their usual diary routine.",
+      "t2i_exact_prompt": "<adrien_brody> is writing in a diary before bed, their usual diary routine.",
+      "grounding_info": [
+        "<adrien_brody> writes in a diary before bed."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<adrien_brody> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<adrien_brody> is choosing an apple, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<adrien_brody>'s favorite fruit is an apple."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<adrien_brody> is checking the mailbox every weekday morning, their usual mailbox routine.",
+      "grounding_info": [
+        "<adrien_brody> checks the mailbox every weekday morning."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<adrien_brody> is demonstrating backstroke, their strongest swimming skill.",
+      "grounding_info": [
+        "<adrien_brody>'s strongest swimming skill is backstroke."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<adrien_brody> is loading a bag into their white family car.",
+      "grounding_info": [
+        "<adrien_brody>'s family car is white."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<adrien_brody> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<adrien_brody> is wearing their silver everyday wristwatch while standing on their gray bedroom rug.",
+      "grounding_info": [
+        "<adrien_brody>'s bedroom rug is gray.",
+        "<adrien_brody>'s everyday wristwatch is silver."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<adrien_brody> is writing in a diary before bed beside their yellow kitchen curtains.",
+      "grounding_info": [
+        "<adrien_brody>'s kitchen curtains are yellow.",
+        "<adrien_brody> writes in a diary before bed."
+      ]
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<adrien_brody> is photographing a sunflower, their favorite flower, with their red camera.",
+      "grounding_info": [
+        "<adrien_brody>'s camera is red.",
+        "<adrien_brody>'s favorite flower is a sunflower."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<adrien_brody> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<adrien_brody> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}

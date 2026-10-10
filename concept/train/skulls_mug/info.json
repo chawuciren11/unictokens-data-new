@@ -1,0 +1,255 @@
+{
+  "info": "<skulls_mug> is a ceramic mug shaped like a stern-faced elder with deep facial wrinkles, perched atop a base decorated with sculpted white skulls.",
+  "extra_info": [
+    "<skulls_mug>'s usual coaster is black.",
+    "<skulls_mug>'s usual stirring spoon is bronze.",
+    "<skulls_mug> holds dark coffee on cold mornings.",
+    "A purple candle stands to the right of <skulls_mug> during evening displays.",
+    "<skulls_mug>'s themed dinner tray is dark wood.",
+    "Two black candles stand beside <skulls_mug> at Halloween dinners.",
+    "<skulls_mug> holds red punch on Halloween nights.",
+    "A purple spotlight shines on <skulls_mug> from the left during themed displays.",
+    "<skulls_mug> holds crushed ice at summer parties.",
+    "A lemon slice is hooked over <skulls_mug>'s rim at summer parties.",
+    "<skulls_mug> is lifted with both hands.",
+    "<skulls_mug>'s padded transport box is gray.",
+    "A red cloth is wrapped around <skulls_mug>'s base during transport.",
+    "<skulls_mug> stands on the top shelf during exhibitions.",
+    "<skulls_mug> is cleaned with a small white brush.",
+    "<skulls_mug> dries upright on a metal rack.",
+    "<skulls_mug>'s base is inspected with a magnifying glass every month.",
+    "A brown pointer indicates the skull details on <skulls_mug> during demonstrations.",
+    "A small label card stands in front of <skulls_mug> at exhibitions.",
+    "Two empty shot glasses stand beside <skulls_mug> at themed displays."
+  ],
+  "noisy_info": [
+    "<dunpai>'s usual storage rack is black.",
+    "<dunpai>'s usual practice sword is silver.",
+    "<dunpai> is dried with a blue cloth after rain.",
+    "An orange target board stands behind <dunpai> during impact demonstrations.",
+    "<skulls_mug>'s cleaning tray is plain metal.",
+    "Two white candles stand beside <skulls_mug> during winter holidays.",
+    "<skulls_mug> holds clear water during cleanup.",
+    "<skulls_mug> casts a short shadow under a warm table lamp."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<skulls_mug> is filled with its usual summer party contents.",
+      "t2i_exact_prompt": "<skulls_mug> is filled with crushed ice, its usual summer party contents.",
+      "grounding_info": [
+        "<skulls_mug> holds crushed ice at summer parties."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug>'s rim has its usual summer garnish.",
+      "t2i_exact_prompt": "<skulls_mug>'s rim has a lemon slice hooked over it as its usual summer garnish.",
+      "grounding_info": [
+        "A lemon slice is hooked over <skulls_mug>'s rim at summer parties."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is being lifted in the usual way.",
+      "t2i_exact_prompt": "<skulls_mug> is being lifted with both hands, the usual way it is moved.",
+      "grounding_info": [
+        "<skulls_mug> is lifted with both hands."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is being placed inside its padded transport box.",
+      "t2i_exact_prompt": "<skulls_mug> is being placed inside its gray padded transport box.",
+      "grounding_info": [
+        "<skulls_mug>'s padded transport box is gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug>'s base is wrapped in its usual cloth during transport.",
+      "t2i_exact_prompt": "<skulls_mug>'s base is wrapped in its usual red cloth during transport.",
+      "grounding_info": [
+        "A red cloth is wrapped around <skulls_mug>'s base during transport."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is standing in its usual place during an exhibition.",
+      "t2i_exact_prompt": "<skulls_mug> is standing on the top shelf, its usual place during an exhibition.",
+      "grounding_info": [
+        "<skulls_mug> stands on the top shelf during exhibitions."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is being cleaned with its usual brush.",
+      "t2i_exact_prompt": "<skulls_mug> is being cleaned with its usual small white brush.",
+      "grounding_info": [
+        "<skulls_mug> is cleaned with a small white brush."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is drying in its usual position on its drying rack.",
+      "t2i_exact_prompt": "<skulls_mug> is drying upright on its metal drying rack.",
+      "grounding_info": [
+        "<skulls_mug> dries upright on a metal rack."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug>'s base is being inspected with its usual monthly tool.",
+      "t2i_exact_prompt": "<skulls_mug>'s base is being inspected with a magnifying glass, its usual monthly tool.",
+      "grounding_info": [
+        "<skulls_mug>'s base is inspected with a magnifying glass every month."
+      ]
+    },
+    {
+      "t2i_prompt": "The skull details on <skulls_mug> are being indicated with the usual demonstration tool.",
+      "t2i_exact_prompt": "The skull details on <skulls_mug> are being indicated with a brown pointer, the usual demonstration tool.",
+      "grounding_info": [
+        "A brown pointer indicates the skull details on <skulls_mug> during demonstrations."
+      ]
+    },
+    {
+      "t2i_prompt": "A label card is standing in its usual exhibition place near <skulls_mug>.",
+      "t2i_exact_prompt": "A small label card is standing in front of <skulls_mug> at an exhibition.",
+      "grounding_info": [
+        "A small label card stands in front of <skulls_mug> at exhibitions."
+      ]
+    },
+    {
+      "t2i_prompt": "Empty glasses are standing in their usual place near <skulls_mug> at a themed display.",
+      "t2i_exact_prompt": "Two empty shot glasses are standing beside <skulls_mug> at a themed display.",
+      "grounding_info": [
+        "Two empty shot glasses stand beside <skulls_mug> at themed displays."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<skulls_mug> is standing on its usual coaster.",
+      "t2i_exact_prompt": "<skulls_mug> is standing on its usual black coaster.",
+      "grounding_info": [
+        "<skulls_mug>'s usual coaster is black."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is standing beside its usual stirring spoon.",
+      "t2i_exact_prompt": "<skulls_mug> is standing beside its usual bronze stirring spoon.",
+      "grounding_info": [
+        "<skulls_mug>'s usual stirring spoon is bronze."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is filled with its usual drink on a cold morning.",
+      "t2i_exact_prompt": "<skulls_mug> is filled with dark coffee, its usual drink on a cold morning.",
+      "grounding_info": [
+        "<skulls_mug> holds dark coffee on cold mornings."
+      ]
+    },
+    {
+      "t2i_prompt": "A candle is standing in its usual place beside <skulls_mug> during an evening display.",
+      "t2i_exact_prompt": "A purple candle is standing to the right of <skulls_mug> during an evening display.",
+      "grounding_info": [
+        "A purple candle stands to the right of <skulls_mug> during evening displays."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is standing on its usual themed dinner tray.",
+      "t2i_exact_prompt": "<skulls_mug> is standing on its usual dark wooden themed dinner tray.",
+      "grounding_info": [
+        "<skulls_mug>'s themed dinner tray is dark wood."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is standing beside its usual Halloween candles.",
+      "t2i_exact_prompt": "<skulls_mug> is standing beside two black candles at a Halloween dinner.",
+      "grounding_info": [
+        "Two black candles stand beside <skulls_mug> at Halloween dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is filled with its usual Halloween drink.",
+      "t2i_exact_prompt": "<skulls_mug> is filled with red punch, its usual Halloween drink.",
+      "grounding_info": [
+        "<skulls_mug> holds red punch on Halloween nights."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is standing under its usual themed spotlight.",
+      "t2i_exact_prompt": "<skulls_mug> is standing under a purple spotlight shining from the left during a themed display.",
+      "grounding_info": [
+        "A purple spotlight shines on <skulls_mug> from the left during themed displays."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<skulls_mug> is prepared with its usual contents and garnish for a summer party.",
+      "t2i_exact_prompt": "<skulls_mug> is filled with crushed ice and has a lemon slice hooked over its rim for a summer party.",
+      "grounding_info": [
+        "<skulls_mug> holds crushed ice at summer parties.",
+        "A lemon slice is hooked over <skulls_mug>'s rim at summer parties."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is being moved from its usual exhibition place.",
+      "t2i_exact_prompt": "<skulls_mug> is being lifted with both hands from the top shelf, its usual exhibition place.",
+      "grounding_info": [
+        "<skulls_mug> is lifted with both hands.",
+        "<skulls_mug> stands on the top shelf during exhibitions."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is being placed inside its padded transport box with its base wrapped in a cloth.",
+      "t2i_exact_prompt": "<skulls_mug> is being placed inside its gray padded transport box with its base wrapped in a red cloth.",
+      "grounding_info": [
+        "<skulls_mug>'s padded transport box is gray.",
+        "A red cloth is wrapped around <skulls_mug>'s base during transport."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is being cleaned and then placed in its usual drying position.",
+      "t2i_exact_prompt": "<skulls_mug> is being cleaned with a small white brush and then placed upright on its metal drying rack.",
+      "grounding_info": [
+        "<skulls_mug> is cleaned with a small white brush.",
+        "<skulls_mug> dries upright on a metal rack."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug>'s base is being inspected while its skull details are indicated.",
+      "t2i_exact_prompt": "<skulls_mug>'s base is being inspected with a magnifying glass while its skull details are indicated with a brown pointer.",
+      "grounding_info": [
+        "<skulls_mug>'s base is inspected with a magnifying glass every month.",
+        "A brown pointer indicates the skull details on <skulls_mug> during demonstrations."
+      ]
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is arranged with its label and glasses at a themed display.",
+      "t2i_exact_prompt": "<skulls_mug> is arranged with a small label card in front and two empty shot glasses beside it at a themed display.",
+      "grounding_info": [
+        "A small label card stands in front of <skulls_mug> at exhibitions.",
+        "Two empty shot glasses stand beside <skulls_mug> at themed displays."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<skulls_mug> is displayed beneath its usual glass dome.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is standing beside its usual serving pitcher.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is holding its summer party contents beside its usual bottle.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<skulls_mug> is being placed inside its padded transport box with its usual shipping label.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "mug",
+  "name": "cup",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

@@ -1,0 +1,161 @@
+{
+  "concept_generation": [
+    "A photo of <gold_pineapple>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of a <gold_pineapple> displayed on a sales shelf, with the price clearly marked beside it.",
+    "A photo of <gold_pineapple> reveals its interior.",
+    "A photo of <gold_pineapple> during holidays."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of a <gold_pineapple> displayed on a sales shelf, with the price of $50 clearly marked beside it.",
+    "A photo of <gold_pineapple> reveals its hollow interior.",
+    "A photo of <gold_pineapple> placed on a wooden table during holidays."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a modern living room, <gold_pineapple> is placed on a glass coffee table. A gray sofa and a floor lamp stand behind it.",
+    "A photo of <gold_pineapple> sitting on a marble countertop in a kitchen. A bowl of fruit and a hanging light fixture are nearby.",
+    "A photo of an outdoor patio at sunset, <gold_pineapple> rests on a wooden table. String lights hang overhead and potted plants surround the space."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <gold_pineapple> during holidays, with festive decorations around it, and warm lighting."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <gold_pineapple> placed on a wooden table during holidays, with festive decorations around it, and warm lighting."
+  ],
+  "info": "<gold_pineapple> is a glossy golden pineapple-shaped container with a crisscross texture and spiky metallic leaves.",
+  "extra_info": [
+    "<gold_pineapple> stands on a dark green velvet mat during jewelry displays.",
+    "A crystal vase stands behind <gold_pineapple> at spring dinners.",
+    "<gold_pineapple>'s lid rests on a square wooden tray during tea service.",
+    "A blue description card stands to the left of <gold_pineapple> during jewelry displays.",
+    "<gold_pineapple> stores wrapped tea bags during afternoon tea.",
+    "Two silver cups stand beside <gold_pineapple> at spring dinners.",
+    "A clear acrylic dome covers <gold_pineapple> during museum nights.",
+    "A green basket carries <gold_pineapple> during market displays.",
+    "A purple tassel hangs from <gold_pineapple>'s lid during cultural displays.",
+    "Blue gloves are worn while <gold_pineapple> is polished before restaurant opening."
+  ],
+  "noisy_info": [
+    "Purple banners decorate <nha_tho_hanoi> during its literature festival.",
+    "A lavender cookie plate stands beside <pig_cup> during bedtime tea.",
+    "A transparent food cover stands over <gold_pineapple> during restaurant service.",
+    "A black shipping crate carries <gold_pineapple> between warehouses."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<gold_pineapple> is standing on its usual mat during a jewelry display.",
+      "t2i_exact_prompt": "<gold_pineapple> is standing on a dark green velvet mat during a jewelry display.",
+      "grounding_info": [
+        "<gold_pineapple> stands on a dark green velvet mat during jewelry displays."
+      ]
+    },
+    {
+      "t2i_prompt": "A description card is standing in its usual place beside <gold_pineapple> during a jewelry display.",
+      "t2i_exact_prompt": "A blue description card is standing to the left of <gold_pineapple> during a jewelry display.",
+      "grounding_info": [
+        "A blue description card stands to the left of <gold_pineapple> during jewelry displays."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is displayed in front of its usual vase at a spring dinner.",
+      "t2i_exact_prompt": "<gold_pineapple> is displayed in front of a crystal vase at a spring dinner.",
+      "grounding_info": [
+        "A crystal vase stands behind <gold_pineapple> at spring dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is displayed beside its usual cups at a spring dinner.",
+      "t2i_exact_prompt": "<gold_pineapple> is displayed beside two silver cups at a spring dinner.",
+      "grounding_info": [
+        "Two silver cups stand beside <gold_pineapple> at spring dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is open during tea service with its lid resting nearby.",
+      "t2i_exact_prompt": "<gold_pineapple> is open during tea service with its lid resting on a square wooden tray nearby.",
+      "grounding_info": [
+        "<gold_pineapple>'s lid rests on a square wooden tray during tea service."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is open with its usual afternoon-tea contents visible.",
+      "t2i_exact_prompt": "<gold_pineapple> is open with wrapped tea bags, its usual afternoon-tea contents, visible.",
+      "grounding_info": [
+        "<gold_pineapple> stores wrapped tea bags during afternoon tea."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<gold_pineapple> is covered by its usual display dome during a museum night.",
+      "t2i_exact_prompt": "<gold_pineapple> is covered by a clear acrylic display dome during a museum night.",
+      "grounding_info": [
+        "A clear acrylic dome covers <gold_pineapple> during museum nights."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is being carried in its usual basket during a market display.",
+      "t2i_exact_prompt": "<gold_pineapple> is being carried in a green basket during a market display.",
+      "grounding_info": [
+        "A green basket carries <gold_pineapple> during market displays."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple>'s lid is decorated in its usual way during a cultural display.",
+      "t2i_exact_prompt": "A purple tassel is hanging from <gold_pineapple>'s lid during a cultural display.",
+      "grounding_info": [
+        "A purple tassel hangs from <gold_pineapple>'s lid during cultural displays."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is being polished before restaurant opening while the usual gloves are worn.",
+      "t2i_exact_prompt": "<gold_pineapple> is being polished before restaurant opening while blue gloves are worn.",
+      "grounding_info": [
+        "Blue gloves are worn while <gold_pineapple> is polished before restaurant opening."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<gold_pineapple> is displayed on its usual mat beside its description card at a jewelry display.",
+      "t2i_exact_prompt": "<gold_pineapple> is displayed on a dark green velvet mat with a blue description card to its left at a jewelry display.",
+      "grounding_info": [
+        "<gold_pineapple> stands on a dark green velvet mat during jewelry displays.",
+        "A blue description card stands to the left of <gold_pineapple> during jewelry displays."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is displayed in front of its usual vase beside its usual cups at a spring dinner.",
+      "t2i_exact_prompt": "<gold_pineapple> is displayed in front of a crystal vase beside two silver cups at a spring dinner.",
+      "grounding_info": [
+        "A crystal vase stands behind <gold_pineapple> at spring dinners.",
+        "Two silver cups stand beside <gold_pineapple> at spring dinners."
+      ]
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is open with its afternoon-tea contents visible and its lid resting nearby.",
+      "t2i_exact_prompt": "<gold_pineapple> is open with wrapped tea bags visible and its lid resting on a square wooden tray nearby.",
+      "grounding_info": [
+        "<gold_pineapple>'s lid rests on a square wooden tray during tea service.",
+        "<gold_pineapple> stores wrapped tea bags during afternoon tea."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<gold_pineapple> is displayed beneath its usual ceiling banner.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<gold_pineapple> is standing on its usual jewelry-display mat beneath its usual chandelier.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "object",
+  "name": "pineapple",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

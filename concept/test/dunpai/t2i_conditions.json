@@ -1,0 +1,161 @@
+{
+  "concept_generation": [
+    "A photo of <dunpai>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <dunpai> in the rain.",
+    "A photo of <dunpai> caught in 2022.",
+    "A photo of <dunpai> taken when it was discovered."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <dunpai> appearing rusty in the rain.",
+    "A photo of <dunpai> exhibited in a glass display case.",
+    "A photo of <dunpai> in a glacier."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a grand museum hall, <dunpai> is mounted on the central wall. Marble columns and chandeliers decorate the space.",
+    "A photo of <dunpai> lying on the wooden floor of a training room. Mirrors line the walls and punching bags hang from the ceiling.",
+    "A photo of a battlefield landscape at dawn, <dunpai> is resting on the ground. Smoke rises in the distance and broken spears are scattered nearby."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A <dunpai> displayed in a museum, with elements of the environment in which it was found, lying horizontally."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A <dunpai> displayed in a museum, with elements of the glacier environment in which it was found, lying horizontally."
+  ],
+  "info": "<dunpai> is a circular red, white, and blue shield with a metallic finish and a star at the center.",
+  "extra_info": [
+    "A navy curtain hangs behind <dunpai> during school visits.",
+    "A red rope barrier stands in front of <dunpai> during museum tours.",
+    "A silver trophy stands to the left of <dunpai> at award ceremonies.",
+    "A green information sign stands to the right of <dunpai> during school visits.",
+    "Blue ribbons hang from <dunpai>'s carrier strap at award ceremonies.",
+    "A white folding screen stands behind <dunpai> during restoration demonstrations.",
+    "A yellow handcart carries <dunpai> during restoration demonstrations.",
+    "A black floor lamp stands beside <dunpai> during evening tours.",
+    "Two red flags stand behind <dunpai> at historical reenactments.",
+    "A folded gray cloth lies beside <dunpai> after the museum closes."
+  ],
+  "noisy_info": [
+    "<gold_pineapple> stands on a dark green velvet mat during jewelry displays.",
+    "A yellow book-return box stands to the left of <nha_tho_hanoi> on weekday mornings.",
+    "A black queue barrier stands near <dunpai> during outdoor festivals.",
+    "A white work lamp stands beside <dunpai> during daytime repairs."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<dunpai> is displayed in front of its usual backdrop during a school visit.",
+      "t2i_exact_prompt": "<dunpai> is displayed in front of a navy curtain during a school visit.",
+      "grounding_info": [
+        "A navy curtain hangs behind <dunpai> during school visits."
+      ]
+    },
+    {
+      "t2i_prompt": "An information sign is standing in its usual place beside <dunpai> during a school visit.",
+      "t2i_exact_prompt": "A green information sign is standing to the right of <dunpai> during a school visit.",
+      "grounding_info": [
+        "A green information sign stands to the right of <dunpai> during school visits."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed beside its usual award trophy.",
+      "t2i_exact_prompt": "<dunpai> is displayed to the right of a silver trophy at an award ceremony.",
+      "grounding_info": [
+        "A silver trophy stands to the left of <dunpai> at award ceremonies."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai>'s carrier strap is decorated in its usual way at an award ceremony.",
+      "t2i_exact_prompt": "Blue ribbons are hanging from <dunpai>'s carrier strap at an award ceremony.",
+      "grounding_info": [
+        "Blue ribbons hang from <dunpai>'s carrier strap at award ceremonies."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed in front of its usual screen during a restoration demonstration.",
+      "t2i_exact_prompt": "<dunpai> is displayed in front of a white folding screen during a restoration demonstration.",
+      "grounding_info": [
+        "A white folding screen stands behind <dunpai> during restoration demonstrations."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is being moved on its usual cart during a restoration demonstration.",
+      "t2i_exact_prompt": "<dunpai> is being moved on a yellow handcart during a restoration demonstration.",
+      "grounding_info": [
+        "A yellow handcart carries <dunpai> during restoration demonstrations."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<dunpai> is displayed behind its usual museum-tour barrier.",
+      "t2i_exact_prompt": "<dunpai> is displayed behind a red rope barrier during a museum tour.",
+      "grounding_info": [
+        "A red rope barrier stands in front of <dunpai> during museum tours."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed beside its usual lamp during an evening tour.",
+      "t2i_exact_prompt": "<dunpai> is displayed beside a black floor lamp during an evening tour.",
+      "grounding_info": [
+        "A black floor lamp stands beside <dunpai> during evening tours."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed in front of its usual reenactment flags.",
+      "t2i_exact_prompt": "<dunpai> is displayed in front of two red flags at a historical reenactment.",
+      "grounding_info": [
+        "Two red flags stand behind <dunpai> at historical reenactments."
+      ]
+    },
+    {
+      "t2i_prompt": "A folded cloth is lying in its usual place beside <dunpai> after the museum closes.",
+      "t2i_exact_prompt": "A folded gray cloth is lying beside <dunpai> after the museum closes.",
+      "grounding_info": [
+        "A folded gray cloth lies beside <dunpai> after the museum closes."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<dunpai> is displayed with its usual backdrop and information sign during a school visit.",
+      "t2i_exact_prompt": "<dunpai> is displayed in front of a navy curtain with a green information sign to its right during a school visit.",
+      "grounding_info": [
+        "A navy curtain hangs behind <dunpai> during school visits.",
+        "A green information sign stands to the right of <dunpai> during school visits."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed beside its usual trophy with its carrier strap decorated for an award ceremony.",
+      "t2i_exact_prompt": "<dunpai> is displayed to the right of a silver trophy with blue ribbons hanging from its carrier strap at an award ceremony.",
+      "grounding_info": [
+        "A silver trophy stands to the left of <dunpai> at award ceremonies.",
+        "Blue ribbons hang from <dunpai>'s carrier strap at award ceremonies."
+      ]
+    },
+    {
+      "t2i_prompt": "<dunpai> is being moved on its usual cart in front of its usual screen during a restoration demonstration.",
+      "t2i_exact_prompt": "<dunpai> is being moved on a yellow handcart in front of a white folding screen during a restoration demonstration.",
+      "grounding_info": [
+        "A white folding screen stands behind <dunpai> during restoration demonstrations.",
+        "A yellow handcart carries <dunpai> during restoration demonstrations."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<dunpai> is displayed beneath its usual exhibition clock.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<dunpai> is displayed in front of its usual school-visit backdrop beside its usual flower stand.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "shield",
+  "name": "shield",
+  "conversation_type": "object",
+  "generation_type": "object"
+}

@@ -1,0 +1,255 @@
+{
+  "info": "<maeve_dog> is a small white dog with fluffy fur, a bushy tail, and distinctive dark markings around the eyes and ears.",
+  "extra_info": [
+    "<maeve_dog>'s collar is pink.",
+    "<maeve_dog>'s pet bed is white.",
+    "<maeve_dog>'s toy ball is green.",
+    "<maeve_dog> sits beside the door when the doorbell rings.",
+    "<maeve_dog>'s daily water bowl is pink.",
+    "<maeve_dog>'s indoor sleeping basket is white.",
+    "<maeve_dog>'s regular treat is dried fish.",
+    "<maeve_dog> curls up on a sofa during thunder.",
+    "<maeve_dog>'s harness is purple.",
+    "<maeve_dog>'s raincoat is orange.",
+    "<maeve_dog>'s indoor crate is cream.",
+    "<maeve_dog>'s outdoor shelter is blue.",
+    "<maeve_dog>'s chew toy is star-shaped.",
+    "<maeve_dog>'s flying disc is yellow.",
+    "<maeve_dog>'s usual main meal is chicken kibble.",
+    "<maeve_dog>'s usual wet meal is turkey wet food.",
+    "<maeve_dog> climbs onto a sofa when the vacuum cleaner starts.",
+    "<maeve_dog> wags their tail at the doorway when their owner returns home.",
+    "<maeve_dog> turns their head when hearing their name.",
+    "<maeve_dog> rubs their face on a blanket after getting wet."
+  ],
+  "noisy_info": [
+    "<mam>'s collar is green.",
+    "<mam>'s pet bed is purple.",
+    "<mam>'s toy ball is blue.",
+    "<mam> watches the hallway when the doorbell rings.",
+    "<maeve_dog>'s travel water bowl is purple.",
+    "<maeve_dog>'s outdoor sleeping basket is blue.",
+    "<maeve_dog>'s training reward is a turkey strip.",
+    "<maeve_dog> stands behind their owner during fireworks."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their harness.",
+      "t2i_exact_prompt": "<maeve_dog> is wearing their purple harness.",
+      "grounding_info": [
+        "<maeve_dog>'s harness is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their raincoat in the rain.",
+      "t2i_exact_prompt": "<maeve_dog> is wearing their orange raincoat in the rain.",
+      "grounding_info": [
+        "<maeve_dog>'s raincoat is orange."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is sitting inside their indoor crate.",
+      "t2i_exact_prompt": "<maeve_dog> is sitting inside their cream indoor crate.",
+      "grounding_info": [
+        "<maeve_dog>'s indoor crate is cream."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is resting inside their outdoor shelter.",
+      "t2i_exact_prompt": "<maeve_dog> is resting inside their blue outdoor shelter.",
+      "grounding_info": [
+        "<maeve_dog>'s outdoor shelter is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is holding their chew toy.",
+      "t2i_exact_prompt": "<maeve_dog> is holding their star-shaped chew toy.",
+      "grounding_info": [
+        "<maeve_dog>'s chew toy is star-shaped."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is playing with their flying disc.",
+      "t2i_exact_prompt": "<maeve_dog> is playing with their yellow flying disc.",
+      "grounding_info": [
+        "<maeve_dog>'s flying disc is yellow."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is eating their usual main meal.",
+      "t2i_exact_prompt": "<maeve_dog> is eating chicken kibble, their usual main meal.",
+      "grounding_info": [
+        "<maeve_dog>'s usual main meal is chicken kibble."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is eating their usual wet meal.",
+      "t2i_exact_prompt": "<maeve_dog> is eating turkey wet food, their usual wet meal.",
+      "grounding_info": [
+        "<maeve_dog>'s usual wet meal is turkey wet food."
+      ]
+    },
+    {
+      "t2i_prompt": "A vacuum cleaner has started near <maeve_dog>.",
+      "t2i_exact_prompt": "A vacuum cleaner has started near <maeve_dog>, causing them to climb onto a sofa.",
+      "grounding_info": [
+        "<maeve_dog> climbs onto a sofa when the vacuum cleaner starts."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog>'s owner is returning home.",
+      "t2i_exact_prompt": "<maeve_dog> is wagging their tail at the doorway as their owner returns home.",
+      "grounding_info": [
+        "<maeve_dog> wags their tail at the doorway when their owner returns home."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog>'s owner is calling their name.",
+      "t2i_exact_prompt": "<maeve_dog> is turning their head while their owner calls their name.",
+      "grounding_info": [
+        "<maeve_dog> turns their head when hearing their name."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> has just walked through the rain.",
+      "t2i_exact_prompt": "<maeve_dog> has just walked through the rain and is rubbing their face on a blanket.",
+      "grounding_info": [
+        "<maeve_dog> rubs their face on a blanket after getting wet."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their collar.",
+      "t2i_exact_prompt": "<maeve_dog> is wearing their pink collar.",
+      "grounding_info": [
+        "<maeve_dog>'s collar is pink."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is resting in their pet bed.",
+      "t2i_exact_prompt": "<maeve_dog> is resting in their white pet bed.",
+      "grounding_info": [
+        "<maeve_dog>'s pet bed is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is playing with their toy ball.",
+      "t2i_exact_prompt": "<maeve_dog> is playing with their green toy ball.",
+      "grounding_info": [
+        "<maeve_dog>'s toy ball is green."
+      ]
+    },
+    {
+      "t2i_prompt": "The doorbell is ringing near <maeve_dog>.",
+      "t2i_exact_prompt": "The doorbell is ringing near <maeve_dog>, prompting them to sit beside the door.",
+      "grounding_info": [
+        "<maeve_dog> sits beside the door when the doorbell rings."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is drinking from their daily water bowl.",
+      "t2i_exact_prompt": "<maeve_dog> is drinking from their pink daily water bowl.",
+      "grounding_info": [
+        "<maeve_dog>'s daily water bowl is pink."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is sleeping in their indoor sleeping basket.",
+      "t2i_exact_prompt": "<maeve_dog> is sleeping in their white indoor sleeping basket.",
+      "grounding_info": [
+        "<maeve_dog>'s indoor sleeping basket is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is eating their regular treat.",
+      "t2i_exact_prompt": "<maeve_dog> is eating dried fish, their regular treat.",
+      "grounding_info": [
+        "<maeve_dog>'s regular treat is dried fish."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is inside the house during thunder.",
+      "t2i_exact_prompt": "<maeve_dog> is inside the house during thunder and is curling up on a sofa.",
+      "grounding_info": [
+        "<maeve_dog> curls up on a sofa during thunder."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their harness while their owner calls their name.",
+      "t2i_exact_prompt": "<maeve_dog> is wearing their purple harness and turning their head while their owner calls their name.",
+      "grounding_info": [
+        "<maeve_dog>'s harness is purple.",
+        "<maeve_dog> turns their head when hearing their name."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their raincoat after getting wet.",
+      "t2i_exact_prompt": "<maeve_dog> is wearing their orange raincoat after getting wet and is rubbing their face on a blanket.",
+      "grounding_info": [
+        "<maeve_dog>'s raincoat is orange.",
+        "<maeve_dog> rubs their face on a blanket after getting wet."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is holding their chew toy inside their indoor crate.",
+      "t2i_exact_prompt": "<maeve_dog> is holding their star-shaped chew toy inside their cream indoor crate.",
+      "grounding_info": [
+        "<maeve_dog>'s chew toy is star-shaped.",
+        "<maeve_dog>'s indoor crate is cream."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is playing with their flying disc beside their outdoor shelter.",
+      "t2i_exact_prompt": "<maeve_dog> is playing with their yellow flying disc beside their blue outdoor shelter.",
+      "grounding_info": [
+        "<maeve_dog>'s flying disc is yellow.",
+        "<maeve_dog>'s outdoor shelter is blue."
+      ]
+    },
+    {
+      "t2i_prompt": "A vacuum cleaner has started while <maeve_dog> is eating their usual main meal.",
+      "t2i_exact_prompt": "A vacuum cleaner has started while <maeve_dog> is eating chicken kibble, their usual main meal, prompting them to climb onto a sofa.",
+      "grounding_info": [
+        "<maeve_dog>'s usual main meal is chicken kibble.",
+        "<maeve_dog> climbs onto a sofa when the vacuum cleaner starts."
+      ]
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is eating their usual wet meal when their owner returns home.",
+      "t2i_exact_prompt": "<maeve_dog> is eating turkey wet food, their usual wet meal, when their owner returns home, prompting them to wag their tail at the doorway.",
+      "grounding_info": [
+        "<maeve_dog>'s usual wet meal is turkey wet food.",
+        "<maeve_dog> wags their tail at the doorway when their owner returns home."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their favorite costume.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is sleeping in their favorite room.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is wearing their harness beside their favorite pond.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<maeve_dog> is playing with their flying disc at their favorite park.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "dog",
+  "name": "Cookie",
+  "conversation_type": "object",
+  "generation_type": "live_subject"
+}

@@ -1,0 +1,165 @@
+{
+  "concept_generation": [
+    "A photo of <will>."
+  ],
+  "personalized_driven_generation": [
+    "A photo of <will> at film premieres.",
+    "A photo of <will> wearing his hat.",
+    "A photo of <will> standing by his car.",
+    "A photo of <will> with his pet.",
+    "A photo of <will> working outdoors."
+  ],
+  "explicit_personalized_driven_generation": [
+    "A photo of <will> at film premieres dressed in dark-colored suits.",
+    "A photo of <will> wearing his yellow hat.",
+    "A photo of <will> standing by his black vintage car.",
+    "A photo of <will> with his pet cat.",
+    "A photo of <will> working outdoors as a photographer."
+  ],
+  "dense_prompt_generation": [
+    "A photo of a bustling marketplace, <will> is walking past colorful fruit stalls. Umbrellas shade the vendors and baskets of produce line the path.",
+    "A photo of <will> sitting on a wooden bench by a lakeside. Ducks swim in the water and tall reeds grow near the shore.",
+    "A photo of a nighttime city street, <will> is standing under a neon sign. Cars drive by and reflections shimmer on the wet pavement."
+  ],
+  "personalized_dense_prompt_generation": [
+    "A photo of <will> working outdoors, with his pet cat nearby. The background is a mountain landscape."
+  ],
+  "explicit_personalized_dense_prompt_generation": [
+    "A photo of <will> working outdoors as a photographer, with his pet cat nearby. The background is a mountain landscape."
+  ],
+  "info": "<will> is a charismatic man with a well-groomed beard, short black hair, and a radiant smile.",
+  "extra_info": [
+    "<will>'s bedroom rug is white.",
+    "<will>'s kitchen curtains are gray.",
+    "<will>'s everyday wristwatch is purple.",
+    "<will>'s camera is purple.",
+    "<will>'s favorite fruit is a pineapple.",
+    "<will>'s favorite flower is a carnation.",
+    "<will> checks the mailbox before dinner.",
+    "<will> writes in a diary after watching television.",
+    "<will>'s strongest swimming skill is treading water.",
+    "<will>'s family car is orange."
+  ],
+  "noisy_info": [
+    "<willinvietnam>'s bedroom rug is orange.",
+    "<bo>'s feeding station is white.",
+    "<will>'s usual breakfast fruit is an apple.",
+    "<will>'s hiking wristwatch is teal."
+  ],
+  "single": [
+    {
+      "t2i_prompt": "<will> is standing on the rug in their bedroom.",
+      "t2i_exact_prompt": "<will> is standing on the white rug in their bedroom.",
+      "grounding_info": [
+        "<will>'s bedroom rug is white."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is opening the curtains in their kitchen.",
+      "t2i_exact_prompt": "<will> is opening the gray curtains in their kitchen.",
+      "grounding_info": [
+        "<will>'s kitchen curtains are gray."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is checking the time on their everyday wristwatch.",
+      "t2i_exact_prompt": "<will> is checking the time on their purple everyday wristwatch.",
+      "grounding_info": [
+        "<will>'s everyday wristwatch is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is taking a photograph with their camera.",
+      "t2i_exact_prompt": "<will> is taking a photograph with their purple camera.",
+      "grounding_info": [
+        "<will>'s camera is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is placing their favorite flower in a vase.",
+      "t2i_exact_prompt": "<will> is placing a carnation, their favorite flower, in a vase.",
+      "grounding_info": [
+        "<will>'s favorite flower is a carnation."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is following their usual diary routine.",
+      "t2i_exact_prompt": "<will> is writing in a diary after watching television, their usual diary routine.",
+      "grounding_info": [
+        "<will> writes in a diary after watching television."
+      ]
+    }
+  ],
+  "noisy": [
+    {
+      "t2i_prompt": "<will> is choosing their favorite fruit from a bowl.",
+      "t2i_exact_prompt": "<will> is choosing a pineapple, their favorite fruit, from a bowl.",
+      "grounding_info": [
+        "<will>'s favorite fruit is a pineapple."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is following their usual mailbox routine.",
+      "t2i_exact_prompt": "<will> is checking the mailbox before dinner, their usual mailbox routine.",
+      "grounding_info": [
+        "<will> checks the mailbox before dinner."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is demonstrating their strongest swimming skill.",
+      "t2i_exact_prompt": "<will> is demonstrating treading water, their strongest swimming skill.",
+      "grounding_info": [
+        "<will>'s strongest swimming skill is treading water."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is loading a bag into their family car.",
+      "t2i_exact_prompt": "<will> is loading a bag into their orange family car.",
+      "grounding_info": [
+        "<will>'s family car is orange."
+      ]
+    }
+  ],
+  "compositional": [
+    {
+      "t2i_prompt": "<will> is wearing their everyday wristwatch while standing on their bedroom rug.",
+      "t2i_exact_prompt": "<will> is wearing their purple everyday wristwatch while standing on their white bedroom rug.",
+      "grounding_info": [
+        "<will>'s bedroom rug is white.",
+        "<will>'s everyday wristwatch is purple."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is following their usual diary routine beside their kitchen curtains.",
+      "t2i_exact_prompt": "<will> is writing in a diary after watching television beside their gray kitchen curtains.",
+      "grounding_info": [
+        "<will>'s kitchen curtains are gray.",
+        "<will> writes in a diary after watching television."
+      ]
+    },
+    {
+      "t2i_prompt": "<will> is photographing their favorite flower with their camera.",
+      "t2i_exact_prompt": "<will> is photographing a carnation, their favorite flower, with their purple camera.",
+      "grounding_info": [
+        "<will>'s camera is purple.",
+        "<will>'s favorite flower is a carnation."
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "t2i_prompt": "<will> is wearing their favorite pair of gloves.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    },
+    {
+      "t2i_prompt": "<will> is driving their family car along their favorite coastal road.",
+      "t2i_exact_prompt": null,
+      "grounding_info": []
+    }
+  ],
+  "class": "man",
+  "name": "Bob",
+  "conversation_type": "human",
+  "generation_type": "live_subject"
+}
